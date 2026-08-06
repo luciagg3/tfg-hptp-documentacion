@@ -1,0 +1,465 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "informe_hptp_v1",
+  "title": "Informe de consulta de hiperparatiroidismo primario",
+  "description": "Esquema de salida estructurada del módulo de extracción de ítems clínicos. Generado a partir de la transcripción de la consulta médico-paciente. Valores null indican que el ítem no fue mencionado en la consulta.",
+  "type": "object",
+
+  "properties": {
+
+    "metadatos": {
+      "description": "Información contextual de la consulta",
+      "type": "object",
+      "properties": {
+        "tipo_consulta": {
+          "description": "Tipo de consulta según el momento del proceso asistencial",
+          "type": "string",
+          "enum": ["primera_visita", "revision_postquirurgica", "revision_seguimiento", "no_identificado"]
+        },
+        "servicio": {
+          "type": "string",
+          "examples": ["Cirugía Endocrina", "Endocrinología"]
+        }
+      },
+      "required": ["tipo_consulta"]
+    },
+
+    "item_01_motivo_consulta": {
+      "description": "ÍTEM 1 — Motivo de consulta / derivación",
+      "type": "object",
+      "properties": {
+        "motivos": {
+          "description": "Lista de motivos identificados en la consulta",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "hipercalcemia",
+              "pth_elevada",
+              "sospecha_hptp",
+              "litiasis_renal",
+              "osteoporosis_fractura",
+              "estudio_prequirurgico",
+              "otro"
+            ]
+          }
+        },
+        "servicio_derivador": {
+          "description": "Servicio o nivel asistencial que deriva al paciente",
+          "type": ["string", "null"],
+          "examples": ["Atención Primaria", "Endocrinología", "Nefrología", "Urología"]
+        },
+        "texto_libre": {
+          "description": "Redacción literal extraída o sintetizada del motivo de consulta",
+          "type": ["string", "null"]
+        }
+      },
+      "required": ["motivos"]
+    },
+
+    "item_02_antecedentes_personales": {
+      "description": "ÍTEM 2 — Antecedentes personales relevantes",
+      "type": "object",
+      "properties": {
+        "hta":                       { "type": ["boolean", "null"] },
+        "diabetes_mellitus":         { "type": ["boolean", "null"] },
+        "enfermedad_renal_cronica":  { "type": ["boolean", "null"] },
+        "litiasis_renal_previa":     { "type": ["boolean", "null"] },
+        "osteoporosis_osteopenia":   { "type": ["boolean", "null"] },
+        "fracturas_fragilidad":      { "type": ["boolean", "null"] },
+        "pancreatitis_previa":       { "type": ["boolean", "null"] },
+        "enfermedad_tiroidea":       { "type": ["boolean", "null"] },
+        "cirugia_cervical_previa":   { "type": ["boolean", "null"] },
+        "radioterapia_cervical":     { "type": ["boolean", "null"] },
+        "neoplasias_previas":        { "type": ["boolean", "null"] },
+        "enfermedades_endocrinas":   { "type": ["boolean", "null"] },
+        "embarazo_deseo_gestacional":{ "type": ["boolean", "null"] },
+        "anticoagulacion":           { "type": ["boolean", "null"] },
+        "alergias": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Lista de alergias referidas. Array vacío si niega alergias. Null si no se pregunta."
+        },
+        "otros": {
+          "type": ["array", "null"],
+          "items": { "type": "string" }
+        }
+      },
+      "description": "Valores: true=presente, false=negado explícitamente, null=no mencionado"
+    },
+
+    "item_03_antecedentes_familiares": {
+      "description": "ÍTEM 3 — Antecedentes familiares de interés endocrino",
+      "type": "object",
+      "properties": {
+        "hiperparatiroidismo_familiar": { "type": ["boolean", "null"] },
+        "hipercalcemia_familiar":       { "type": ["boolean", "null"] },
+        "litiasis_renal_familiar":      { "type": ["boolean", "null"] },
+        "tumores_endocrinos":           { "type": ["boolean", "null"] },
+        "men1":                         { "type": ["boolean", "null"] },
+        "men2a":                        { "type": ["boolean", "null"] },
+        "cirugia_paratiroidea_familiar":{ "type": ["boolean", "null"] },
+        "otros": {
+          "type": ["array", "null"],
+          "items": { "type": "string" }
+        }
+      }
+    },
+
+    "item_04_tratamiento_habitual": {
+      "description": "ÍTEM 4 — Medicación habitual relevante para el manejo del HPTP",
+      "type": "object",
+      "properties": {
+        "medicamentos": {
+          "type": ["array", "null"],
+          "items": {
+            "type": "object",
+            "properties": {
+              "nombre":     { "type": "string" },
+              "grupo": {
+                "type": "string",
+                "enum": ["litio","tiazida","suplemento_calcio","vitamina_d","bifosfonato","denosumab","cinacalcet","anticoagulante","antiagregante","corticoide","hormonal","otro"]
+              },
+              "dosis":      { "type": ["string", "null"] }
+            },
+            "required": ["nombre"]
+          }
+        },
+        "sin_medicacion_relevante": {
+          "description": "True si el paciente niega explícitamente tomar medicación de interés",
+          "type": ["boolean", "null"]
+        }
+      }
+    },
+
+    "item_05_datos_analiticos": {
+      "description": "ÍTEM 5 — Valores analíticos disponibles en la consulta",
+      "type": "object",
+      "properties": {
+        "calcio_total":            { "type": ["number", "null"], "description": "mg/dL" },
+        "albumina":                { "type": ["number", "null"], "description": "g/dL" },
+        "calcio_corregido":        { "type": ["number", "null"], "description": "mg/dL" },
+        "calcio_ionico":           { "type": ["number", "null"], "description": "mmol/L" },
+        "pth_intacta":             { "type": ["number", "null"], "description": "pg/mL" },
+        "fosforo":                 { "type": ["number", "null"], "description": "mg/dL" },
+        "magnesio":                { "type": ["number", "null"], "description": "mg/dL" },
+        "creatinina":              { "type": ["number", "null"], "description": "mg/dL" },
+        "filtrado_glomerular":     { "type": ["number", "null"], "description": "mL/min/1.73m2" },
+        "vitamina_d_25oh":         { "type": ["number", "null"], "description": "ng/mL" },
+        "fosfatasa_alcalina":      { "type": ["number", "null"], "description": "U/L" },
+        "calciuria_24h":           { "type": ["number", "null"], "description": "mg/24h" },
+        "cociente_ca_creatinina":  { "type": ["number", "null"], "description": "Adimensional" },
+        "otros_marcadores": {
+          "type": ["array", "null"],
+          "items": {
+            "type": "object",
+            "properties": {
+              "nombre": { "type": "string" },
+              "valor":  { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+
+    "item_06_confirmacion_diagnostica": {
+      "description": "ÍTEM 6 — Impresión diagnóstica del médico al cierre de la consulta",
+      "type": "object",
+      "properties": {
+        "diagnostico_principal": {
+          "type": ["string", "null"],
+          "enum": [
+            "hptp_clasico",
+            "hptp_normocalcemico",
+            "hiperparatiroidismo_secundario",
+            "hipercalcemia_hipocalciurica_familiar",
+            "otra_hipercalcemia",
+            "pendiente_estudio",
+            "no_mencionado",
+            null
+          ]
+        },
+        "diagnosticos_descartados": {
+          "type": ["array", "null"],
+          "items": { "type": "string" }
+        },
+        "texto_libre": {
+          "type": ["string", "null"],
+          "description": "Frase de confirmación o impresión diagnóstica extraída textualmente"
+        }
+      }
+    },
+
+    "item_07_sintomas_repercusion": {
+      "description": "ÍTEM 7 — Síntomas y repercusión clínica por sistema",
+      "type": "object",
+      "properties": {
+        "renal": {
+          "type": "object",
+          "properties": {
+            "litiasis_renal":            { "type": ["boolean", "null"] },
+            "colico_nefritico":          { "type": ["boolean", "null"] },
+            "nefrocalcinosis":           { "type": ["boolean", "null"] },
+            "hematuria":                 { "type": ["boolean", "null"] },
+            "infecciones_urinarias":     { "type": ["boolean", "null"] },
+            "insuficiencia_renal":       { "type": ["boolean", "null"] },
+            "poliuria_polidipsia":       { "type": ["boolean", "null"] }
+          }
+        },
+        "oseo": {
+          "type": "object",
+          "properties": {
+            "dolor_oseo":                { "type": ["boolean", "null"] },
+            "osteoporosis":              { "type": ["boolean", "null"] },
+            "osteopenia":                { "type": ["boolean", "null"] },
+            "fracturas_fragilidad":      { "type": ["boolean", "null"] },
+            "perdida_talla":             { "type": ["boolean", "null"] },
+            "debilidad_muscular":        { "type": ["boolean", "null"] }
+          }
+        },
+        "digestivo": {
+          "type": "object",
+          "properties": {
+            "dolor_abdominal":           { "type": ["boolean", "null"] },
+            "estreñimiento":             { "type": ["boolean", "null"] },
+            "nauseas":                   { "type": ["boolean", "null"] },
+            "dispepsia":                 { "type": ["boolean", "null"] },
+            "pancreatitis":              { "type": ["boolean", "null"] }
+          }
+        },
+        "neuropsiquiatrico": {
+          "type": "object",
+          "properties": {
+            "cansancio_astenia":         { "type": ["boolean", "null"] },
+            "bajo_animo":                { "type": ["boolean", "null"] },
+            "irritabilidad":             { "type": ["boolean", "null"] },
+            "dificultad_concentracion":  { "type": ["boolean", "null"] },
+            "somnolencia":               { "type": ["boolean", "null"] },
+            "perdida_calidad_vida":      { "type": ["boolean", "null"] }
+          }
+        },
+        "cardiovascular": {
+          "type": "object",
+          "properties": {
+            "hta":                       { "type": ["boolean", "null"] },
+            "arritmias":                 { "type": ["boolean", "null"] },
+            "palpitaciones":             { "type": ["boolean", "null"] },
+            "alteracion_qt":             { "type": ["boolean", "null"] }
+          }
+        }
+      }
+    },
+
+    "item_08_exploracion_fisica": {
+      "description": "ÍTEM 8 — Exploración física",
+      "type": "object",
+      "properties": {
+        "peso_kg":               { "type": ["number", "null"] },
+        "talla_cm":              { "type": ["number", "null"] },
+        "imc":                   { "type": ["number", "null"] },
+        "tension_arterial":      { "type": ["string", "null"], "examples": ["130/80"] },
+        "cervical": {
+          "type": "object",
+          "properties": {
+            "bocio":                  { "type": ["boolean", "null"] },
+            "nodulos_tiroideos":      { "type": ["boolean", "null"] },
+            "cicatrices_previas":     { "type": ["boolean", "null"] },
+            "adenopatias":            { "type": ["boolean", "null"] }
+          }
+        },
+        "texto_libre": {
+          "type": ["string", "null"],
+          "description": "Descripción completa de la exploración si no es extraíble de forma estructurada"
+        }
+      }
+    },
+
+    "item_09_pruebas_imagen": {
+      "description": "ÍTEM 9 — Pruebas de imagen y estudios complementarios solicitados o disponibles",
+      "type": "object",
+      "properties": {
+        "localizacion_paratiroidea": {
+          "type": "object",
+          "properties": {
+            "ecografia_cervical":     { "type": ["boolean", "null"] },
+            "mibi":                   { "type": ["boolean", "null"] },
+            "spect_tc":               { "type": ["boolean", "null"] },
+            "tc_4d":                  { "type": ["boolean", "null"] },
+            "resultado": {
+              "type": ["object", "null"],
+              "properties": {
+                "adenoma_localizado": { "type": ["boolean", "null"] },
+                "lado":              { "type": ["string", "null"], "enum": ["derecho","izquierdo","bilateral",null] },
+                "localizacion":      { "type": ["string", "null"], "enum": ["superior","inferior","no_determinado",null] },
+                "concordantes":      { "type": ["boolean", "null"] }
+              }
+            }
+          }
+        },
+        "estudio_renal": {
+          "type": "object",
+          "properties": {
+            "ecografia_renal":        { "type": ["boolean", "null"] },
+            "tc_renal":               { "type": ["boolean", "null"] },
+            "litiasis_presente":      { "type": ["boolean", "null"] },
+            "nefrocalcinosis":        { "type": ["boolean", "null"] }
+          }
+        },
+        "estudio_oseo": {
+          "type": "object",
+          "properties": {
+            "densitometria":          { "type": ["boolean", "null"] },
+            "t_score_lumbar":         { "type": ["number", "null"] },
+            "t_score_cadera":         { "type": ["number", "null"] },
+            "diagnostico_dmo": {
+              "type": ["string", "null"],
+              "enum": ["normal","osteopenia","osteoporosis",null]
+            }
+          }
+        }
+      }
+    },
+
+    "item_10_criterios_cirugia": {
+      "description": "ÍTEM 10 — Criterios de indicación quirúrgica",
+      "type": "object",
+      "properties": {
+        "indicacion_quirurgica":     { "type": ["boolean", "null"] },
+        "paciente_sintomatico":      { "type": ["boolean", "null"] },
+        "calcio_sobre_umbral":       { "type": ["boolean", "null"] },
+        "osteoporosis":              { "type": ["boolean", "null"] },
+        "fractura_fragilidad":       { "type": ["boolean", "null"] },
+        "litiasis_renal":            { "type": ["boolean", "null"] },
+        "deterioro_renal":           { "type": ["boolean", "null"] },
+        "hipercalciuria":            { "type": ["boolean", "null"] },
+        "preferencia_paciente":      { "type": ["boolean", "null"] },
+        "contraindicacion_qx":       { "type": ["boolean", "null"] },
+        "justificacion": {
+          "type": ["string", "null"],
+          "description": "Frase resumida con la justificación de la indicación o contraindicación"
+        }
+      }
+    },
+
+    "item_11_plan_terapeutico": {
+      "description": "ÍTEM 11 — Plan terapéutico acordado",
+      "type": "object",
+      "properties": {
+        "cirugia_indicada":         { "type": ["boolean", "null"] },
+        "tipo_cirugia": {
+          "type": ["string", "null"],
+          "enum": [
+            "paratiroidectomia_selectiva",
+            "exploracion_bilateral",
+            "paratiroidectomia_subtotal",
+            "con_hemitiroidectomia",
+            "no_aplica",
+            null
+          ]
+        },
+        "inclusion_lista_espera":   { "type": ["boolean", "null"] },
+        "pruebas_pendientes": {
+          "type": ["array", "null"],
+          "items": { "type": "string" }
+        },
+        "valoracion_anestesia":     { "type": ["boolean", "null"] },
+        "manejo_conservador":       { "type": ["boolean", "null"] },
+        "optimizacion_previa": {
+          "type": "object",
+          "properties": {
+            "vitamina_d":           { "type": ["boolean", "null"] },
+            "hidratacion":          { "type": ["boolean", "null"] },
+            "ajuste_medicacion":    { "type": ["boolean", "null"] },
+            "manejo_osteoporosis":  { "type": ["boolean", "null"] }
+          }
+        }
+      }
+    },
+
+    "item_12_informacion_paciente": {
+      "description": "ÍTEM 12 — Información proporcionada al paciente durante la consulta",
+      "type": "object",
+      "properties": {
+        "diagnostico_explicado":          { "type": ["boolean", "null"] },
+        "naturaleza_benigna":             { "type": ["boolean", "null"] },
+        "riesgo_renal_oseo":              { "type": ["boolean", "null"] },
+        "finalidad_pruebas":              { "type": ["boolean", "null"] },
+        "beneficio_cirugia":              { "type": ["boolean", "null"] },
+        "posibilidad_persistencia":       { "type": ["boolean", "null"] },
+        "necesidad_controles":            { "type": ["boolean", "null"] }
+      }
+    },
+
+    "item_13_riesgos_explicados": {
+      "description": "ÍTEM 13 — Riesgos quirúrgicos explicados al paciente",
+      "type": "object",
+      "properties": {
+        "riesgos_explicados":             { "type": ["boolean", "null"] },
+        "hipocalcemia_transitoria":       { "type": ["boolean", "null"] },
+        "lesion_nervio_recurrente":       { "type": ["boolean", "null"] },
+        "hipoparatiroidismo_persistente": { "type": ["boolean", "null"] },
+        "persistencia_enfermedad":        { "type": ["boolean", "null"] },
+        "hematoma_cervical":              { "type": ["boolean", "null"] }
+      }
+    },
+
+    "item_14_consentimiento_informado": {
+      "description": "ÍTEM 14 — Consentimiento informado",
+      "type": "object",
+      "properties": {
+        "entregado":             { "type": ["boolean", "null"] },
+        "explicado_verbalmente": { "type": ["boolean", "null"] },
+        "estado": {
+          "type": ["string", "null"],
+          "enum": ["firmado", "pendiente_firma", "rechazado", "no_aplica", null]
+        }
+      }
+    },
+
+    "item_15_sintomas_alarma": {
+      "description": "ÍTEM 15 — Síntomas de alarma postquirúrgicos explicados",
+      "type": "object",
+      "properties": {
+        "explicados":            { "type": ["boolean", "null"] },
+        "sintomas_mencionados": {
+          "type": ["array", "null"],
+          "items": {
+            "type": "string",
+            "enum": [
+              "fiebre", "supuracion_herida", "abombamiento_cervical",
+              "disnea", "disfagia", "disfonia", "hormigueos",
+              "calambres", "espasmos_musculares", "empeoramiento_general"
+            ]
+          }
+        }
+      }
+    },
+
+    "item_16_plan_seguimiento": {
+      "description": "ÍTEM 16 — Plan de seguimiento postoperatorio",
+      "type": "object",
+      "properties": {
+        "revision_herida":           { "type": ["boolean", "null"] },
+        "revision_al_mes":           { "type": ["boolean", "null"] },
+        "analitica_postop":          { "type": ["boolean", "null"] },
+        "anatomia_patologica":       { "type": ["boolean", "null"] },
+        "control_densitometria":     { "type": ["boolean", "null"] },
+        "seguimiento_renal":         { "type": ["boolean", "null"] },
+        "control_endocrinologico":   { "type": ["boolean", "null"] },
+        "suplementos_calcio_vitd":   { "type": ["boolean", "null"] },
+        "texto_libre": {
+          "type": ["string", "null"],
+          "description": "Plan de seguimiento tal y como se indica en la consulta"
+        }
+      }
+    }
+
+  },
+
+  "required": [
+    "metadatos",
+    "item_01_motivo_consulta"
+  ],
+
+  "additionalProperties": false
+}
