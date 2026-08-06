@@ -1,0 +1,37 @@
+VALIDACIÓN DEL INFORME — JSON HPTP proporcionado
+
+**✅ CUMPLIMIENTO DEL SCHEMA**
+Los 18 ítems (`item1` a `item18`) están presentes y los tipos de dato son válidos (`true`/`false`/`null`, números, strings). Observaciones:
+
+- **Campos adicionales no solicitados** (verificar si forman parte del schema oficial):
+  - `item9_pruebas_imagen.fibroscopia_laringea` (con subcampos `solicitada` y `motivo`) — no aparece descrito en los bloques estándar de imagen del schema.
+  - `item13_riesgos_quirurgicos_explicados.detalle_pendiente_proxima_visita` — campo extra no listado entre los riesgos individuales habituales.
+  - `item6_confirmacion_diagnostica.comentario` — texto libre añadido; útil clínicamente pero fuera de la estructura booleana esperada.
+- `item4_tratamiento_habitual.vitamina_d` tiene estructura anidada (`presente`/`dosis`) mientras el resto de fármacos del mismo ítem son booleanos simples — inconsistencia de formato a revisar, no necesariamente un error.
+- `alergias` (item2) aparece como **booleano** (`false`), no como lista — indica explícitamente "sin alergias conocidas" (explorado y negado). Formato válido, sin problema.
+
+**⚠️ CONTRADICCIONES DETECTADAS**
+
+1. **Diagnóstico pendiente + cirugía indicada sin matización.**
+   `item6.impresion_diagnostica: "pendiente_de_estudio"` junto con `item11.cirugia_indicada: true`. El propio comentario del ítem 6 indica que se solicita calciuria de 24h para descartar HHF antes de cerrar el diagnóstico diferencial, mientras que el plan ya fija cirugía indicada (aunque el *tipo* de técnica quede pendiente). Merece confirmación: ¿la indicación quirúrgica es firme pese al diagnóstico aún no confirmado, o debería matizarse como "indicación provisional pendiente de completar estudio"?
+
+2. **Consentimiento explicado verbalmente pero no entregado.**
+   `item14.explicado_verbalmente: true` frente a `item14.entregado: false`, con `estado: "pendiente_de_firma"`. Plausible (explicado hoy, entrega/firma pendiente), pero conviene que el médico lo confirme explícitamente.
+
+3. **Diagnóstico diferencial con dos hipótesis marcadas simultáneamente como `true`.**
+   `item6.diagnostico_diferencial.pth_dependiente.hptp_adenoma_unico: true` y `fhh: true` a la vez, siendo diagnósticos mutuamente excluyentes, en un contexto donde el propio comentario aclara que la FHH "no se descarta formalmente" pero está pendiente de calciuria. El valor `true` en ambos puede inducir a lectura de "diagnóstico confirmado" cuando en realidad son hipótesis en estudio — revisar si el schema distingue "sospecha" de "confirmado".
+
+No se detectan los patrones 2 (riesgos "no explicados" con detalle — no existe campo general `riesgos_explicados` que contradiga), 3 (indicación sin criterio — hay 3 criterios positivos: `calcio_mas_1mg_sobre_lsn`, `litiasis_renal_o_nefrocalcinosis`, `edad_inferior_50`), 5 (naturaleza benigna es `null`, no `true`) ni 6 (no hay diagnóstico de persistencia/recidiva activo; `expectativa_curacion` es `null`).
+
+**📋 CAMPOS RELEVANTES SIN MENCIONAR** (tipo de consulta: **primera visita** — inferido porque el bloque de seguimiento postoperatorio (`item16`) está íntegramente en `null`, no hay cirugía cervical previa ni cicatrices previas, y sí hay contenido activo en los criterios de indicación quirúrgica junto con diagnóstico pendiente de confirmar)
+
+- `item11.inclusion_lista_espera` → `null`. Ubicación: plan terapéutico. Si la cirugía está indicada, conviene precisar si el paciente ya ha sido incluido en lista de espera o queda pendiente de las pruebas de localización.
+- `item13` — riesgos individuales aún no explicados: `disfonia_permanente`, `hematoma_cervical`, `necesidad_reintervencion`, `riesgos_anestesicos` → todos `null`. Ubicación: riesgos quirúrgicos explicados. Es coherente con `detalle_pendiente_proxima_visita: true`, pero conviene que quede constancia expresa de que se completará antes de la firma del consentimiento.
+- `item15_sintomas_alarma_postquirurgicos` → todos los campos en `null` (fiebre, disfonia, hormigueos peribucales, etc.). Ubicación: síntomas de alarma postquirúrgicos. Esperable en primera visita sin cirugía aún realizada, pero si se prevé cirugía a corto plazo conviene confirmar si se explicarán en esta visita o se difieren formalmente a la próxima.
+
+**Campos de seguridad clínica (revisión obligatoria independientemente del tipo de consulta):**
+- `item2.anticoagulacion` → `null`. Ubicación: antecedentes personales. Dato crítico antes de cualquier decisión quirúrgica (riesgo hemorrágico, manejo perioperatorio) — confirmar explícitamente, ya que `item4.anticoagulantes` sí figura como `false` pero no aclara si existe la comorbilidad de base.
+- `item2.hta` y `item2.alergias` están correctamente cumplimentados (`false`), sin necesidad de revisión adicional.
+
+---
+Esta validación es un apoyo a la revisión del médico, no sustituye su criterio clínico. La decisión final sobre cada campo señalado corresponde al facultativo.

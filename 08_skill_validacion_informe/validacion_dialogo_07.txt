@@ -1,0 +1,37 @@
+VALIDACIÓN DEL INFORME HPTP
+
+## ✅ CUMPLIMIENTO DEL SCHEMA
+Los 18 ítems (`item_1` a `item_18`) están presentes con nomenclatura descriptiva equivalente al schema. Los tipos de valor son coherentes (`true`/`false`/`null`, números, strings, objetos anidados). No se detectan campos claramente inventados fuera del schema.
+
+Observación menor: `item_4_tratamiento_habitual.otros` es un objeto con subcampos (`mencionado`, `descripcion`) en lugar de un booleano simple como el resto de fármacos de esa sección — no es un error, pero es una estructura distinta al patrón del resto del bloque; conviene que el médico sepa que ahí se guardó texto libre ("pastilla para la tensión, tipo no especificado, pendiente de comprobar si es tiazida").
+
+`item_2.alergias` está en `false` (booleano, no lista) — se interpreta como alergias exploradas y negadas explícitamente. OK.
+
+## ⚠️ CONTRADICCIONES DETECTADAS
+
+1. **Diagnóstico confirmado + estudio pendiente simultáneos, y diagnóstico diferencial incoherente con el nivel de confirmación.**
+   `item_6_confirmacion_diagnostica.hipercalcemia_hipocalciurica_familiar: true` (diagnóstico de FHH marcado como confirmado) coexiste con `pendiente_de_estudio: true` en el mismo bloque. Además, en `diagnostico_diferencial.pth_dependiente` se marcan simultáneamente `hptp_adenoma_unico: true` y `fhh: true` — dos entidades clínicamente distintas y con manejo opuesto (una quirúrgica, otra genética/conservadora) figurando ambas como positivas al mismo nivel que un diagnóstico ya dado por "confirmado". Un diagnóstico no puede estar cerrado (`true`) y a la vez pendiente de confirmación (`true`). Revisar si lo que realmente ocurre es que el caso está en diferencial abierto entre HPTP clásico y FHH, en cuyo caso `hipercalcemia_hipocalciurica_familiar` no debería marcarse como `true` fuera del bloque de diferencial.
+
+2. **Criterio genético afirmado sin respaldo analítico documentado.**
+   `item_3.criterio_estudio_genetico.calciuria_baja_sugestiva_fhh: true` afirma un hallazgo de calciuria baja sugestivo de FHH, pero `item_5_datos_analiticos.calciuria_24h_mg24h` y `cociente_calcio_creatinina_urinario` están ambos en `null`. No hay dato analítico registrado que sustente esa afirmación — confirmar si el dato existe y no se extrajo, o si la marca fue precipitada.
+
+## 🔍 CAMPOS RELEVANTES SIN MENCIONAR (tipo de consulta: primera_visita)
+
+*Inferencia del tipo de consulta:* el bloque de seguimiento postoperatorio (`item_16`) tiene sus 4 campos clave (`revision_herida`, `analitica_postoperatoria`, `anatomia_patologica`, `control_densitometria`) en `null`; `cirugia_cervical_previa` es `false` y no hay cicatriz previa registrada. En cambio, `item_10` (criterios de indicación quirúrgica) tiene contenido activo (valores `false` explícitos, no todo `null`) y el diagnóstico está `pendiente_de_estudio`. → **Primera visita.**
+
+- `edad_inferior_50` (item_10, criterios de indicación quirúrgica) — `null`. Dato objetivo fácil de obtener y relevante para la indicación quirúrgica; confirmar edad del paciente.
+- `inclusion_lista_espera` (item_11, plan terapéutico) — `null`. Relevante para saber el estado administrativo del caso.
+- `item_13_riesgos_quirurgicos_explicados` — todos los riesgos individuales en `null` (no hay campo general de "riesgos explicados" en este JSON). Si se está planteando cirugía en el diferencial, conviene confirmar si se han abordado los riesgos con el paciente.
+- `entregado` y `explicado_verbalmente` (item_14, consentimiento informado) — ambos `null`. Confirmar si el consentimiento se ha iniciado.
+- `dudas_resueltas` (item_14, consentimiento informado) — `null` (distinto del `dudas_resueltas: true` de item_18, que sí está informado).
+- `ecografia_cervical` y `mibi` (item_9, localización paratiroidea) — ambos `null`. Pruebas de localización clave antes de cualquier decisión quirúrgica.
+- `densitometria` (item_9, estudio óseo) — `null`. Relevante dado que hay hipercalcemia con PTH elevada.
+- `hidratacion` y `vitamina_d` (item_11, optimización previa) — ambos `null`. Manejo conservador inicial habitual en HPTP.
+- Sección `item_15_sintomas_alarma_postquirurgicos` — completamente en `null`. Coherente con que aún no hay cirugía, pero si en algún momento se prevé indicación quirúrgica, no hay evidencia de que se hayan explicado síntomas de alarma.
+
+**Campos de seguridad clínica (revisar siempre):**
+- `litio` y `tiazidas` (item_4, tratamiento habitual) — ambos `null`, pero el propio informe anota en texto libre "pastilla para la tensión, tipo no especificado, pendiente de comprobar si es tiazida". Esto es clínicamente crítico: las tiazidas (y el litio) pueden causar o agravar la hipercalcemia y confundir el diagnóstico diferencial de HPTP vs. hipercalcemia inducida por fármacos — **confirmar el fármaco antihipertensivo antes de avanzar en el diagnóstico diferencial**.
+- `alergias`, `anticoagulacion`, `hta` (item_2) — todos con valor explícito (`false`, `false`, `true` respectivamente), no requieren aviso.
+
+---
+Esta validación es un apoyo a la revisión del médico, no sustituye su criterio clínico. La decisión final sobre cada campo señalado corresponde al facultativo.
