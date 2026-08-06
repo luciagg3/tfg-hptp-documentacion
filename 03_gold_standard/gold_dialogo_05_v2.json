@@ -1,0 +1,313 @@
+{
+  "_anotacion": {
+    "dialogo_id": "05",
+    "descripcion": "Primera visita. Hombre, 71 años, jubilado. Anticoagulado con apixabán, ERC moderada (FG ~35), FA, ictus previo, diabetes. Derivado por Nefrología.",
+    "version": "v1 — gold standard sobre diálogo corregido por Sergio (v4_revisado) + schema v2",
+    "anotador": "manual",
+    "version_schema": "informe_hptp_schema_v2",
+    "notas_clinicas": [
+      "Caso de alta comorbilidad — el diagnóstico diferencial entre HPTP y HPT terciario es obligatorio con ERC y FG de 35.",
+      "No se cierra diagnóstico ni indicación quirúrgica en esta visita.",
+      "Cinacalcet mencionado como alternativa conservadora — controla el calcio pero NO mejora el hueso.",
+      "Decisión diferida a valoración multidisciplinar con Anestesia, Nefrología y Cardiología.",
+      "La hija actúa como acompañante y portavoz del paciente."
+    ],
+    "convencion_valores": {
+      "true": "Mencionado y confirmado en el diálogo",
+      "false": "Preguntado y negado explícitamente",
+      "null": "No mencionado ni preguntado en la consulta"
+    }
+  },
+  "metadatos": {
+    "tipo_consulta": "primera_visita",
+    "servicio": "Cirugía Endocrina"
+  },
+  "item_01_motivo_consulta": {
+    "motivos": [
+      "hipercalcemia",
+      "pth_elevada"
+    ],
+    "servicio_derivador": "Nefrología",
+    "texto_libre": "Derivado por el nefrólogo por calcio alto y PTH elevada en contexto de ERC moderada."
+  },
+  "item_02_antecedentes_personales": {
+    "hta": true,
+    "diabetes_mellitus": true,
+    "enfermedad_renal_cronica": true,
+    "litiasis_renal_previa": null,
+    "osteoporosis_osteopenia": null,
+    "fracturas_fragilidad": null,
+    "pancreatitis_previa": null,
+    "enfermedad_tiroidea": null,
+    "cirugia_cervical_previa": null,
+    "radioterapia_cervical": null,
+    "neoplasias_previas": null,
+    "enfermedades_endocrinas": null,
+    "embarazo_deseo_gestacional": null,
+    "anticoagulacion": true,
+    "situacion_funcional_basal": "paciente con hipoacusia, requiere acompañante",
+    "alergias": false,
+    "otros": [
+      "fibrilación auricular",
+      "ictus hace 3 años",
+      "prostatectomía previa",
+      "filtrado glomerular ~35 mL/min"
+    ]
+  },
+  "item_03_antecedentes_familiares": {
+    "hiperparatiroidismo_familiar": null,
+    "hipercalcemia_familiar": null,
+    "litiasis_renal_familiar": null,
+    "tumores_endocrinos": null,
+    "men1": null,
+    "men2a": null,
+    "cirugia_paratiroidea_familiar": null,
+    "tumores_hipofisarios_familiares": null,
+    "estudio_genetico_indicado": null,
+    "otros": null
+  },
+  "item_04_tratamiento_habitual": {
+    "medicamentos": [
+      {
+        "nombre": "apixabán",
+        "grupo": "anticoagulante",
+        "dosis": "dos veces al día"
+      },
+      {
+        "nombre": "metformina",
+        "grupo": "otro",
+        "dosis": null
+      },
+      {
+        "nombre": "antihipertensivo (no especificado)",
+        "grupo": "otro",
+        "dosis": null
+      },
+      {
+        "nombre": "insulina lenta",
+        "grupo": "otro",
+        "dosis": "nocturna"
+      },
+      {
+        "nombre": "vitamina D",
+        "grupo": "vitamina_d",
+        "dosis": null
+      }
+    ],
+    "sin_medicacion_relevante": false
+  },
+  "item_05_datos_analiticos": {
+    "calcio_total": 11.3,
+    "albumina": null,
+    "calcio_corregido": null,
+    "calcio_ionico": null,
+    "pth_intacta": 240,
+    "fosforo": null,
+    "magnesio": null,
+    "creatinina": null,
+    "filtrado_glomerular": 35,
+    "vitamina_d_25oh": null,
+    "fosfatasa_alcalina": null,
+    "calciuria_24h": null,
+    "cociente_ca_creatinina": null,
+    "marcadores_remodelado_oseo": null,
+    "otros_marcadores": null
+  },
+  "item_06_confirmacion_diagnostica": {
+    "diagnostico_principal": "pendiente_estudio",
+    "diagnostico_diferencial": {
+      "pth_dependiente": {
+        "hptp_adenoma_unico": null,
+        "hipercalcemia_hipocalciurica": null,
+        "hiperparatiroidismo_terciario": true,
+        "inducido_por_litio": null,
+        "sindrome_men": null
+      },
+      "pth_independiente": {
+        "deficit_vitamina_d": null,
+        "malabsorcion": null,
+        "enfermedad_renal_cronica": true
+      }
+    },
+    "diagnosticos_descartados": null,
+    "texto_libre": "Cuadro sugestivo de hiperparatiroidismo primario vs terciario. La ERC con FG de 35 obliga a descartar HPT terciario antes de decidir manejo. No es sencillo distinguirlos ni para los especialistas."
+  },
+  "item_07_sintomas_repercusion": {
+    "renal": {
+      "litiasis_renal": null,
+      "colico_nefritico": null,
+      "nefrocalcinosis": null,
+      "hematuria": null,
+      "infecciones_urinarias": null,
+      "insuficiencia_renal": true,
+      "poliuria_polidipsia": null
+    },
+    "oseo": {
+      "dolor_oseo": null,
+      "osteoporosis": null,
+      "osteopenia": null,
+      "fracturas_fragilidad": false,
+      "perdida_talla": null,
+      "debilidad_muscular": true
+    },
+    "digestivo": {
+      "dolor_abdominal": null,
+      "estreñimiento": null,
+      "nauseas": null,
+      "dispepsia": null,
+      "pancreatitis": null
+    },
+    "neuropsiquiatrico": {
+      "cansancio_astenia": true,
+      "bajo_animo": null,
+      "irritabilidad": null,
+      "dificultad_concentracion": null,
+      "somnolencia": null,
+      "perdida_calidad_vida": null
+    },
+    "cardiovascular": {
+      "hta": true,
+      "arritmias": true,
+      "palpitaciones": null,
+      "alteracion_qt": null,
+      "riesgo_cardiovascular": "alto — FA + ictus previo + anticoagulación"
+    }
+  },
+  "item_08_exploracion_fisica": {
+    "peso_kg": null,
+    "talla_cm": null,
+    "imc": null,
+    "tension_arterial": null,
+    "estado_general": null,
+    "cervical": {
+      "bocio": false,
+      "nodulos_tiroideos": null,
+      "cicatrices_previas": null,
+      "adenopatias": null
+    },
+    "abdominal": null,
+    "valoracion_funcional": null,
+    "texto_libre": "Exploración cervical sin bultos ni hallazgos llamativos."
+  },
+  "item_09_pruebas_imagen": {
+    "localizacion_paratiroidea": {
+      "ecografia_cervical": true,
+      "mibi": true,
+      "spect_tc": null,
+      "tc_4d": null,
+      "pet_tc_fluorocolina": null,
+      "resultado": null
+    },
+    "estudio_renal": {
+      "ecografia_renal": null,
+      "tc_renal": null,
+      "litiasis_presente": null,
+      "nefrocalcinosis": null
+    },
+    "estudio_oseo": {
+      "densitometria": true,
+      "t_score_lumbar": null,
+      "t_score_cadera": null,
+      "t_score_radio_distal": null,
+      "diagnostico_dmo": null,
+      "vfa_columna": null,
+      "fractura_vertebral_silente": null
+    },
+    "fibroscopia_laringea": null
+  },
+  "item_10_criterios_cirugia": {
+    "indicacion_quirurgica": null,
+    "paciente_sintomatico": true,
+    "calcio_sobre_umbral": true,
+    "t_score_bajo": null,
+    "fractura_vertebral_imagen": null,
+    "fractura_fragilidad": null,
+    "filtrado_bajo": true,
+    "hipercalciuria": null,
+    "litiasis_renal": null,
+    "edad_menor_50": false,
+    "preferencia_paciente": null,
+    "contraindicacion_qx": null,
+    "justificacion": "Indicación quirúrgica no valorable hasta confirmar diagnóstico y completar valoración multidisciplinar (Anestesia, Nefrología, Cardiología). Riesgo quirúrgico elevado por comorbilidad."
+  },
+  "item_11_plan_terapeutico": {
+    "cirugia_indicada": null,
+    "tipo_cirugia": null,
+    "inclusion_lista_espera": false,
+    "pruebas_pendientes": [
+      "ecografía cervical",
+      "gammagrafía MIBI",
+      "densitometría ósea",
+      "valoración renal con Nefrología"
+    ],
+    "valoracion_anestesia": true,
+    "manejo_conservador": true,
+    "optimizacion_previa": {
+      "vitamina_d": true,
+      "hidratacion": true,
+      "ajuste_medicacion": null,
+      "manejo_osteoporosis": null,
+      "control_endocrinologico": null
+    },
+    "alternativa_seguimiento": "Cinacalcet como alternativa conservadora si no se indica cirugía. Controla la hipercalcemia pero no mejora la densidad ósea. Coordinación con Nefrología y Cardiología."
+  },
+  "item_12_informacion_paciente": {
+    "diagnostico_explicado": true,
+    "naturaleza_benigna": null,
+    "riesgo_renal_oseo": true,
+    "finalidad_pruebas": true,
+    "beneficio_cirugia": true,
+    "posibilidad_persistencia": null,
+    "necesidad_controles": true
+  },
+  "item_13_riesgos_explicados": {
+    "riesgos_explicados": true,
+    "hipocalcemia_transitoria": null,
+    "lesion_nervio_recurrente": null,
+    "disfonia_permanente": null,
+    "hipoparatiroidismo_persistente": null,
+    "persistencia_enfermedad": null,
+    "hematoma_cervical": null,
+    "necesidad_reintervencion": null,
+    "riesgos_anestesicos": true
+  },
+  "item_14_consentimiento_informado": {
+    "entregado": false,
+    "explicado_verbalmente": false,
+    "dudas_resueltas": null,
+    "estado": "no_aplica",
+    "representante_mencionado": null
+  },
+  "item_15_sintomas_alarma": {
+    "explicados": false,
+    "sintomas_mencionados": null
+  },
+  "item_16_plan_seguimiento": {
+    "revision_herida": null,
+    "revision_al_mes": null,
+    "analitica_postop": null,
+    "anatomia_patologica": null,
+    "control_densitometria": null,
+    "seguimiento_renal": true,
+    "control_endocrinologico": null,
+    "suplementos_calcio_vitd": true,
+    "alta_quirurgica_prevista": null,
+    "texto_libre": "Próxima visita tras completar pruebas y valoración multidisciplinar. Se plantearán dos opciones: cirugía con riesgo controlado o tratamiento médico con cinacalcet."
+  },
+  "item_17_impacto_laboral_familiar": {
+    "mencionado": true,
+    "tipo_trabajo": null,
+    "preocupacion_baja_laboral": false,
+    "baja_estimada_meses": null,
+    "coordinacion_familiar": true,
+    "texto_libre": "La hija acompaña al paciente y participa activamente en la consulta. Jubilado, sin preocupación laboral."
+  },
+  "item_18_dudas_miedos_expectativas": {
+    "mencionados": true,
+    "miedo_cancer": null,
+    "miedo_cirugia": true,
+    "expectativa_curacion": null,
+    "dudas_resueltas": true,
+    "texto_libre": "El paciente muestra preferencia por el manejo conservador al escuchar la alternativa. La hija valora positivamente la decisión multidisciplinar."
+  }
+}

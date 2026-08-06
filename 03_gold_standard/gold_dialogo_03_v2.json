@@ -1,0 +1,313 @@
+{
+  "_anotacion": {
+    "dialogo_id": "03",
+    "descripcion": "Primera visita. Mujer, 38 años, arquitecta. Antecedentes familiares de MEN1. Sospecha de síndrome hereditario. Se solicita estudio genético.",
+    "version": "v1 — gold standard sobre diálogo corregido por Sergio (v4_revisado) + schema v2",
+    "anotador": "manual",
+    "version_schema": "informe_hptp_schema_v2",
+    "notas_clinicas": [
+      "Sospecha MEN1 por combinación familiar: paratiroides + páncreas + hipófisis en padre.",
+      "Calcio no exacto en el diálogo: 'en 11 y pico' — se anota como valor aproximado.",
+      "Cirugía prevista: paratiroidectomía subtotal si se confirma MEN1 (no selectiva).",
+      "Estudio genético solicitado hoy, consentimiento específico se firmará en otro momento.",
+      "No se cierra indicación quirúrgica definitiva — pendiente de pruebas y resultado genético.",
+      "Coordinación estrecha con Endocrinología por complejidad del caso."
+    ],
+    "convencion_valores": {
+      "true": "Mencionado y confirmado en el diálogo",
+      "false": "Preguntado y negado explícitamente",
+      "null": "No mencionado ni preguntado en la consulta"
+    }
+  },
+
+  "metadatos": {
+    "tipo_consulta": "primera_visita",
+    "servicio": "Cirugía Endocrina"
+  },
+
+  "item_01_motivo_consulta": {
+    "motivos": ["hipercalcemia", "pth_elevada", "sospecha_hptp"],
+    "servicio_derivador": "Endocrinología",
+    "texto_libre": "Derivada por Endocrinología tras hallazgo de hipercalcemia en analítica laboral. Antecedentes familiares de MEN1 orientan la sospecha diagnóstica."
+  },
+
+  "item_02_antecedentes_personales": {
+    "hta": null,
+    "diabetes_mellitus": null,
+    "enfermedad_renal_cronica": null,
+    "litiasis_renal_previa": false,
+    "osteoporosis_osteopenia": null,
+    "fracturas_fragilidad": null,
+    "pancreatitis_previa": null,
+    "enfermedad_tiroidea": null,
+    "cirugia_cervical_previa": null,
+    "radioterapia_cervical": null,
+    "neoplasias_previas": null,
+    "enfermedades_endocrinas": null,
+    "embarazo_deseo_gestacional": null,
+    "anticoagulacion": null,
+    "situacion_funcional_basal": null,
+    "alergias": [],
+    "otros": ["úlcera gástrica con reflujo severo en años previos — relevante por posible gastrinoma en MEN1"]
+  },
+
+  "item_03_antecedentes_familiares": {
+    "hiperparatiroidismo_familiar": true,
+    "hipercalcemia_familiar": null,
+    "litiasis_renal_familiar": null,
+    "tumores_endocrinos": true,
+    "men1": true,
+    "men2a": null,
+    "cirugia_paratiroidea_familiar": null,
+    "tumores_hipofisarios_familiares": true,
+    "estudio_genetico_indicado": {
+      "indicado": true,
+      "criterio": "antecedentes_familiares"
+    },
+    "otros": ["padre: hiperparatiroidismo + tumor pancreático + tumor hipofisario", "tío paterno: problemas de paratiroides"]
+  },
+
+  "item_04_tratamiento_habitual": {
+    "medicamentos": [
+      {
+        "nombre": "omeprazol",
+        "grupo": "otro",
+        "dosis": null,
+        "nota": "uso a demanda"
+      }
+    ],
+    "sin_medicacion_relevante": null
+  },
+
+  "item_05_datos_analiticos": {
+    "calcio_total": null,
+    "albumina": null,
+    "calcio_corregido": null,
+    "calcio_ionico": null,
+    "pth_intacta": 130,
+    "fosforo": null,
+    "magnesio": null,
+    "creatinina": null,
+    "filtrado_glomerular": null,
+    "vitamina_d_25oh": null,
+    "fosfatasa_alcalina": null,
+    "calciuria_24h": null,
+    "cociente_ca_creatinina": null,
+    "marcadores_remodelado_oseo": null,
+    "otros_marcadores": [
+      { "nombre": "calcio_total_aprox", "valor": "~11 mg/dL (referido como '11 y pico')" }
+    ]
+  },
+
+  "item_06_confirmacion_diagnostica": {
+    "diagnostico_principal": "pendiente_estudio",
+    "diagnostico_diferencial": {
+      "pth_dependiente": {
+        "hptp_adenoma_unico": null,
+        "hipercalcemia_hipocalciurica": null,
+        "hiperparatiroidismo_terciario": null,
+        "inducido_por_litio": null,
+        "sindrome_men": true
+      },
+      "pth_independiente": {
+        "deficit_vitamina_d": null,
+        "malabsorcion": null,
+        "enfermedad_renal_cronica": null
+      }
+    },
+    "diagnosticos_descartados": null,
+    "texto_libre": "Sospecha clínica de MEN1: hiperparatiroidismo en paciente joven con antecedentes familiares de afectación multiorgánica (paratiroides, páncreas, hipófisis). Diagnóstico definitivo pendiente de resultado genético y pruebas de imagen."
+  },
+
+  "item_07_sintomas_repercusion": {
+    "renal": {
+      "litiasis_renal": false,
+      "colico_nefritico": null,
+      "nefrocalcinosis": null,
+      "hematuria": null,
+      "infecciones_urinarias": null,
+      "insuficiencia_renal": null,
+      "poliuria_polidipsia": true
+    },
+    "oseo": {
+      "dolor_oseo": null,
+      "osteoporosis": null,
+      "osteopenia": null,
+      "fracturas_fragilidad": null,
+      "perdida_talla": null,
+      "debilidad_muscular": null
+    },
+    "digestivo": {
+      "dolor_abdominal": null,
+      "estreñimiento": null,
+      "nauseas": null,
+      "dispepsia": null,
+      "pancreatitis": null
+    },
+    "neuropsiquiatrico": {
+      "cansancio_astenia": true,
+      "bajo_animo": null,
+      "irritabilidad": null,
+      "dificultad_concentracion": null,
+      "somnolencia": null,
+      "perdida_calidad_vida": null
+    },
+    "cardiovascular": {
+      "hta": null,
+      "arritmias": null,
+      "palpitaciones": null,
+      "alteracion_qt": null,
+      "riesgo_cardiovascular": null
+    }
+  },
+
+  "item_08_exploracion_fisica": {
+    "peso_kg": null,
+    "talla_cm": null,
+    "imc": null,
+    "tension_arterial": null,
+    "estado_general": null,
+    "cervical": {
+      "bocio": null,
+      "nodulos_tiroideos": false,
+      "cicatrices_previas": null,
+      "adenopatias": null
+    },
+    "abdominal": null,
+    "valoracion_funcional": null,
+    "texto_libre": "No se palpan nódulos ni bultos cervicales."
+  },
+
+  "item_09_pruebas_imagen": {
+    "localizacion_paratiroidea": {
+      "ecografia_cervical": true,
+      "mibi": true,
+      "spect_tc": null,
+      "tc_4d": null,
+      "pet_tc_fluorocolina": null,
+      "resultado": null
+    },
+    "estudio_renal": {
+      "ecografia_renal": true,
+      "tc_renal": null,
+      "litiasis_presente": null,
+      "nefrocalcinosis": null
+    },
+    "estudio_oseo": {
+      "densitometria": true,
+      "t_score_lumbar": null,
+      "t_score_cadera": null,
+      "t_score_radio_distal": null,
+      "diagnostico_dmo": null,
+      "vfa_columna": null,
+      "fractura_vertebral_silente": null
+    },
+    "fibroscopia_laringea": null
+  },
+
+  "item_10_criterios_cirugia": {
+    "indicacion_quirurgica": null,
+    "paciente_sintomatico": true,
+    "calcio_sobre_umbral": true,
+    "t_score_bajo": null,
+    "fractura_vertebral_imagen": null,
+    "fractura_fragilidad": null,
+    "filtrado_bajo": null,
+    "hipercalciuria": null,
+    "litiasis_renal": false,
+    "edad_menor_50": true,
+    "preferencia_paciente": null,
+    "contraindicacion_qx": null,
+    "justificacion": "Indicación probable pero pendiente de confirmar diagnóstico y tipo de síndrome. La cirugía será más amplia si se confirma MEN1."
+  },
+
+  "item_11_plan_terapeutico": {
+    "cirugia_indicada": null,
+    "tipo_cirugia": "paratiroidectomia_subtotal",
+    "inclusion_lista_espera": false,
+    "pruebas_pendientes": [
+      "analítica con calciuria de 24 horas",
+      "ecografía cervical",
+      "gammagrafía MIBI",
+      "densitometría ósea",
+      "ecografía renal",
+      "estudio genético MEN1"
+    ],
+    "valoracion_anestesia": null,
+    "manejo_conservador": null,
+    "optimizacion_previa": {
+      "vitamina_d": null,
+      "hidratacion": true,
+      "ajuste_medicacion": true,
+      "manejo_osteoporosis": null,
+      "control_endocrinologico": true
+    },
+    "alternativa_seguimiento": "Coordinación estrecha con Endocrinología. Si se confirma MEN1, vigilancia también de hipófisis y páncreas."
+  },
+
+  "item_12_informacion_paciente": {
+    "diagnostico_explicado": true,
+    "naturaleza_benigna": true,
+    "riesgo_renal_oseo": null,
+    "finalidad_pruebas": true,
+    "beneficio_cirugia": true,
+    "posibilidad_persistencia": null,
+    "necesidad_controles": true
+  },
+
+  "item_13_riesgos_explicados": {
+    "riesgos_explicados": false,
+    "hipocalcemia_transitoria": null,
+    "lesion_nervio_recurrente": null,
+    "disfonia_permanente": null,
+    "hipoparatiroidismo_persistente": null,
+    "persistencia_enfermedad": null,
+    "hematoma_cervical": null,
+    "necesidad_reintervencion": null,
+    "riesgos_anestesicos": null
+  },
+
+  "item_14_consentimiento_informado": {
+    "entregado": false,
+    "explicado_verbalmente": false,
+    "dudas_resueltas": null,
+    "estado": "no_aplica",
+    "representante_mencionado": null
+  },
+
+  "item_15_sintomas_alarma": {
+    "explicados": false,
+    "sintomas_mencionados": null
+  },
+
+  "item_16_plan_seguimiento": {
+    "revision_herida": null,
+    "revision_al_mes": null,
+    "analitica_postop": null,
+    "anatomia_patologica": null,
+    "control_densitometria": null,
+    "seguimiento_renal": null,
+    "control_endocrinologico": true,
+    "suplementos_calcio_vitd": null,
+    "alta_quirurgica_prevista": null,
+    "texto_libre": "Próxima cita cuando estén disponibles pruebas y resultado genético. Coordinación con Endocrinología y consejo genético para el seguimiento multidisciplinar."
+  },
+
+  "item_17_impacto_laboral_familiar": {
+    "mencionado": true,
+    "tipo_trabajo": null,
+    "preocupacion_baja_laboral": null,
+    "baja_estimada_meses": null,
+    "coordinacion_familiar": true,
+    "texto_libre": "La paciente pregunta espontáneamente por las implicaciones para sus hijos. El médico explica que hay implicaciones para familiares directos que se valorarán a través de consejo genético."
+  },
+
+  "item_18_dudas_miedos_expectativas": {
+    "mencionados": true,
+    "miedo_cancer": null,
+    "miedo_cirugia": null,
+    "expectativa_curacion": null,
+    "dudas_resueltas": true,
+    "texto_libre": "La paciente llega asustada por la mención del MEN1. El médico explica con calma. La paciente refiere irse más tranquila sabiendo que hay un plan."
+  }
+}

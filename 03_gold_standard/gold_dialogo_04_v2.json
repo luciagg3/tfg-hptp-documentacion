@@ -1,0 +1,296 @@
+{
+  "_anotacion": {
+    "dialogo_id": "04",
+    "descripcion": "Primera visita con pruebas completas. Hombre, 55 años, fontanero autónomo. Localización concordante, indicación quirúrgica cerrada, consentimiento firmado.",
+    "version": "v1 — gold standard sobre diálogo corregido por Sergio (v4_revisado) + schema v2",
+    "anotador": "manual",
+    "version_schema": "informe_hptp_schema_v2",
+    "notas_clinicas": [
+      "Es el diálogo más completo del corpus — cubre todos los bloques del proceso quirúrgico.",
+      "Diagnóstico cerrado como HPTP clásico porque la vitamina D ya estaba corregida (32 ng/mL).",
+      "Indicación quirúrgica explícita por tres criterios: calcio, hueso (densitometría) y riñón (litiasis).",
+      "Consentimiento entregado, explicado y firmado en esta visita.",
+      "Circuito correcto según Sergio: ORL → Anestesia → lista de espera.",
+      "Tipo de cirugía: paratiroidectomía selectiva con posible ampliación a exploración bilateral si PTH intraoperatoria no desciende."
+    ],
+    "convencion_valores": {
+      "true": "Mencionado y confirmado en el diálogo",
+      "false": "Preguntado y negado explícitamente",
+      "null": "No mencionado ni preguntado en la consulta"
+    }
+  },
+  "metadatos": {
+    "tipo_consulta": "primera_visita",
+    "servicio": "Cirugía Endocrina"
+  },
+  "item_01_motivo_consulta": {
+    "motivos": [
+      "hipercalcemia",
+      "litiasis_renal",
+      "estudio_prequirurgico"
+    ],
+    "servicio_derivador": "Endocrinología",
+    "texto_libre": "Paciente derivado por Endocrinología con estudio completo ya realizado. Acude para valoración quirúrgica con todas las pruebas disponibles."
+  },
+  "item_02_antecedentes_personales": {
+    "hta": true,
+    "diabetes_mellitus": null,
+    "enfermedad_renal_cronica": false,
+    "litiasis_renal_previa": true,
+    "osteoporosis_osteopenia": true,
+    "fracturas_fragilidad": null,
+    "pancreatitis_previa": null,
+    "enfermedad_tiroidea": null,
+    "cirugia_cervical_previa": false,
+    "radioterapia_cervical": null,
+    "neoplasias_previas": null,
+    "enfermedades_endocrinas": null,
+    "embarazo_deseo_gestacional": null,
+    "anticoagulacion": false,
+    "situacion_funcional_basal": null,
+    "alergias": false,
+    "otros": null
+  },
+  "item_03_antecedentes_familiares": {
+    "hiperparatiroidismo_familiar": null,
+    "hipercalcemia_familiar": null,
+    "litiasis_renal_familiar": null,
+    "tumores_endocrinos": null,
+    "men1": null,
+    "men2a": null,
+    "cirugia_paratiroidea_familiar": null,
+    "tumores_hipofisarios_familiares": null,
+    "estudio_genetico_indicado": null,
+    "otros": null
+  },
+  "item_04_tratamiento_habitual": {
+    "medicamentos": null,
+    "sin_medicacion_relevante": null
+  },
+  "item_05_datos_analiticos": {
+    "calcio_total": null,
+    "albumina": null,
+    "calcio_corregido": 11.6,
+    "calcio_ionico": null,
+    "pth_intacta": 156,
+    "fosforo": null,
+    "magnesio": null,
+    "creatinina": null,
+    "filtrado_glomerular": null,
+    "vitamina_d_25oh": 32,
+    "fosfatasa_alcalina": null,
+    "calciuria_24h": null,
+    "cociente_ca_creatinina": null,
+    "marcadores_remodelado_oseo": null,
+    "otros_marcadores": [
+      {
+        "nombre": "fosforo",
+        "valor": "bajo (valor exacto no mencionado)"
+      },
+      {
+        "nombre": "funcion_renal",
+        "valor": "normal"
+      }
+    ]
+  },
+  "item_06_confirmacion_diagnostica": {
+    "diagnostico_principal": "hptp_clasico",
+    "diagnostico_diferencial": {
+      "pth_dependiente": {
+        "hptp_adenoma_unico": true,
+        "hipercalcemia_hipocalciurica": false,
+        "hiperparatiroidismo_terciario": null,
+        "inducido_por_litio": null,
+        "sindrome_men": null
+      },
+      "pth_independiente": {
+        "deficit_vitamina_d": false,
+        "malabsorcion": null,
+        "enfermedad_renal_cronica": null
+      }
+    },
+    "diagnosticos_descartados": [
+      "hipercalcemia_hipocalciurica_familiar",
+      "deficit_vitamina_d"
+    ],
+    "texto_libre": "Hiperparatiroidismo primario de libro: Ca corregido 11,6 + PTH 156 + fósforo bajo + VitD ya corregida en 32 + calciuria no sugestiva de FHH + función renal normal."
+  },
+  "item_07_sintomas_repercusion": {
+    "renal": {
+      "litiasis_renal": true,
+      "colico_nefritico": null,
+      "nefrocalcinosis": null,
+      "hematuria": null,
+      "infecciones_urinarias": null,
+      "insuficiencia_renal": false,
+      "poliuria_polidipsia": null
+    },
+    "oseo": {
+      "dolor_oseo": null,
+      "osteoporosis": true,
+      "osteopenia": null,
+      "fracturas_fragilidad": null,
+      "perdida_talla": null,
+      "debilidad_muscular": null
+    },
+    "digestivo": {
+      "dolor_abdominal": null,
+      "estreñimiento": null,
+      "nauseas": null,
+      "dispepsia": null,
+      "pancreatitis": null
+    },
+    "neuropsiquiatrico": {
+      "cansancio_astenia": null,
+      "bajo_animo": null,
+      "irritabilidad": null,
+      "dificultad_concentracion": null,
+      "somnolencia": null,
+      "perdida_calidad_vida": null
+    },
+    "cardiovascular": {
+      "hta": null,
+      "arritmias": null,
+      "palpitaciones": null,
+      "alteracion_qt": null,
+      "riesgo_cardiovascular": null
+    }
+  },
+  "item_08_exploracion_fisica": {
+    "peso_kg": null,
+    "talla_cm": null,
+    "imc": null,
+    "tension_arterial": null,
+    "estado_general": null,
+    "cervical": {
+      "bocio": null,
+      "nodulos_tiroideos": null,
+      "cicatrices_previas": null,
+      "adenopatias": null
+    },
+    "abdominal": null,
+    "valoracion_funcional": null,
+    "texto_libre": null
+  },
+  "item_09_pruebas_imagen": {
+    "localizacion_paratiroidea": {
+      "ecografia_cervical": true,
+      "mibi": true,
+      "spect_tc": null,
+      "tc_4d": null,
+      "pet_tc_fluorocolina": null,
+      "resultado": {
+        "adenoma_localizado": true,
+        "lado": "izquierdo",
+        "localizacion": "inferior",
+        "concordantes": true
+      }
+    },
+    "estudio_renal": {
+      "ecografia_renal": true,
+      "tc_renal": null,
+      "litiasis_presente": true,
+      "nefrocalcinosis": null
+    },
+    "estudio_oseo": {
+      "densitometria": true,
+      "t_score_lumbar": null,
+      "t_score_cadera": null,
+      "t_score_radio_distal": null,
+      "diagnostico_dmo": "osteoporosis",
+      "vfa_columna": null,
+      "fractura_vertebral_silente": null
+    },
+    "fibroscopia_laringea": true
+  },
+  "item_10_criterios_cirugia": {
+    "indicacion_quirurgica": true,
+    "paciente_sintomatico": null,
+    "calcio_sobre_umbral": true,
+    "t_score_bajo": true,
+    "fractura_vertebral_imagen": null,
+    "fractura_fragilidad": null,
+    "filtrado_bajo": false,
+    "hipercalciuria": null,
+    "litiasis_renal": true,
+    "edad_menor_50": false,
+    "preferencia_paciente": true,
+    "contraindicacion_qx": false,
+    "justificacion": "Indicación quirúrgica por tres criterios independientes: calcio corregido sobre umbral, afectación ósea (osteoporosis en densitometría) y litiasis renal. Cualquiera de los tres justificaría la cirugía por separado."
+  },
+  "item_11_plan_terapeutico": {
+    "cirugia_indicada": true,
+    "tipo_cirugia": "paratiroidectomia_selectiva",
+    "inclusion_lista_espera": false,
+    "pruebas_pendientes": null,
+    "valoracion_anestesia": true,
+    "manejo_conservador": false,
+    "optimizacion_previa": {
+      "vitamina_d": true,
+      "hidratacion": true,
+      "ajuste_medicacion": null,
+      "manejo_osteoporosis": null,
+      "control_endocrinologico": null
+    },
+    "alternativa_seguimiento": "Posible ampliación a exploración cervical bilateral si la PTH intraoperatoria no desciende o no se localiza la glándula."
+  },
+  "item_12_informacion_paciente": {
+    "diagnostico_explicado": true,
+    "naturaleza_benigna": null,
+    "riesgo_renal_oseo": true,
+    "finalidad_pruebas": null,
+    "beneficio_cirugia": true,
+    "posibilidad_persistencia": true,
+    "necesidad_controles": null
+  },
+  "item_13_riesgos_explicados": {
+    "riesgos_explicados": true,
+    "hipocalcemia_transitoria": true,
+    "lesion_nervio_recurrente": true,
+    "disfonia_permanente": true,
+    "hipoparatiroidismo_persistente": true,
+    "persistencia_enfermedad": true,
+    "hematoma_cervical": true,
+    "necesidad_reintervencion": true,
+    "riesgos_anestesicos": true
+  },
+  "item_14_consentimiento_informado": {
+    "entregado": true,
+    "explicado_verbalmente": true,
+    "dudas_resueltas": true,
+    "estado": "firmado",
+    "representante_mencionado": null
+  },
+  "item_15_sintomas_alarma": {
+    "explicados": null,
+    "sintomas_mencionados": null
+  },
+  "item_16_plan_seguimiento": {
+    "revision_herida": null,
+    "revision_al_mes": null,
+    "analitica_postop": null,
+    "anatomia_patologica": null,
+    "control_densitometria": null,
+    "seguimiento_renal": null,
+    "control_endocrinologico": null,
+    "suplementos_calcio_vitd": null,
+    "alta_quirurgica_prevista": null,
+    "texto_libre": null
+  },
+  "item_17_impacto_laboral_familiar": {
+    "mencionado": true,
+    "tipo_trabajo": "fontanero autónomo — trabajo físico, cada día parado supone pérdida económica",
+    "preocupacion_baja_laboral": true,
+    "baja_estimada_meses": null,
+    "coordinacion_familiar": null,
+    "texto_libre": "El paciente menciona explícitamente su preocupación por el tiempo de resolución. Quiere operar cuanto antes por las implicaciones económicas de estar de baja siendo autónomo."
+  },
+  "item_18_dudas_miedos_expectativas": {
+    "mencionados": true,
+    "miedo_cancer": null,
+    "miedo_cirugia": null,
+    "expectativa_curacion": true,
+    "dudas_resueltas": true,
+    "texto_libre": "El paciente pregunta por los riesgos de forma directa. El médico los explica con claridad. El paciente acepta y firma. Perfil resolutivo, sin miedos explícitos."
+  }
+}

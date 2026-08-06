@@ -1,0 +1,318 @@
+{
+  "_anotacion": {
+    "dialogo_id": "08",
+    "descripcion": "Primera visita. Mujer, 78 años, viuda, vive en residencia. Paciente frágil. Demencia, IC, fractura cadera, osteoporosis. Cuidadora presente.",
+    "version": "v1",
+    "anotador": "manual",
+    "notas_clinicas": [
+      "Edad NO contraindica — es la fragilidad y comorbilidad lo que condiciona.",
+      "Fractura de cadera previa + osteoporosis = criterio quirúrgico, pero fragilidad global lo contrapesa.",
+      "Cinacalcet: controla calcio pero NO mejora hueso.",
+      "Decisión diferida a sesión con Geriatría y Anestesia."
+    ],
+    "version_schema": "informe_hptp_schema_v2",
+    "convencion_valores": {
+      "true": "Mencionado y confirmado en el diálogo",
+      "false": "Preguntado y negado explícitamente",
+      "null": "No mencionado ni preguntado en la consulta"
+    }
+  },
+  "metadatos": {
+    "tipo_consulta": "primera_visita",
+    "servicio": "Cirugía Endocrina"
+  },
+  "item_01_motivo_consulta": {
+    "motivos": [
+      "hipercalcemia"
+    ],
+    "servicio_derivador": "Geriatría",
+    "texto_libre": "Hipercalcemia en analítica de la residencia. Derivada por geriatra."
+  },
+  "item_02_antecedentes_personales": {
+    "hta": null,
+    "diabetes_mellitus": null,
+    "enfermedad_renal_cronica": null,
+    "litiasis_renal_previa": null,
+    "osteoporosis_osteopenia": true,
+    "fracturas_fragilidad": true,
+    "pancreatitis_previa": null,
+    "enfermedad_tiroidea": null,
+    "cirugia_cervical_previa": null,
+    "radioterapia_cervical": null,
+    "neoplasias_previas": null,
+    "enfermedades_endocrinas": null,
+    "embarazo_deseo_gestacional": null,
+    "anticoagulacion": null,
+    "situacion_funcional_basal": "demencia, dependencia para la marcha (andador), caídas",
+    "alergias": [],
+    "otros": [
+      "demencia",
+      "insuficiencia cardíaca",
+      "artrosis severa",
+      "fractura de cadera hace 2 años operada"
+    ]
+  },
+  "item_03_antecedentes_familiares": {
+    "hiperparatiroidismo_familiar": null,
+    "hipercalcemia_familiar": null,
+    "litiasis_renal_familiar": null,
+    "tumores_endocrinos": null,
+    "men1": null,
+    "men2a": null,
+    "cirugia_paratiroidea_familiar": null,
+    "tumores_hipofisarios_familiares": null,
+    "estudio_genetico_indicado": null,
+    "otros": null
+  },
+  "item_04_tratamiento_habitual": {
+    "medicamentos": [
+      {
+        "nombre": "diurético (tipo no identificado)",
+        "grupo": "otro",
+        "dosis": null,
+        "nota": "tipo desconocido — médico indica que puede elevar el calcio si es tiazida"
+      },
+      {
+        "nombre": "calcio",
+        "grupo": "suplemento_calcio",
+        "dosis": null,
+        "nota": "pautado en la residencia — a revisar"
+      },
+      {
+        "nombre": "vitamina D",
+        "grupo": "vitamina_d",
+        "dosis": null
+      },
+      {
+        "nombre": "medicación cardíaca (no especificada)",
+        "grupo": "otro",
+        "dosis": null
+      },
+      {
+        "nombre": "sedante (no especificado)",
+        "grupo": "otro",
+        "dosis": null
+      },
+      {
+        "nombre": "fármaco para demencia (no especificado)",
+        "grupo": "otro",
+        "dosis": null
+      }
+    ],
+    "sin_medicacion_relevante": false
+  },
+  "item_05_datos_analiticos": {
+    "calcio_total": 11.1,
+    "albumina": null,
+    "calcio_corregido": null,
+    "calcio_ionico": null,
+    "pth_intacta": 130,
+    "fosforo": null,
+    "magnesio": null,
+    "creatinina": null,
+    "filtrado_glomerular": null,
+    "vitamina_d_25oh": null,
+    "fosfatasa_alcalina": null,
+    "calciuria_24h": null,
+    "cociente_ca_creatinina": null,
+    "marcadores_remodelado_oseo": null,
+    "otros_marcadores": [
+      {
+        "nombre": "funcion_renal",
+        "valor": "algo justa para su edad"
+      }
+    ]
+  },
+  "item_06_confirmacion_diagnostica": {
+    "diagnostico_principal": "pendiente_estudio",
+    "diagnostico_diferencial": {
+      "pth_dependiente": {
+        "hptp_adenoma_unico": null,
+        "hipercalcemia_hipocalciurica": null,
+        "hiperparatiroidismo_terciario": null,
+        "inducido_por_litio": null,
+        "sindrome_men": null
+      },
+      "pth_independiente": {
+        "deficit_vitamina_d": null,
+        "malabsorcion": null,
+        "enfermedad_renal_cronica": null
+      }
+    },
+    "diagnosticos_descartados": null,
+    "texto_libre": "Datos sugestivos de HPTP, pero calcio y vitamina D en medicación como factores de confusión. Pendiente confirmar."
+  },
+  "item_07_sintomas_repercusion": {
+    "renal": {
+      "litiasis_renal": null,
+      "colico_nefritico": null,
+      "nefrocalcinosis": null,
+      "hematuria": null,
+      "infecciones_urinarias": null,
+      "insuficiencia_renal": null,
+      "poliuria_polidipsia": null
+    },
+    "oseo": {
+      "dolor_oseo": null,
+      "osteoporosis": true,
+      "osteopenia": null,
+      "fracturas_fragilidad": true,
+      "perdida_talla": null,
+      "debilidad_muscular": true
+    },
+    "digestivo": {
+      "dolor_abdominal": null,
+      "estreñimiento": null,
+      "nauseas": null,
+      "dispepsia": null,
+      "pancreatitis": null
+    },
+    "neuropsiquiatrico": {
+      "cansancio_astenia": true,
+      "bajo_animo": null,
+      "irritabilidad": null,
+      "dificultad_concentracion": null,
+      "somnolencia": true,
+      "perdida_calidad_vida": null
+    },
+    "cardiovascular": {
+      "hta": null,
+      "arritmias": null,
+      "palpitaciones": null,
+      "alteracion_qt": null,
+      "riesgo_cardiovascular": null
+    }
+  },
+  "item_08_exploracion_fisica": {
+    "peso_kg": null,
+    "talla_cm": null,
+    "imc": null,
+    "tension_arterial": null,
+    "estado_general": null,
+    "cervical": {
+      "bocio": null,
+      "nodulos_tiroideos": null,
+      "cicatrices_previas": null,
+      "adenopatias": null
+    },
+    "abdominal": null,
+    "valoracion_funcional": "fragilidad marcada, dependencia para la marcha",
+    "texto_libre": "Cuello sin bultos."
+  },
+  "item_09_pruebas_imagen": {
+    "localizacion_paratiroidea": {
+      "ecografia_cervical": null,
+      "mibi": null,
+      "spect_tc": null,
+      "tc_4d": null,
+      "pet_tc_fluorocolina": null,
+      "resultado": null
+    },
+    "estudio_renal": {
+      "ecografia_renal": null,
+      "tc_renal": null,
+      "litiasis_presente": null,
+      "nefrocalcinosis": null
+    },
+    "estudio_oseo": {
+      "densitometria": null,
+      "t_score_lumbar": null,
+      "t_score_cadera": null,
+      "t_score_radio_distal": null,
+      "diagnostico_dmo": null,
+      "vfa_columna": null,
+      "fractura_vertebral_silente": null
+    },
+    "fibroscopia_laringea": null
+  },
+  "item_10_criterios_cirugia": {
+    "indicacion_quirurgica": null,
+    "paciente_sintomatico": null,
+    "calcio_sobre_umbral": null,
+    "t_score_bajo": null,
+    "fractura_vertebral_imagen": null,
+    "fractura_fragilidad": true,
+    "filtrado_bajo": null,
+    "hipercalciuria": null,
+    "litiasis_renal": null,
+    "edad_menor_50": false,
+    "preferencia_paciente": null,
+    "contraindicacion_qx": null,
+    "justificacion": "Fractura de cadera y osteoporosis son criterios a favor. La fragilidad y comorbilidad global condicionan la decisión. La edad por sí sola NO contraindica. Decisión en sesión con Geriatría y Anestesia."
+  },
+  "item_11_plan_terapeutico": {
+    "cirugia_indicada": null,
+    "tipo_cirugia": null,
+    "inclusion_lista_espera": false,
+    "pruebas_pendientes": null,
+    "valoracion_anestesia": true,
+    "manejo_conservador": true,
+    "optimizacion_previa": {
+      "vitamina_d": true,
+      "hidratacion": true,
+      "ajuste_medicacion": true,
+      "manejo_osteoporosis": null,
+      "control_endocrinologico": null
+    },
+    "alternativa_seguimiento": "Cinacalcet si manejo conservador. Coordinación con Geriatría. Ajuste de calcio y diurético."
+  },
+  "item_12_informacion_paciente": {
+    "diagnostico_explicado": true,
+    "naturaleza_benigna": null,
+    "riesgo_renal_oseo": null,
+    "finalidad_pruebas": null,
+    "beneficio_cirugia": true,
+    "posibilidad_persistencia": null,
+    "necesidad_controles": null
+  },
+  "item_13_riesgos_explicados": {
+    "riesgos_explicados": false,
+    "hipocalcemia_transitoria": null,
+    "lesion_nervio_recurrente": null,
+    "disfonia_permanente": null,
+    "hipoparatiroidismo_persistente": null,
+    "persistencia_enfermedad": null,
+    "hematoma_cervical": null,
+    "necesidad_reintervencion": null,
+    "riesgos_anestesicos": null
+  },
+  "item_14_consentimiento_informado": {
+    "entregado": false,
+    "explicado_verbalmente": false,
+    "dudas_resueltas": null,
+    "estado": "no_aplica",
+    "representante_mencionado": null
+  },
+  "item_15_sintomas_alarma": {
+    "explicados": false,
+    "sintomas_mencionados": null
+  },
+  "item_16_plan_seguimiento": {
+    "revision_herida": null,
+    "revision_al_mes": null,
+    "analitica_postop": null,
+    "anatomia_patologica": null,
+    "control_densitometria": null,
+    "seguimiento_renal": null,
+    "control_endocrinologico": null,
+    "suplementos_calcio_vitd": true,
+    "alta_quirurgica_prevista": null,
+    "texto_libre": "Coordinación con Geriatría. Seguimiento analítico del calcio."
+  },
+  "item_17_impacto_laboral_familiar": {
+    "mencionado": true,
+    "tipo_trabajo": null,
+    "preocupacion_baja_laboral": false,
+    "baja_estimada_meses": null,
+    "coordinacion_familiar": true,
+    "texto_libre": "Cuidadora principal presente y activa en la toma de decisiones."
+  },
+  "item_18_dudas_miedos_expectativas": {
+    "mencionados": true,
+    "miedo_cancer": null,
+    "miedo_cirugia": null,
+    "expectativa_curacion": null,
+    "dudas_resueltas": true,
+    "texto_libre": "Cuidadora expresa alivio ante posible manejo conservador."
+  }
+}

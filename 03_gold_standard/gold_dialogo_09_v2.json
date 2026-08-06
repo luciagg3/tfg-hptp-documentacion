@@ -1,0 +1,282 @@
+{
+  "_anotacion": {
+    "dialogo_id": "09",
+    "descripcion": "Revisión al mes post-cirugía. Mujer, 60 años, comerciante. Hipocalcemia transitoria resuelta. Entrega anatomía patológica.",
+    "version": "v1",
+    "anotador": "manual",
+    "version_schema": "informe_hptp_schema_v2",
+    "convencion_valores": {
+      "true": "Mencionado y confirmado en el diálogo",
+      "false": "Preguntado y negado explícitamente",
+      "null": "No mencionado ni preguntado en la consulta"
+    },
+    "notas_clinicas": [
+      "Curación formal pendiente de confirmar más allá de los 6 meses.",
+      "Sin seguimiento renal — no tuvo litiasis."
+    ]
+  },
+  "metadatos": {
+    "tipo_consulta": "revision_postquirurgica",
+    "servicio": "Cirugía Endocrina"
+  },
+  "item_01_motivo_consulta": {
+    "motivos": [
+      "revision_seguimiento"
+    ],
+    "servicio_derivador": null,
+    "texto_libre": "Revisión al mes post-cirugía. Entrega de anatomía patológica y control postoperatorio."
+  },
+  "item_02_antecedentes_personales": {
+    "hta": null,
+    "diabetes_mellitus": null,
+    "enfermedad_renal_cronica": null,
+    "litiasis_renal_previa": false,
+    "osteoporosis_osteopenia": true,
+    "fracturas_fragilidad": null,
+    "pancreatitis_previa": null,
+    "enfermedad_tiroidea": null,
+    "cirugia_cervical_previa": true,
+    "radioterapia_cervical": null,
+    "neoplasias_previas": null,
+    "enfermedades_endocrinas": null,
+    "embarazo_deseo_gestacional": null,
+    "anticoagulacion": null,
+    "situacion_funcional_basal": null,
+    "alergias": null,
+    "otros": null
+  },
+  "item_03_antecedentes_familiares": {
+    "hiperparatiroidismo_familiar": null,
+    "hipercalcemia_familiar": null,
+    "litiasis_renal_familiar": null,
+    "tumores_endocrinos": null,
+    "men1": null,
+    "men2a": null,
+    "cirugia_paratiroidea_familiar": null,
+    "tumores_hipofisarios_familiares": null,
+    "estudio_genetico_indicado": null,
+    "otros": null
+  },
+  "item_04_tratamiento_habitual": {
+    "medicamentos": [
+      {
+        "nombre": "calcio",
+        "grupo": "suplemento_calcio",
+        "dosis": null,
+        "nota": "tomado desde la hipocalcemia postoperatoria — en reducción gradual"
+      },
+      {
+        "nombre": "vitamina D",
+        "grupo": "vitamina_d",
+        "dosis": null
+      }
+    ],
+    "sin_medicacion_relevante": false
+  },
+  "item_05_datos_analiticos": {
+    "calcio_total": 8.9,
+    "albumina": null,
+    "calcio_corregido": null,
+    "calcio_ionico": null,
+    "pth_intacta": 35,
+    "fosforo": null,
+    "magnesio": null,
+    "creatinina": null,
+    "filtrado_glomerular": null,
+    "vitamina_d_25oh": null,
+    "fosfatasa_alcalina": null,
+    "calciuria_24h": null,
+    "cociente_ca_creatinina": null,
+    "marcadores_remodelado_oseo": null,
+    "otros_marcadores": null
+  },
+  "item_06_confirmacion_diagnostica": {
+    "diagnostico_principal": "hptp_clasico",
+    "diagnostico_diferencial": {
+      "pth_dependiente": {
+        "hptp_adenoma_unico": null,
+        "hipercalcemia_hipocalciurica": null,
+        "hiperparatiroidismo_terciario": null,
+        "inducido_por_litio": null,
+        "sindrome_men": null
+      },
+      "pth_independiente": {
+        "deficit_vitamina_d": null,
+        "malabsorcion": null,
+        "enfermedad_renal_cronica": null
+      }
+    },
+    "diagnosticos_descartados": null,
+    "texto_libre": "Adenoma benigno confirmado por anatomía patológica. Normalización bioquímica inicial al mes (Ca 8,9 + PTH 35). Curación a confirmar más allá de los 6 meses."
+  },
+  "item_07_sintomas_repercusion": {
+    "renal": {
+      "litiasis_renal": false,
+      "colico_nefritico": null,
+      "nefrocalcinosis": null,
+      "hematuria": null,
+      "infecciones_urinarias": null,
+      "insuficiencia_renal": null,
+      "poliuria_polidipsia": null
+    },
+    "oseo": {
+      "dolor_oseo": null,
+      "osteoporosis": null,
+      "osteopenia": true,
+      "fracturas_fragilidad": null,
+      "perdida_talla": null,
+      "debilidad_muscular": null
+    },
+    "digestivo": {
+      "dolor_abdominal": null,
+      "estreñimiento": null,
+      "nauseas": null,
+      "dispepsia": null,
+      "pancreatitis": null
+    },
+    "neuropsiquiatrico": {
+      "cansancio_astenia": null,
+      "bajo_animo": null,
+      "irritabilidad": null,
+      "dificultad_concentracion": null,
+      "somnolencia": null,
+      "perdida_calidad_vida": null
+    },
+    "cardiovascular": {
+      "hta": null,
+      "arritmias": null,
+      "palpitaciones": null,
+      "alteracion_qt": null,
+      "riesgo_cardiovascular": null
+    }
+  },
+  "item_08_exploracion_fisica": {
+    "peso_kg": null,
+    "talla_cm": null,
+    "imc": null,
+    "tension_arterial": null,
+    "estado_general": null,
+    "cervical": {
+      "bocio": null,
+      "nodulos_tiroideos": null,
+      "cicatrices_previas": true,
+      "adenopatias": null
+    },
+    "abdominal": null,
+    "valoracion_funcional": null,
+    "texto_libre": "Cicatriz cerrada, sin signos de infección, sin abombamiento. Dureza normal en proceso de resolución."
+  },
+  "item_09_pruebas_imagen": {
+    "localizacion_paratiroidea": {
+      "ecografia_cervical": null,
+      "mibi": null,
+      "spect_tc": null,
+      "tc_4d": null,
+      "pet_tc_fluorocolina": null,
+      "resultado": null
+    },
+    "estudio_renal": {
+      "ecografia_renal": null,
+      "tc_renal": null,
+      "litiasis_presente": null,
+      "nefrocalcinosis": null
+    },
+    "estudio_oseo": {
+      "densitometria": true,
+      "t_score_lumbar": null,
+      "t_score_cadera": null,
+      "t_score_radio_distal": null,
+      "diagnostico_dmo": "osteopenia",
+      "vfa_columna": null,
+      "fractura_vertebral_silente": null
+    },
+    "fibroscopia_laringea": null
+  },
+  "item_10_criterios_cirugia": {
+    "indicacion_quirurgica": null,
+    "paciente_sintomatico": null,
+    "calcio_sobre_umbral": null,
+    "t_score_bajo": null,
+    "fractura_vertebral_imagen": null,
+    "fractura_fragilidad": null,
+    "filtrado_bajo": null,
+    "hipercalciuria": null,
+    "litiasis_renal": null,
+    "edad_menor_50": null,
+    "preferencia_paciente": null,
+    "contraindicacion_qx": null,
+    "justificacion": null
+  },
+  "item_11_plan_terapeutico": {
+    "cirugia_indicada": null,
+    "tipo_cirugia": null,
+    "inclusion_lista_espera": null,
+    "pruebas_pendientes": null,
+    "valoracion_anestesia": null,
+    "manejo_conservador": null,
+    "optimizacion_previa": {
+      "vitamina_d": true,
+      "hidratacion": null,
+      "ajuste_medicacion": true,
+      "manejo_osteoporosis": null,
+      "control_endocrinologico": null
+    },
+    "alternativa_seguimiento": null
+  },
+  "item_12_informacion_paciente": {
+    "diagnostico_explicado": true,
+    "naturaleza_benigna": true,
+    "riesgo_renal_oseo": null,
+    "finalidad_pruebas": null,
+    "beneficio_cirugia": null,
+    "posibilidad_persistencia": null,
+    "necesidad_controles": true
+  },
+  "item_13_riesgos_explicados": {
+    "riesgos_explicados": null,
+    "hipocalcemia_transitoria": null,
+    "lesion_nervio_recurrente": null,
+    "disfonia_permanente": null,
+    "hipoparatiroidismo_persistente": null,
+    "persistencia_enfermedad": null,
+    "hematoma_cervical": null,
+    "necesidad_reintervencion": null,
+    "riesgos_anestesicos": null
+  },
+  "item_14_consentimiento_informado": {
+    "entregado": null,
+    "explicado_verbalmente": null,
+    "dudas_resueltas": null,
+    "estado": "no_aplica",
+    "representante_mencionado": null
+  },
+  "item_15_sintomas_alarma": {
+    "explicados": true,
+    "sintomas_mencionados": [
+      "hormigueos_manos",
+      "calambres",
+      "espasmos_musculares"
+    ]
+  },
+  "item_16_plan_seguimiento": {
+    "revision_herida": true,
+    "revision_al_mes": true,
+    "analitica_postop": true,
+    "anatomia_patologica": true,
+    "control_densitometria": true,
+    "seguimiento_renal": false,
+    "control_endocrinologico": true,
+    "suplementos_calcio_vitd": true,
+    "alta_quirurgica_prevista": null,
+    "texto_libre": "Control analítico a 6 meses, al año. Densitometría a 2 años con Endocrinología. Reducción gradual de calcio suplementario. Sin seguimiento renal (no tuvo litiasis)."
+  },
+  "item_17_impacto_laboral_familiar": null,
+  "item_18_dudas_miedos_expectativas": {
+    "mencionados": true,
+    "miedo_cancer": true,
+    "miedo_cirugia": null,
+    "expectativa_curacion": true,
+    "dudas_resueltas": true,
+    "texto_libre": "Paciente pregunta si lo extirpado era maligno. El médico confirma benignidad. Alivio explícito."
+  }
+}
