@@ -1,0 +1,242 @@
+{
+  "motivo_consulta": {
+    "causa": "hipercalcemia",
+    "derivado_por": "Preoperatorio de Traumatología (cirugía de rodilla)",
+    "sospecha_hptp": true
+  },
+  "antecedentes_personales": {
+    "hta": true,
+    "diabetes": false,
+    "erc": false,
+    "litiasis_renal_previa": false,
+    "osteoporosis_osteopenia": null,
+    "fracturas": false,
+    "pancreatitis": null,
+    "enfermedad_tiroidea": null,
+    "cirugia_cervical_previa": null,
+    "radioterapia_cervical": null,
+    "neoplasias": null,
+    "anticoagulacion": null,
+    "situacion_funcional_basal": null,
+    "alergias": "Penicilina"
+  },
+  "antecedentes_familiares": {
+    "hipercalcemia_familiar": false,
+    "hiperparatiroidismo_familiar": false,
+    "litiasis_familiar": false,
+    "tumores_endocrinos": false,
+    "men1": null,
+    "men2a": null,
+    "cirugia_paratiroidia_familiar": null,
+    "tumores_hipofisarios_familiares": null,
+    "otros_antecedentes_familiares": "Madre con diabetes",
+    "estudio_genetico_indicated": null
+  },
+  "tratamiento_habitual": {
+    "litio": null,
+    "tiazidas": true,
+    "suplementos_calcio": false,
+    "vitamina_d": false,
+    "bifosfonatos": null,
+    "denosumab": null,
+    "cinacalcet": null,
+    "anticoagulantes": null,
+    "antiagregantes": null,
+    "corticoides": null,
+    "hormonal": null,
+    "detalles_medicacion": "Hidroclorotiazida para la tensión"
+  },
+  "datos_analiticos": {
+    "calcio_total_mg_dl": 11.2,
+    "albumina_g_dl": null,
+    "calcio_corregido_mg_dl": null,
+    "calcio_ionico_mmol_l": null,
+    "pth_intacta_pg_ml": 118.0,
+    "fosforo_mg_dl": null,
+    "magnesio_mg_dl": null,
+    "creatinina_mg_dl": null,
+    "filtrado_glomerular_ml_min": null,
+    "vitamina_d_25_oh_ng_ml": 16.0,
+    "fosfatasa_alcalina_u_l": null,
+    "calciuria_24h_mg_24h": null,
+    "cociente_calcio_creatinina_urinario": null
+  },
+  "confirmacion_diagnostica": {
+    "impresion_diagnostica": "Hiperparatiroidismo primario (pendiente de confirmación tras corregir vitamina D)",
+    "diagnostico_diferencial": "Hiperparatiroidismo primario frente a secundario por déficit de vitamina D o inducido por tiazidas",
+    "diagnosticos_descartados": null
+  },
+  "sintomas_repercusion_clinica": {
+    "renal": {
+      "litiasis": false,
+      "colico_nefritico": false,
+      "nefrocalcinosis": null,
+      "hematuria": false,
+      "infecciones": null,
+      "insuficiencia_renal": null,
+      "poliuria_polidipsia": null
+    },
+    "oseo": {
+      "dolor_oseo": null,
+      "osteoporosis": null,
+      "osteopenia": null,
+      "fracturas_fragilidad": false,
+      "perdida_talla": null,
+      "debilidad_muscular": null
+    },
+    "digestivo": {
+      "dolor_abdominal": null,
+      "estrenimiento": true,
+      "nauseas": null,
+      "dispepsia": null,
+      "pancreatitis": null
+    },
+    "neuropsiquiatrico": {
+      "cansancio_astenia": true,
+      "bajo_animo": null,
+      "irritabilidad": null,
+      "dificultad_concentracion": null,
+      "somnolencia": null,
+      "perdida_calidad_vida": null
+    },
+    "cardiovascular": {
+      "hta": true,
+      "arritmias": null,
+      "palpitaciones": null,
+      "alteracion_qt": null
+    }
+  },
+  "exploracion_fisica": {
+    "peso_kg": null,
+    "talla_cm": null,
+    "imc": null,
+    "tension_arterial": null,
+    "estado_general": null,
+    "valoracion_funcional": null,
+    "exploracion_cervical": {
+      "bocio": null,
+      "nodulos_tiroideos": false,
+      "cicatrices_previas": null,
+      "adenopatias": false,
+      "descripcion": "Cuello normal, sin bultos ni ganglios"
+    }
+  },
+  "pruebas_imagen_estudios_complementarios": {
+    "localizacion_paratiroidia": {
+      "ecografia_cervical_solicitada": true,
+      "mibi_solicitada": true,
+      "spect_tc_solicitada": null,
+      "tc_4d_solicitada": null,
+      "pet_tc_fluorocolina_solicitada": null,
+      "resultados": null
+    },
+    "estudio_renal": {
+      "ecografia_renal_solicitada": true,
+      "litiasis_presente": null,
+      "nefrocalcinosis": null
+    },
+    "estudio_oseo": {
+      "densitometria_solicitada": true,
+      "t_score_lumbar": null,
+      "t_score_cadera": null,
+      "t_score_radio_distal": null,
+      "diagnostico_dmo": null,
+      "vfa_rx_columna": null
+    },
+    "fibroscopia_laringea_solicitada": null
+  },
+  "criterios_indicacion_quirurgica": {
+    "paciente_sintomatico": true,
+    "calcio_mas_1mg_dl_sobre_limite": true,
+    "t_score_inferior_2_5": null,
+    "fractura_vertebral_confirmada": null,
+    "fractura_periferica_fragilidad": null,
+    "filtrado_glomerular_inferior_60": null,
+    "hipercalciuria": null,
+    "litiasis_renal_o_nefrocalcinosis": false,
+    "edad_inferior_50_anos": true,
+    "preferencia_paciente": null,
+    "contraindicacion_quirurgica": null
+  },
+  "plan_terapeutico": {
+    "cirugia_indicada": "Estaría indicada si se confirma el diagnóstico definitivo",
+    "tipo_cirugia": null,
+    "inclusion_lista_espera": false,
+    "pruebas_pendientes": [
+      "analítica con calcio en orina de 24 horas",
+      "ecografía de cuello",
+      "gammagrafía MIBI",
+      "ecografía de riñones",
+      "densitometría"
+    ],
+    "valoracion_anestesia": null,
+    "manejo_conservador": null,
+    "optimizacion_previa": {
+      "vitamina_d": true,
+      "hidratacion": true,
+      "ajuste_medicacion": "Comentar con médico de cabecera posible cambio de tiazida",
+      "manejo_osteoporosis": null,
+      "control_endocrinologico": null
+    },
+    "coordinacion_traumatologia": "Organizar orden de cirugías con Traumatología por la rodilla"
+  },
+  "informacion_dada_paciente": {
+    "diagnostico_explicado": true,
+    "naturaleza_benigna": true,
+    "riesgo_renal_oseo": true,
+    "finalidad_pruebas": true,
+    "beneficio_cirugia": true,
+    "posibilidad_persistencia": null,
+    "controles": true
+  },
+  "riesgos_quirurgicos_explicados": {
+    "hipocalcemia_transitoria": null,
+    "lesion_nervio_recurrente": null,
+    "disfonia_permanente": null,
+    "hipoparatiroidismo_persistente": null,
+    "persistencia_enfermedad": null,
+    "hematoma_cervical": null,
+    "necesidad_reintervencion": null,
+    "riesgos_anestesicos": null
+  },
+  "consentimiento_informado": {
+    "entregado": null,
+    "explicado_verbalmente": null,
+    "resolucion_dudas": null,
+    "estado": null
+  },
+  "sintomas_alarma_postquirurgicos": {
+    "fiebre": null,
+    "escalofrios": null,
+    "supuracion_enrojecimiento_herida": null,
+    "abombamiento_cervical": null,
+    "disnea": null,
+    "disfagia": null,
+    "disfonia": null,
+    "hormigueos_peribucales_manos": null,
+    "calambres": null,
+    "espasmos_musculares": null
+  },
+  "plan_seguimiento": {
+    "revision_herida": null,
+    "analitica_postoperatoria": null,
+    "anatomia_patologica": null,
+    "control_densitometria": null,
+    "seguimiento_renal": null,
+    "control_endocrinologico": null,
+    "suplementos_calcio_vitamina_d": null,
+    "alta_quirurjica_prevista": null
+  },
+  "impacto_laboral_familiar": {
+    "tipo_trabajo": "Caja de supermercado (todo el día de pie y cargando)",
+    "preocupacion_baja_laboral": true,
+    "duracion_estimada_baja": "Alrededor de un mes",
+    "coordinacion_familiares_cuidadores": null
+  },
+  "dudas_miedos_expectativas": {
+    "miedo_cancer": true,
+    "miedo_cirugia": null,
+    "expectativa_curacion": null,
+    "dudas_resueltas": true
+  }
+}

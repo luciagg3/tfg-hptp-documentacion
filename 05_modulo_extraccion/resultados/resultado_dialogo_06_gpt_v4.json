@@ -1,0 +1,263 @@
+{
+  "motivo_consulta": {
+    "hipercalcemia": false,
+    "pth_elevada": true,
+    "sospecha_hptp": true,
+    "litiasis_renal": null,
+    "osteoporosis_fractura": true,
+    "estudio_prequirurgico": false,
+    "otro": "Control óseo tras fractura de muñeca y hallazgo de osteopenia",
+    "servicio_derivador": null
+  },
+  "antecedentes_personales": {
+    "hta": null,
+    "diabetes": null,
+    "erc": null,
+    "litiasis_renal_previa": null,
+    "osteoporosis": null,
+    "osteopenia": true,
+    "fracturas": true,
+    "pancreatitis": null,
+    "enfermedad_tiroidea": null,
+    "cirugia_cervical_previa": null,
+    "radioterapia_cervical": null,
+    "neoplasias": null,
+    "anticoagulacion": null,
+    "situacion_funcional_basal": null,
+    "alergias": false
+  },
+  "antecedentes_familiares": {
+    "hipercalcemia_familiar": false,
+    "hiperparatiroidismo_familiar": false,
+    "litiasis_familiar": false,
+    "tumores_endocrinos": false,
+    "men1": null,
+    "men2a": null,
+    "cirugia_paratiroidea_familiar": null,
+    "tumores_hipofisarios_familiares": null,
+    "estudio_genetico_indicado": null,
+    "criterio_estudio_genetico": null
+  },
+  "tratamiento_habitual": {
+    "litio": false,
+    "tiazidas": false,
+    "suplementos_calcio": null,
+    "vitamina_d": true,
+    "bifosfonatos": null,
+    "denosumab": null,
+    "cinacalcet": null,
+    "anticoagulantes": null,
+    "antiagregantes": null,
+    "corticoides": null,
+    "tratamiento_hormonal": true,
+    "otros": [
+      "Anticonceptivos"
+    ]
+  },
+  "datos_analiticos": {
+    "calcio_total_mg_dl": null,
+    "albumina_g_dl": null,
+    "calcio_corregido_mg_dl": null,
+    "calcio_ionico_mmol_l": null,
+    "pth_intacta_pg_ml": 98,
+    "fosforo_mg_dl": null,
+    "magnesio_mg_dl": null,
+    "creatinina_mg_dl": null,
+    "filtrado_glomerular_ml_min": null,
+    "vitamina_d_25oh_ng_ml": 14,
+    "fosfatasa_alcalina_u_l": null,
+    "calciuria_24h_mg_24h": null,
+    "cociente_calcio_creatinina_urinario": null
+  },
+  "confirmacion_diagnostica": {
+    "hptp_clasico": false,
+    "hptp_normocalcemico": true,
+    "hiperparatiroidismo_secundario": null,
+    "hiperparatiroidismo_terciario": null,
+    "hipercalcemia_hipocalciurica_familiar": null,
+    "otra_hipercalcemia": null,
+    "pendiente_estudio": true,
+    "diagnostico_diferencial": [
+      "Déficit de vitamina D",
+      "Función renal",
+      "Baja ingesta de calcio",
+      "Problemas de absorción intestinal",
+      "Fármacos"
+    ],
+    "diagnosticos_descartados": [
+      "Déficit de vitamina D corregido como explicación persistente de la elevación de PTH"
+    ]
+  },
+  "sintomas_repercusion_clinica": {
+    "renal": {
+      "litiasis": null,
+      "colico": null,
+      "nefrocalcinosis": null,
+      "hematuria": null,
+      "infecciones": null,
+      "insuficiencia_renal": null,
+      "poliuria_polidipsia": null
+    },
+    "osea": {
+      "dolor_oseo": null,
+      "osteoporosis": null,
+      "osteopenia": true,
+      "fracturas": true,
+      "perdida_talla": null,
+      "debilidad_muscular": null
+    },
+    "digestiva": {
+      "dolor_abdominal": null,
+      "estrenimiento": null,
+      "nauseas": null,
+      "dispepsia": null,
+      "pancreatitis": null
+    },
+    "neuropsiquiatrica": {
+      "cansancio_astenia": null,
+      "bajo_animo": null,
+      "irritabilidad": null,
+      "dificultad_concentracion": null,
+      "somnolencia": null,
+      "perdida_calidad_vida": null
+    },
+    "cardiovascular": {
+      "hta": null,
+      "arritmias": null,
+      "palpitaciones": null,
+      "alteracion_qt": null
+    }
+  },
+  "exploracion_fisica": {
+    "peso": null,
+    "talla": null,
+    "imc": null,
+    "tension_arterial": null,
+    "estado_general": null,
+    "valoracion_funcional": null,
+    "bocio": false,
+    "nodulos_tiroideos": false,
+    "cicatrices_previas": null,
+    "adenopatias": null
+  },
+  "pruebas_imagen_estudios": {
+    "ecografia_cervical": false,
+    "mibi": false,
+    "spect_tc": null,
+    "tc_4d": null,
+    "pet_tc_fluorocolina": null,
+    "adenoma_localizado": null,
+    "lado": null,
+    "localizacion": null,
+    "concordancia_pruebas": null,
+    "ecografia_renal": null,
+    "litiasis_presente": null,
+    "nefrocalcinosis": null,
+    "densitometria": true,
+    "t_score_lumbar": null,
+    "t_score_cadera": null,
+    "t_score_radio_distal": null,
+    "diagnostico_dmo": "Osteopenia",
+    "vfa_radiografia_columna": null,
+    "fibroscopia_laringea": null
+  },
+  "criterios_indicacion_quirurgica": {
+    "paciente_sintomatico": null,
+    "calcio_mas_1mg_dl_limite_superior": false,
+    "t_score_menor_igual_2_5": null,
+    "fractura_vertebral_confirmada": null,
+    "fractura_periferica_fragilidad": null,
+    "filtrado_menor_60": null,
+    "hipercalciuria": null,
+    "litiasis_renal_nefrocalcinosis": null,
+    "edad_menor_50": null,
+    "preferencia_paciente": null,
+    "contraindicacion_quirurgica": null
+  },
+  "plan_terapeutico": {
+    "cirugia_indicada": false,
+    "tipo_cirugia": null,
+    "lista_espera": null,
+    "pruebas_pendientes": [
+      "Analítica seriada",
+      "Calcio total",
+      "Calcio corregido",
+      "Calcio iónico",
+      "PTH",
+      "Fósforo",
+      "Magnesio",
+      "Función renal",
+      "Vitamina D",
+      "Calcio en orina de 24 horas"
+    ],
+    "valoracion_anestesia": null,
+    "manejo_conservador": true,
+    "optimizacion_previa": [
+      "Mantener vitamina D",
+      "Asegurar calcio en la dieta",
+      "Hidratación"
+    ]
+  },
+  "informacion_dada_paciente": {
+    "diagnostico": true,
+    "naturaleza_benigna": null,
+    "riesgo_renal_oseo": true,
+    "finalidad_pruebas": true,
+    "beneficio_cirugia": null,
+    "posibilidad_persistencia": null,
+    "controles": true
+  },
+  "riesgos_quirurgicos_explicados": {
+    "explicados": false,
+    "hipocalcemia_transitoria": null,
+    "lesion_nervio_recurrente": null,
+    "disfonia_permanente": null,
+    "hipoparatiroidismo_persistente": null,
+    "persistencia_enfermedad": null,
+    "hematoma_cervical": null,
+    "necesidad_reintervencion": null,
+    "riesgos_anestesicos": null
+  },
+  "consentimiento_informado": {
+    "entregado": false,
+    "explicado_verbalmente": false,
+    "dudas_resueltas": true,
+    "estado": "no_aplica"
+  },
+  "sintomas_alarma_postquirurgicos": {
+    "explicados": false,
+    "fiebre": null,
+    "escalofrios": null,
+    "supuracion_enrojecimiento": null,
+    "abombamiento_cervical": null,
+    "disnea": null,
+    "disfagia": null,
+    "disfonia": null,
+    "hormigueos": null,
+    "calambres": null,
+    "espasmos_musculares": null
+  },
+  "plan_seguimiento": {
+    "revision_herida": null,
+    "analitica_postoperatoria": null,
+    "anatomia_patologica": null,
+    "control_densitometria": true,
+    "seguimiento_renal": null,
+    "control_endocrinologico": true,
+    "suplementos_calcio_vitamina_d": true,
+    "alta_quirurgica_prevista": null
+  },
+  "impacto_laboral_familiar": {
+    "tipo_trabajo": "Enfermera en Traumatología",
+    "preocupacion_baja_laboral": null,
+    "duracion_estimada_baja": null,
+    "coordinacion_familiares_cuidadores": null
+  },
+  "dudas_miedos_expectativas": {
+    "miedo_cancer": null,
+    "miedo_cirugia": null,
+    "expectativa_curacion": null,
+    "dudas_expresadas": true,
+    "dudas_resueltas": true
+  }
+}

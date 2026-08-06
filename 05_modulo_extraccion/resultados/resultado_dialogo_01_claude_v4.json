@@ -1,0 +1,276 @@
+{
+  "item_01_motivo_consulta": {
+    "motivo_principal": "hipercalcemia incidental",
+    "contexto": "analítica prequirúrgica (cirugía de rodilla)",
+    "servicio_derivador": "Traumatología",
+    "impresion_inicial_medico": "HPTP primario probable, pendiente confirmación"
+  },
+
+  "item_02_antecedentes_personales": {
+    "hta": true,
+    "diabetes": null,
+    "erc": null,
+    "litiasis_renal_previa": false,
+    "osteoporosis_osteopenia": null,
+    "fracturas_previas": null,
+    "pancreatitis": null,
+    "enfermedad_tiroidea": null,
+    "cirugia_cervical_previa": null,
+    "radioterapia_cervical": null,
+    "neoplasias": null,
+    "anticoagulacion": null,
+    "menopausia": true,
+    "menopausia_anos_desde": "aproximadamente 3 años",
+    "alergias": "penicilina"
+  },
+
+  "item_03_antecedentes_familiares": {
+    "hipercalcemia_familiar": false,
+    "hiperparatiroidismo_familiar": false,
+    "litiasis_familiar": false,
+    "tumores_endocrinos_familiares": false,
+    "MEN1": null,
+    "MEN2A": null,
+    "cirugia_paratiroidea_familiar": null,
+    "tumores_hipofisarios_familiares": null,
+    "estudio_genetico_indicado": null,
+    "nota": "único antecedente referido: madre con diabetes mellitus"
+  },
+
+  "item_04_tratamiento_habitual": {
+    "farmacos": [
+      {
+        "nombre": "hidroclorotiazida",
+        "grupo": "tiazida",
+        "dosis": null,
+        "indicacion": "HTA"
+      }
+    ],
+    "litio": null,
+    "suplementos_calcio": false,
+    "vitamina_D_previa": false,
+    "bifosfonatos": null,
+    "denosumab": null,
+    "cinacalcet": null,
+    "anticoagulantes": null,
+    "antiagregantes": null,
+    "corticoides": null,
+    "hormonal": null
+  },
+
+  "item_05_datos_analiticos": {
+    "calcio_total_mg_dL": 11.2,
+    "albumina_g_dL": null,
+    "calcio_corregido_mg_dL": null,
+    "calcio_ionico_mmol_L": null,
+    "PTH_intacta_pg_mL": 118,
+    "fosforo_mg_dL": null,
+    "magnesio_mg_dL": null,
+    "creatinina_mg_dL": null,
+    "filtrado_glomerular_mL_min": null,
+    "vitamina_D_25OH_ng_mL": 16,
+    "fosfatasa_alcalina_U_L": null,
+    "calciuria_24h_mg_24h": null,
+    "cociente_calcio_creatinina_urinario": null
+  },
+
+  "item_06_confirmacion_diagnostica": {
+    "impresion_diagnostica": "HPTP primario probable, pendiente confirmación tras corrección de vitamina D",
+    "diagnostico_diferencial": {
+      "HPT_secundario_deficit_vitamina_D": true,
+      "efecto_tiazida_como_contribuyente": true,
+      "cancer_paratiroides_mencionado": true,
+      "cancer_paratiroides_descartado_clinicamente": true,
+      "FHH": null,
+      "HPT_terciario": null,
+      "MEN": null
+    },
+    "pendiente_confirmacion_vitD_corregida": true
+  },
+
+  "item_07_sintomas_repercusion_clinica": {
+    "afectacion_renal": {
+      "litiasis_renal": false,
+      "colico_nefritico": false,
+      "hematuria": false,
+      "nefrocalcinosis": null,
+      "infecciones_urinarias": null,
+      "poliuria_polidipsia": null
+    },
+    "afectacion_osea": {
+      "fracturas_fragilidad": false,
+      "dolor_oseo": null,
+      "osteoporosis": null,
+      "debilidad_muscular": null
+    },
+    "afectacion_digestiva": {
+      "estrenimiento": true,
+      "dolor_abdominal": null,
+      "nauseas": null,
+      "dispepsia": null,
+      "pancreatitis": null
+    },
+    "afectacion_neuropsiquiatrica": {
+      "cansancio_astenia": true,
+      "bajo_animo": null,
+      "irritabilidad": null,
+      "dificultad_concentracion": null,
+      "somnolencia": null,
+      "perdida_calidad_de_vida": null
+    },
+    "afectacion_cardiovascular": {
+      "arritmias": null,
+      "palpitaciones": null,
+      "alteracion_QT": null
+    }
+  },
+
+  "item_08_exploracion_fisica": {
+    "peso": null,
+    "talla": null,
+    "IMC": null,
+    "tension_arterial": null,
+    "estado_general": null,
+    "valoracion_funcional": null,
+    "exploracion_cervical": {
+      "bocio": false,
+      "nodulos_tiroideos": false,
+      "cicatrices_previas": false,
+      "adenopatias": false,
+      "resultado": "normal"
+    }
+  },
+
+  "item_09_pruebas_imagen_complementarios": {
+    "localizacion_paratiroidea": {
+      "ecografia_cervical_solicitada": true,
+      "MIBI_solicitado": true,
+      "SPECT_TC_solicitado": null,
+      "TC_4D_solicitado": null,
+      "PET_TC_fluorocolina_solicitado": null,
+      "resultado_disponible": false
+    },
+    "estudio_renal": {
+      "ecografia_renal_solicitada": true,
+      "litiasis_presente": null,
+      "nefrocalcinosis": null
+    },
+    "estudio_oseo": {
+      "densitometria_solicitada": true,
+      "T_score_lumbar": null,
+      "T_score_cadera": null,
+      "T_score_radio_distal": null,
+      "diagnostico_DMO": null,
+      "VFA_o_radiografia_columna": null
+    },
+    "fibroscopia_laringea": null
+  },
+
+  "item_10_criterios_indicacion_quirurgica": {
+    "indicacion_quirurgica_mencionada": true,
+    "criterio_paciente_sintomatico": null,
+    "criterio_calcio_mayor_1mg_LSN": true,
+    "criterio_tscore_igual_menor_menos25": null,
+    "criterio_fractura_vertebral_imagen": null,
+    "criterio_fractura_fragilidad_periferica": null,
+    "criterio_FG_menor_60": null,
+    "criterio_hipercalciuria": null,
+    "criterio_litiasis_o_nefrocalcinosis": null,
+    "criterio_edad_menor_50": true,
+    "criterio_preferencia_paciente": null,
+    "contraindicacion_quirurgica": null,
+    "nota": "médico condiciona decisión final a resultados de pruebas pendientes"
+  },
+
+  "item_11_plan_terapeutico": {
+    "cirugia_indicada": true,
+    "tipo_cirugia": "paratiroidectomía selectiva (incisión pequeña en cuello)",
+    "inclusion_lista_espera": false,
+    "pruebas_pendientes": [
+      "analítica completa",
+      "calciuria 24 horas",
+      "ecografía cervical",
+      "gammagrafía MIBI",
+      "ecografía renal",
+      "densitometría"
+    ],
+    "valoracion_anestesia_mencionada": null,
+    "optimizacion_previa": {
+      "vitamina_D_pautada": true,
+      "hidratacion_recomendada": true,
+      "ajuste_tiazida_recomendado": true,
+      "manejo_osteoporosis": null
+    },
+    "coordinacion_traumatologia_cirugia_rodilla": true,
+    "manejo_conservador": null
+  },
+
+  "item_12_informacion_dada_al_paciente": {
+    "explicacion_diagnostico": true,
+    "naturaleza_benigna_explicada": true,
+    "riesgo_cancer_mencionado_y_matizado": true,
+    "riesgo_renal_oseo_explicado": true,
+    "finalidad_pruebas_explicada": true,
+    "beneficio_cirugia_explicado": true,
+    "posibilidad_persistencia_mencionada": null,
+    "controles_futuros_explicados": true
+  },
+
+  "item_13_riesgos_quirurgicos_explicados": {
+    "riesgos_explicados_en_consulta": false,
+    "hipocalcemia_transitoria": null,
+    "lesion_nervio_recurrente": null,
+    "disfonia_permanente": null,
+    "hipoparatiroidismo_persistente": null,
+    "persistencia_enfermedad": null,
+    "hematoma_cervical": null,
+    "necesidad_reintervencion": null,
+    "riesgos_anestesicos": null
+  },
+
+  "item_14_consentimiento_informado": {
+    "consentimiento_entregado": null,
+    "consentimiento_explicado_verbalmente": null,
+    "dudas_resueltas": null,
+    "estado": null
+  },
+
+  "item_15_sintomas_alarma_postquirurgicos": {
+    "sintomas_alarma_explicados": null,
+    "fiebre_escalofrios": null,
+    "supuracion_enrojecimiento_herida": null,
+    "abombamiento_cervical": null,
+    "disnea": null,
+    "disfagia": null,
+    "disfonia": null,
+    "hormigueos_peribucales_o_manos": null,
+    "calambres_espasmos_musculares": null
+  },
+
+  "item_16_plan_seguimiento": {
+    "revision_herida_planificada": null,
+    "analitica_postoperatoria": null,
+    "anatomia_patologica": null,
+    "control_densitometria": null,
+    "seguimiento_renal": null,
+    "control_endocrinologico": null,
+    "suplementos_calcio_vitamina_D_postqx": null,
+    "alta_quirurgica_prevista": null,
+    "proxima_visita_con_resultados_pruebas": true
+  },
+
+  "item_17_impacto_laboral_familiar": {
+    "tipo_trabajo": "cajera (bipedestación prolongada, carga física)",
+    "preocupacion_baja_laboral": true,
+    "duracion_estimada_baja": "aproximadamente 1 mes, con valoración según carga física del puesto",
+    "coordinacion_familiar_o_cuidadores": null
+  },
+
+  "item_18_dudas_miedos_expectativas": {
+    "miedo_cancer": true,
+    "miedo_cirugia": null,
+    "preocupacion_laboral": true,
+    "expectativa_curacion": null,
+    "dudas_quedaron_resueltas": true
+  }
+}

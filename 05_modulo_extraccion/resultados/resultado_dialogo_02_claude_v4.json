@@ -1,0 +1,335 @@
+{
+  "item1_motivo_consulta": {
+    "motivo": "revisión postoperatoria a 3 meses tras paratiroidectomía selectiva",
+    "motivo_categorias": {
+      "hipercalcemia": null,
+      "pth_elevada": null,
+      "sospecha_hptp": null,
+      "litiasis_renal": null,
+      "osteoporosis_fractura": null,
+      "estudio_prequirurgico": null,
+      "seguimiento_postquirurgico": true,
+      "otro": null
+    },
+    "servicio_derivador": null
+  },
+
+  "item2_antecedentes_personales": {
+    "hta": null,
+    "diabetes": null,
+    "erc": null,
+    "litiasis_renal_previa": false,
+    "osteoporosis_osteopenia": true,
+    "fracturas": null,
+    "pancreatitis": null,
+    "enfermedad_tiroidea": null,
+    "cirugia_cervical_previa": true,
+    "cirugia_cervical_detalle": "paratiroidectomía selectiva glándula inferior derecha, 20 de febrero, hace 3 meses",
+    "radioterapia_cervical": null,
+    "neoplasias": null,
+    "anticoagulacion": null,
+    "situacion_funcional_basal": null,
+    "alergias": null
+  },
+
+  "item3_antecedentes_familiares": {
+    "hipercalcemia_familiar": null,
+    "hiperparatiroidismo_familiar": null,
+    "litiasis_familiar": null,
+    "tumores_endocrinos": null,
+    "men1": null,
+    "men2a": null,
+    "cirugia_paratiroidea_familiar": null,
+    "tumores_hipofisarios_familiares": null,
+    "estudio_genetico": {
+      "indicado": null,
+      "criterio": null
+    }
+  },
+
+  "item4_tratamiento_habitual": {
+    "litio": null,
+    "tiazidas": null,
+    "suplementos_calcio": {
+      "activo": false,
+      "detalle": "tomado en periodo postoperatorio inmediato, ya suspendido"
+    },
+    "vitamina_d": {
+      "activo": true,
+      "detalle": "mantenida en seguimiento, dosis no especificada"
+    },
+    "bifosfonatos": null,
+    "denosumab": null,
+    "cinacalcet": null,
+    "anticoagulantes": null,
+    "antiagregantes": null,
+    "corticoides": null,
+    "hormonal": null,
+    "otros": null
+  },
+
+  "item5_datos_analiticos": {
+    "calcio_total_mg_dl": 9.3,
+    "albumina_g_dl": null,
+    "calcio_corregido_mg_dl": null,
+    "calcio_ionico_mmol_l": null,
+    "pth_intacta_pg_ml": 41,
+    "fosforo_mg_dl": null,
+    "magnesio_mg_dl": null,
+    "creatinina_mg_dl": null,
+    "filtrado_glomerular_ml_min": null,
+    "vitamina_d_25oh_ng_ml": null,
+    "fosfatasa_alcalina_u_l": null,
+    "calciuria_24h_mg_24h": null,
+    "cociente_calcio_creatinina_urinario": null,
+    "contexto_analitica": "analítica de control postoperatoria a 3 meses"
+  },
+
+  "item6_confirmacion_diagnostica": {
+    "impresion_diagnostica": "HPTP clásico, con buena respuesta bioquímica inicial postquirúrgica; curación formal pendiente de confirmar más allá de los 6 meses",
+    "diagnostico_diferencial_razonado": null,
+    "diagnosticos_descartados": null,
+    "resultado_anatomopatologico": {
+      "mencionado": true,
+      "tipo": "adenoma paratiroideo",
+      "caracteristicas": "tumor benigno, algo más de 2 cm, sin signos de malignidad",
+      "malignidad": false
+    }
+  },
+
+  "item7_sintomas_repercusion_clinica": {
+    "afectacion_renal": {
+      "litiasis_renal": false,
+      "colico_nefritico": null,
+      "nefrocalcinosis": null,
+      "hematuria": null,
+      "infecciones_urinarias": null,
+      "insuficiencia_renal": null,
+      "poliuria_polidipsia": null
+    },
+    "afectacion_osea": {
+      "dolor_oseo": null,
+      "osteoporosis": true,
+      "osteopenia": null,
+      "fracturas": null,
+      "perdida_talla": null,
+      "debilidad_muscular": null
+    },
+    "digestivo": {
+      "dolor_abdominal": null,
+      "estrenimiento": null,
+      "nauseas": null,
+      "dispepsia": null,
+      "pancreatitis": null
+    },
+    "neuropsiquiatrico": {
+      "cansancio_astenia": null,
+      "bajo_animo": null,
+      "irritabilidad": null,
+      "dificultad_concentracion": null,
+      "somnolencia": null,
+      "perdida_calidad_vida": null
+    },
+    "cardiovascular": {
+      "hta": null,
+      "arritmias": null,
+      "palpitaciones": null,
+      "alteracion_qt": null
+    },
+    "complicaciones_postoperatorias": {
+      "hipocalcemia_transitoria": true,
+      "hipocalcemia_detalle": "hormigueos en dedos y labios durante 3-4 días postoperatorios, tratado con calcio en hospital",
+      "disfonia_transitoria": true,
+      "disfonia_detalle": "voz tomada los primeros días, resolución a las 3 semanas",
+      "molestias_herida_transitoria": true,
+      "molestias_herida_detalle": "tiraba al tragar al principio, desapareció en 2 semanas"
+    }
+  },
+
+  "item8_exploracion_fisica": {
+    "peso": null,
+    "talla": null,
+    "imc": null,
+    "tension_arterial": null,
+    "estado_general": null,
+    "valoracion_funcional": null,
+    "exploracion_cervical": {
+      "cicatriz_quirurgica": true,
+      "cicatriz_detalle": "cicatriz plana, bien cerrada, sin abultamientos ni signos patológicos",
+      "bocio": null,
+      "nodulos_tiroideos": null,
+      "adenopatias": null
+    }
+  },
+
+  "item9_pruebas_imagen_complementarios": {
+    "localizacion_paratiroidea": {
+      "ecografia_cervical": null,
+      "mibi": null,
+      "spect_tc": null,
+      "tc_4d": null,
+      "pet_tc_fluorocolina": null,
+      "resultado_localizacion": null
+    },
+    "estudio_renal": {
+      "ecografia_renal": null,
+      "litiasis_presente": null,
+      "nefrocalcinosis": null
+    },
+    "estudio_oseo": {
+      "densitometria": {
+        "realizada_previa": true,
+        "control_solicitado": true,
+        "control_plazo": "hacia los 2 años de la operación",
+        "t_score_lumbar": null,
+        "t_score_cadera": null,
+        "t_score_radio_distal": null,
+        "diagnostico_dmo": "osteoporosis",
+        "localizacion_principal_mencionada": "cadera"
+      },
+      "vfa_rx_columna": null
+    },
+    "fibroscopia_laringea": null,
+    "anatomia_patologica": {
+      "realizada": true,
+      "resultado": "adenoma paratiroideo benigno, algo más de 2 cm, sin signos de malignidad"
+    }
+  },
+
+  "item10_criterios_indicacion_quirurgica": {
+    "aplica": false,
+    "nota": "consulta de seguimiento postquirúrgico; la indicación ya fue establecida y la cirugía ya realizada",
+    "criterios_mencionados_retrospectivamente": {
+      "paciente_sintomatico": null,
+      "calcio_mayor_1_sobre_lsn": null,
+      "t_score_igual_inferior_menos_25": true,
+      "fractura_vertebral_imagen": null,
+      "fractura_periferia_fragilidad": null,
+      "filtrado_inferior_60": null,
+      "hipercalciuria": null,
+      "litiasis_nefrocalcinosis": null,
+      "edad_inferior_50": null,
+      "preferencia_paciente": null,
+      "contraindicacion_quirurgica": null
+    }
+  },
+
+  "item11_plan_terapeutico": {
+    "cirugia_indicada": null,
+    "cirugia_realizada": true,
+    "tipo_cirugia": "paratiroidectomía selectiva (glándula inferior derecha)",
+    "inclucion_lista_espera": null,
+    "manejo_conservador": null,
+    "optimizacion": {
+      "vitamina_d": true,
+      "hidratacion": null,
+      "ajuste_medicacion": null,
+      "manejo_osteoporosis": {
+        "activo": true,
+        "detalle": "sin medicación específica de momento; valorar con densitometría de control; coordinación con Endocrinología si precisa"
+      },
+      "control_endocrinologico": true
+    },
+    "pruebas_pendientes": [
+      "analítica de calcio y PTH a los 6 meses",
+      "analítica de calcio y PTH al año",
+      "densitometría hacia los 2 años (coordinada con Endocrinología)"
+    ]
+  },
+
+  "item12_informacion_dada_paciente": {
+    "diagnostico_explicado": true,
+    "naturaleza_benigna": true,
+    "resultado_anatomopatologico_comunicado": true,
+    "respuesta_bioquimica_comunicada": true,
+    "concepto_curacion_formal": true,
+    "concepto_curacion_detalle": "se explica que la curación formal se confirma cuando el calcio se mantiene normal más allá de los 6 meses",
+    "riesgo_renal": false,
+    "riesgo_oseo_y_seguimiento": true,
+    "finalidad_pruebas": true,
+    "beneficio_cirugia": null,
+    "posibilidad_recidiva": true,
+    "posibilidad_recidiva_detalle": "probabilidad baja con adenoma único benigno y analítica normal, pero no imposible; por eso se mantienen controles",
+    "plan_seguimiento_explicado": true,
+    "alta_cirugia_prevista": true,
+    "alta_cirugia_detalle": "si todo sigue bien, en el control del año se entraría en el alta de Cirugía"
+  },
+
+  "item13_riesgos_quirurgicos_explicados": {
+    "aplica": false,
+    "nota": "consulta postoperatoria; los riesgos se habrían explicado antes de la cirugía",
+    "hipocalcemia_transitoria_mencionada_como_complicacion": true,
+    "lesion_nervio_recurrente_disfonia_mencionada": true,
+    "hipoparatiroidismo_persistente": null,
+    "persistencia_enfermedad": null,
+    "hematoma_cervical": null,
+    "necesidad_reintervencion": null,
+    "riesgos_anestesicos": null
+  },
+
+  "item14_consentimiento_informado": {
+    "entregado": null,
+    "explicado_verbalmente": null,
+    "dudas_resueltas": null,
+    "estado": null,
+    "nota": "no se menciona en esta consulta de seguimiento"
+  },
+
+  "item15_sintomas_alarma_postquirurgicos": {
+    "explicados": false,
+    "fiebre": null,
+    "escalofreos": null,
+    "supuracion_enrojecimiento_herida": null,
+    "abombamiento_cervical": null,
+    "disnea": null,
+    "disfagia": null,
+    "disfonia": null,
+    "hormigueos_peribucales_manos": null,
+    "calambres_espasmos": null
+  },
+
+  "item16_plan_seguimiento": {
+    "revision_herida": true,
+    "revision_herida_detalle": "realizada en esta consulta a los 3 meses",
+    "analitica_postoperatoria": {
+      "realizada": true,
+      "proximas_previstas": [
+        "calcio y PTH a los 6 meses",
+        "calcio y PTH al año"
+      ]
+    },
+    "anatomia_patologica_revisada": true,
+    "densitometria_control": {
+      "prevista": true,
+      "plazo": "hacia los 2 años de la operación",
+      "coordinacion": "Endocrinología"
+    },
+    "seguimiento_renal": false,
+    "seguimiento_renal_detalle": "el médico indica que no precisa seguimiento renal específico al no haber tenido litiasis",
+    "control_endocrinologico": true,
+    "suplementos_calcio_vitamina_d": {
+      "calcio": false,
+      "vitamina_d": true
+    },
+    "alta_quirurgica_prevista": true,
+    "alta_quirurgica_detalle": "prevista en el control del año si evolución favorable"
+  },
+
+  "item17_impacto_laboral_familiar": {
+    "mencionado": true,
+    "tipo_trabajo": "profesor",
+    "preocupacion_baja_laboral": null,
+    "duracion_baja": null,
+    "coordinacion_familiares": null,
+    "detalle": "el paciente menciona ser profesor y dar charlas en el centro de mayores; lo refiere en relación con la recuperación de la voz, no en contexto laboral-económico"
+  },
+
+  "item18_dudas_miedos_expectativas": {
+    "miedo_cancer": null,
+    "tranquilidad_benignidad": true,
+    "miedo_cirugia": null,
+    "expectativa_curacion": true,
+    "pregunta_recidiva": true,
+    "dudas_resueltas": true
+  }
+}

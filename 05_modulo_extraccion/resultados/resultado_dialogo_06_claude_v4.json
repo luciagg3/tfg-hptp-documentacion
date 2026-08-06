@@ -1,0 +1,312 @@
+{
+  "item_1_motivo_consulta": {
+    "motivo": "PTH elevada con calcio normal, estudio de osteopenia y fractura de muñeca",
+    "causa_referida": "fractura de muñeca con caída esquiando, estudio óseo posterior",
+    "servicio_derivador": null
+  },
+
+  "item_2_antecedentes_personales": {
+    "hta": null,
+    "diabetes": null,
+    "erc": null,
+    "litiasis_renal_previa": null,
+    "osteoporosis": false,
+    "osteopenia": true,
+    "fracturas": true,
+    "detalle_fractura": "fractura de muñeca por caída esquiando",
+    "pancreatitis": null,
+    "enfermedad_tiroidea": null,
+    "cirugia_cervical_previa": null,
+    "radioterapia_cervical": null,
+    "neoplasias": null,
+    "anticoagulacion": null,
+    "celiaquía_malabsorción": false,
+    "cirugia_intestinal": false,
+    "ingesta_calcio_dieta": "baja, evita lácteos por mala tolerancia",
+    "situacion_funcional_basal": null,
+    "alergias": false
+  },
+
+  "item_3_antecedentes_familiares": {
+    "hipercalcemia_familiar": false,
+    "hiperparatiroidismo_familiar": false,
+    "litiasis_familiar": false,
+    "tumores_endocrinos_familiares": false,
+    "men1": null,
+    "men2a": null,
+    "cirugia_paratiroidea_familiar": null,
+    "tumores_hipofisarios_familiares": null,
+    "estudio_genetico_indicado": null,
+    "criterio_estudio_genetico": null
+  },
+
+  "item_4_tratamiento_habitual": {
+    "litio": false,
+    "tiazidas": false,
+    "suplementos_calcio": false,
+    "vitamina_d": true,
+    "detalle_vitamina_d": "pautada previamente por déficit, dosis no referida",
+    "bifosfonatos": null,
+    "denosumab": null,
+    "cinacalcet": null,
+    "anticoagulantes": null,
+    "antiagregantes": null,
+    "corticoides": null,
+    "hormonal": true,
+    "detalle_hormonal": "anticonceptivos orales, dosis no referida",
+    "otros": null
+  },
+
+  "item_5_datos_analiticos": {
+    "calcio_total_mgdl": null,
+    "nota_calcio_total": "referido como 'dentro de la normalidad, en el límite alto', sin valor numérico explícito",
+    "albumina_gdl": null,
+    "calcio_corregido_mgdl": null,
+    "nota_calcio_corregido": "referido como 'dentro de la normalidad', sin valor numérico explícito",
+    "calcio_ionico_mmoll": null,
+    "pth_intacta_pgml": 98,
+    "nota_pth": "valor aproximado, médico dice 'en torno a 98'",
+    "fosforo_mgdl": null,
+    "magnesio_mgdl": null,
+    "creatinina_mgdl": null,
+    "filtrado_glomerular_mlmin": null,
+    "vitamina_d_25oh_ngml": 14,
+    "nota_vitamina_d": "valor inicial, ya corregido en el momento de la consulta",
+    "fosfatasa_alcalina_ul": null,
+    "calciuria_24h_mg24h": null,
+    "cociente_calcio_creatinina_urinario": null
+  },
+
+  "item_6_confirmacion_diagnostica": {
+    "impresion_diagnostica": "hiperparatiroidismo primario normocalcémico (sospecha, pendiente de confirmación)",
+    "diagnostico_firme": false,
+    "pendiente_de_estudio": true,
+    "diagnostico_diferencial_razonado_en_voz_alta": {
+      "deficit_vitamina_d": true,
+      "nota_deficit_vitamina_d": "mencionado y ya descartado tras corrección",
+      "baja_ingesta_calcio": true,
+      "malabsorcion_intestinal": true,
+      "farmacos": true,
+      "funcion_renal_alterada": true,
+      "hptp_adenoma_unico": null,
+      "fhh": null,
+      "hpt_terciario": null,
+      "inducido_por_litio": null,
+      "sindrome_men": null
+    },
+    "diagnosticos_descartados_explicitamente": [
+      "déficit de vitamina D (corregido y PTH persiste elevada)"
+    ]
+  },
+
+  "item_7_sintomas_repercusion_clinica": {
+    "afectacion_renal": {
+      "litiasis_renal": null,
+      "colico_nefritico": null,
+      "nefrocalcinosis": null,
+      "hematuria": null,
+      "infecciones_urinarias": null,
+      "insuficiencia_renal": null,
+      "poliuria_polidipsia": null
+    },
+    "afectacion_osea": {
+      "dolor_oseo": null,
+      "osteoporosis": false,
+      "osteopenia": true,
+      "fracturas_fragilidad": true,
+      "detalle_fractura": "fractura de muñeca por caída esquiando",
+      "perdida_talla": null,
+      "debilidad_muscular": null
+    },
+    "afectacion_digestiva": {
+      "dolor_abdominal": null,
+      "estrenimiento": null,
+      "nauseas": null,
+      "dispepsia": null,
+      "pancreatitis": null
+    },
+    "afectacion_neuropsiquiatrica": {
+      "cansancio_astenia": null,
+      "bajo_animo": null,
+      "irritabilidad": null,
+      "dificultad_concentracion": null,
+      "somnolencia": null,
+      "perdida_calidad_de_vida": null
+    },
+    "afectacion_cardiovascular": {
+      "hta": null,
+      "arritmias": null,
+      "palpitaciones": null,
+      "alteracion_qt": null
+    }
+  },
+
+  "item_8_exploracion_fisica": {
+    "peso": null,
+    "talla": null,
+    "imc": null,
+    "tension_arterial": null,
+    "estado_general": null,
+    "valoracion_funcional": null,
+    "exploracion_cervical": {
+      "realizada": true,
+      "bocio": false,
+      "nodulos_tiroideos": false,
+      "cicatrices_previas": false,
+      "adenopatias": false,
+      "resultado_global": "normal, sin bultos"
+    }
+  },
+
+  "item_9_pruebas_imagen_complementarias": {
+    "localizacion_paratiroidea": {
+      "ecografia_cervical": null,
+      "mibi": null,
+      "spect_tc": null,
+      "tc_4d": null,
+      "pet_tc_fluorocolina": null,
+      "nota": "el médico explica explícitamente que NO se solicitan de momento; se pospondrán a cuando el diagnóstico bioquímico sea firme"
+    },
+    "resultado_localizacion": null,
+    "estudio_renal": {
+      "ecografia_renal": null,
+      "litiasis_presente": null,
+      "nefrocalcinosis": null
+    },
+    "estudio_oseo": {
+      "densitometria_realizada": true,
+      "t_score_lumbar": null,
+      "t_score_cadera": null,
+      "t_score_radio_distal": null,
+      "diagnostico_dmo": "osteopenia",
+      "nota_dmo": "el médico la refiere como 'osteopenia importante para su edad'",
+      "vfa_o_rx_columna_fracturas_vertebrales": null
+    },
+    "fibroscopia_laringea": null,
+    "analitica_seriada_solicitada": true,
+    "parametros_analitica_seriada_solicitados": [
+      "calcio total",
+      "calcio corregido",
+      "calcio iónico (si posible)",
+      "PTH",
+      "fósforo",
+      "magnesio",
+      "función renal",
+      "vitamina D"
+    ],
+    "calciuria_24h_solicitada": true,
+    "objetivo_calciuria": "diagnóstico diferencial; calciuria elevada apoya HPTP primario"
+  },
+
+  "item_10_criterios_indicacion_quirurgica": {
+    "indicacion_quirurgica_actual": false,
+    "paciente_sintomatico": null,
+    "calcio_mas_1_sobre_lsn": false,
+    "t_score_igual_o_menor_menos_2_5": null,
+    "fractura_vertebral_confirmada_imagen": null,
+    "fractura_periferica_fragilidad": null,
+    "nota_fractura": "hay fractura de muñeca referida, pero el médico no la usa explícitamente como criterio quirúrgico en esta consulta",
+    "filtrado_menor_60": null,
+    "hipercalciuria": null,
+    "litiasis_o_nefrocalcinosis": null,
+    "edad_menor_50": null,
+    "preferencia_paciente": null,
+    "contraindicacion_quirurgica": null
+  },
+
+  "item_11_plan_terapeutico": {
+    "cirugia_indicada": false,
+    "tipo_cirugia": null,
+    "inclusion_lista_espera": false,
+    "pruebas_pendientes": [
+      "analítica seriada (calcio total, calcio corregido, calcio iónico, PTH, fósforo, magnesio, función renal, vitamina D)",
+      "calciuria de 24 horas",
+      "densitometría como referencia de seguimiento óseo"
+    ],
+    "valoracion_anestesia": false,
+    "manejo_conservador": true,
+    "optimizacion_previa": {
+      "vitamina_d": true,
+      "detalle_vitamina_d": "mantener suplementación actual",
+      "hidratacion": true,
+      "ajuste_medicacion": null,
+      "manejo_osteoporosis": null,
+      "control_endocrinologico": true,
+      "recomendacion_dieta_calcio": true,
+      "detalle_dieta": "asegurar ingesta de calcio con alternativas toleradas"
+    }
+  },
+
+  "item_12_informacion_dada_al_paciente": {
+    "diagnostico_explicado": true,
+    "naturaleza_benigna": null,
+    "riesgo_renal_oseo": null,
+    "finalidad_pruebas_explicada": true,
+    "beneficio_cirugia_explicado": null,
+    "posibilidad_seguimiento_sin_cirugia": true,
+    "no_precipitarse_sin_diagnostico_firme": true
+  },
+
+  "item_13_riesgos_quirurgicos_explicados": {
+    "riesgos_explicados": false,
+    "hipocalcemia_transitoria": null,
+    "lesion_nervio_recurrente": null,
+    "disfonia_permanente": null,
+    "hipoparatiroidismo_persistente": null,
+    "persistencia_enfermedad": null,
+    "hematoma_cervical": null,
+    "necesidad_reintervencion": null,
+    "riesgos_anestesicos": null
+  },
+
+  "item_14_consentimiento_informado": {
+    "entregado": false,
+    "explicado_verbalmente": false,
+    "dudas_resueltas": null,
+    "estado": "no aplica"
+  },
+
+  "item_15_sintomas_alarma_postquirurgicos": {
+    "explicados": false,
+    "fiebre_escalofrios": null,
+    "supuracion_enrojecimiento_herida": null,
+    "abombamiento_cervical": null,
+    "disnea": null,
+    "disfagia": null,
+    "disfonia": null,
+    "hormigueos_peribucales_o_manos": null,
+    "calambres": null,
+    "espasmos_musculares": null
+  },
+
+  "item_16_plan_seguimiento": {
+    "revision_herida": null,
+    "analitica_postoperatoria": null,
+    "anatomia_patologica": null,
+    "control_densitometria": true,
+    "seguimiento_renal": null,
+    "control_endocrinologico": true,
+    "nota_seguimiento": "se planifica revisión cuando estén disponibles las analíticas seriadas para decidir manejo definitivo",
+    "suplementos_calcio_vitamina_d": true,
+    "alta_quirurgica_prevista": null
+  },
+
+  "item_17_impacto_laboral_familiar": {
+    "mencionado": true,
+    "tipo_trabajo": "enfermera en planta de Traumatología del mismo hospital",
+    "preocupacion_baja_laboral": null,
+    "duracion_estimada_baja": null,
+    "coordinacion_familiares_cuidadores": null
+  },
+
+  "item_18_dudas_miedos_expectativas": {
+    "miedo_cancer": null,
+    "miedo_cirugia": null,
+    "duda_secundario_vs_primario": true,
+    "detalle_duda": "paciente expresa preocupación por no saber si es un problema real de paratiroides o algo secundario",
+    "conocimiento_previo_paciente": true,
+    "nota": "paciente es enfermera y llega con conocimiento médico pero también con más dudas",
+    "dudas_quedaron_resueltas": true,
+    "expectativa_curación": null
+  }
+}

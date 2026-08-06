@@ -1,0 +1,320 @@
+{
+  "item_01_motivo_consulta": {
+    "motivo_principal": "hipercalcemia_pth_elevada",
+    "detalle": "Calcio 11,1 y PTH elevada (~130) detectados en analítica de residencia",
+    "servicio_derivador": "Geriatría",
+    "impresion_previa": "datos sugestivos de HPTP, pendiente confirmación"
+  },
+
+  "item_02_antecedentes_personales": {
+    "hta": null,
+    "diabetes": null,
+    "erc": null,
+    "funcion_renal_comentada": "algo justa para su edad (sin valor numérico ni diagnóstico formal de ERC)",
+    "litiasis_renal_previa": null,
+    "osteoporosis_osteopenia": true,
+    "fracturas": true,
+    "detalle_fractura": "fractura de cadera hace 2 años, operada",
+    "pancreatitis": null,
+    "enfermedad_tiroidea": null,
+    "cirugia_cervical_previa": null,
+    "radioterapia_cervical": null,
+    "neoplasias": null,
+    "anticoagulacion": null,
+    "demencia": true,
+    "detalle_demencia": "principio de demencia",
+    "insuficiencia_cardiaca": true,
+    "artrosis": true,
+    "detalle_artrosis": "muy mala, casi no la deja andar",
+    "dependencia_funcional": true,
+    "detalle_dependencia": "usa andador, caídas ocasionales, residente en residencia",
+    "alergias": false,
+    "detalle_alergias": "no le conocemos ninguna (referido por cuidadora)"
+  },
+
+  "item_03_antecedentes_familiares": {
+    "hipercalcemia_familiar": null,
+    "hiperparatiroidismo_familiar": null,
+    "litiasis_familiar": null,
+    "tumores_endocrinos_familiares": null,
+    "men1": null,
+    "men2a": null,
+    "cirugia_paratiroidea_familiar": null,
+    "tumores_hipofisarios_familiares": null,
+    "estudio_genetico": {
+      "indicado": null,
+      "criterio": null
+    }
+  },
+
+  "item_04_tratamiento_habitual": {
+    "litio": null,
+    "tiazidas": null,
+    "suplemento_calcio": true,
+    "detalle_calcio": "sin dosis especificada; médico plantea ajustarlo",
+    "vitamina_d": true,
+    "detalle_vitamina_d": "sin dosis especificada",
+    "bifosfonatos": null,
+    "denosumab": null,
+    "cinacalcet_previo": null,
+    "anticoagulantes": null,
+    "antiagregantes": null,
+    "corticoides": null,
+    "diuretico": true,
+    "detalle_diuretico": "nombre no identificado; médico indica revisar el tipo por posible efecto hipercalcemiante",
+    "pastillas_corazon": true,
+    "detalle_pastillas_corazon": "nombre no especificado",
+    "medicacion_sueno": true,
+    "detalle_medicacion_sueno": "nombre no especificado",
+    "medicacion_demencia": true,
+    "detalle_medicacion_demencia": "nombre no especificado",
+    "otros": null
+  },
+
+  "item_05_datos_analiticos": {
+    "calcio_total_mgdl": 11.1,
+    "albumina_gdl": null,
+    "calcio_corregido_mgdl": null,
+    "calcio_ionico_mmoll": null,
+    "pth_intacta_pgml": 130,
+    "detalle_pth": "valor aproximado, «en torno a 130»",
+    "fosforo_mgdl": null,
+    "magnesio_mgdl": null,
+    "creatinina_mgdl": null,
+    "filtrado_glomerular_mlmin": null,
+    "detalle_funcion_renal": "descrita cualitativamente como «algo justa para su edad»",
+    "vitamina_d_25oh_ngml": null,
+    "fosfatasa_alcalina_ul": null,
+    "calciuria_24h_mg24h": null,
+    "cociente_calcio_creatinina_urinario": null
+  },
+
+  "item_06_confirmacion_diagnostica": {
+    "impresion_diagnostica": "HPTP clásico (pendiente confirmación)",
+    "hptp_clasico": true,
+    "hptp_normocalcemico": false,
+    "hiperparatiroidismo_secundario": false,
+    "hiperparatiroidismo_terciario": false,
+    "hipercalcemia_hipocalciurica_familiar": false,
+    "otra_hipercalcemia": false,
+    "pendiente_estudio": true,
+    "diagnostico_diferencial_razonado": true,
+    "detalle_dd": "Médico menciona posible influencia de suplementos de calcio, vitamina D y diurético en los valores; no desarrolla DD PTH-dependiente/independiente de forma explícita",
+    "diagnosticos_descartados_explicitos": null
+  },
+
+  "item_07_sintomas_repercusion_clinica": {
+    "afectacion_renal": {
+      "litiasis_renal": null,
+      "colico_nefritico": null,
+      "nefrocalcinosis": null,
+      "hematuria": null,
+      "infecciones_urinarias": null,
+      "insuficiencia_renal": null,
+      "poliuria_polidipsia": null,
+      "detalle_polidipsia": "médico pregunta por sed, paciente no confirma"
+    },
+    "afectacion_osea": {
+      "dolor_oseo": null,
+      "osteoporosis": true,
+      "osteopenia": null,
+      "fracturas_fragilidad": true,
+      "detalle_fractura": "fractura de cadera previa, operada (criterio quirúrgico explicitado por el médico)",
+      "perdida_talla": null,
+      "debilidad_muscular": true,
+      "detalle_debilidad": "ha perdido fuerza este último año (cuidadora)"
+    },
+    "afectacion_digestiva": {
+      "dolor_abdominal": null,
+      "estrenimiento": null,
+      "nauseas": null,
+      "dispepsia": null,
+      "pancreatitis": null
+    },
+    "afectacion_neuropsiquiatrica": {
+      "cansancio_astenia": true,
+      "detalle_cansancio": "confirmado por paciente («cansada sí») y cuidadora",
+      "apatia": true,
+      "detalle_apatia": "«bastante apática» (cuidadora)",
+      "somnolencia": true,
+      "detalle_somnolencia": "«duerme mucho» (cuidadora)",
+      "bajo_animo": null,
+      "irritabilidad": null,
+      "dificultad_concentracion": null,
+      "perdida_calidad_de_vida": null
+    },
+    "afectacion_cardiovascular": {
+      "hta": null,
+      "insuficiencia_cardiaca": true,
+      "detalle_ic": "antecedente conocido, mencionado como comorbilidad de peso",
+      "arritmias": null,
+      "palpitaciones": null,
+      "alteracion_qt": null
+    }
+  },
+
+  "item_08_exploracion_fisica": {
+    "peso_kg": null,
+    "talla_cm": null,
+    "imc": null,
+    "tension_arterial": null,
+    "estado_general": null,
+    "valoracion_funcional_formal": null,
+    "detalle_funcional": "uso de andador y caídas ocasionales referidos por cuidadora; no se aplica escala formal",
+    "exploracion_cervical": {
+      "realizada": true,
+      "bocio": false,
+      "nodulos_tiroideos": false,
+      "cicatrices_previas": false,
+      "adenopatias": false,
+      "detalle": "«bien, sin bultos»"
+    }
+  },
+
+  "item_09_pruebas_imagen_complementarias": {
+    "localizacion_paratiroidea": {
+      "ecografia_cervical": null,
+      "mibi": null,
+      "spect_tc": null,
+      "tc_4d": null,
+      "pet_tc_fluorocolina": null,
+      "resultado_localizacion": null
+    },
+    "estudio_renal": {
+      "ecografia_renal": null,
+      "litiasis_presente": null,
+      "nefrocalcinosis": null
+    },
+    "estudio_oseo": {
+      "densitometria": null,
+      "t_score_lumbar": null,
+      "t_score_cadera": null,
+      "t_score_radio_distal": null,
+      "diagnostico_dmo": null,
+      "detalle_dmo": "osteoporosis referida como antecedente sin valores de T-score",
+      "vfa_rx_columna": null
+    },
+    "fibroscopia_laringea": null
+  },
+
+  "item_10_criterios_indicacion_quirurgica": {
+    "indicacion_presente": null,
+    "detalle": "pendiente decisión en sesión MDT con Geriatría y Anestesia",
+    "paciente_sintomatico": true,
+    "calcio_mas_1_sobre_lsn": null,
+    "detalle_calcio_lsn": "calcio 11,1 pero LSN de referencia no pronunciado explícitamente",
+    "t_score_igual_o_inferior_menos_25": null,
+    "detalle_t_score": "osteoporosis confirmada como antecedente sin valor numérico de T-score",
+    "fractura_vertebral_confirmada_imagen": null,
+    "fractura_periferica_fragilidad": true,
+    "detalle_fractura": "fractura de cadera previa; médico la menciona como «criterio claro de cirugía»",
+    "filtrado_glomerular_inferior_60": null,
+    "hipercalciuria": null,
+    "litiasis_renal_o_nefrocalcinosis": null,
+    "edad_inferior_50": false,
+    "preferencia_paciente": null,
+    "contraindicacion_quirurgica": true,
+    "detalle_contraindicacion": "fragilidad global: demencia, insuficiencia cardíaca, dependencia para caminar, caídas frecuentes, riesgo anestésico elevado"
+  },
+
+  "item_11_plan_terapeutico": {
+    "cirugia_indicada": null,
+    "detalle_decision": "pendiente sesión conjunta con Geriatría y Anestesia",
+    "tipo_cirugia": null,
+    "opcion_cirugia": "paratiroidectomía selectiva si riesgo se considera asumible y beneficio compensa",
+    "inclusion_lista_espera": null,
+    "opcion_manejo_conservador": true,
+    "detalle_manejo_conservador": "hidratación adecuada, revisión del diurético, ajuste del suplemento de calcio, cinacalcet si calcio sigue subiendo, mantener vitamina D",
+    "cinacalcet_planteado": true,
+    "detalle_cinacalcet": "baja el calcio sin operar; no cura la enfermedad ni mejora el hueso; indicado si cirugía de alto riesgo",
+    "vitamina_d_mantener": true,
+    "optimizacion_previa": null,
+    "seguimiento_analitico": true,
+    "coordinacion_geriatria": true,
+    "valoracion_anestesia": true
+  },
+
+  "item_12_informacion_dada_paciente": {
+    "diagnostico_explicado": true,
+    "naturaleza_benigna": null,
+    "riesgo_renal_oseo_detallado": null,
+    "finalidad_pruebas": null,
+    "beneficio_cirugia": true,
+    "detalle_beneficio": "cura el hiperparatiroidismo; la edad no contraindica por sí sola",
+    "criterios_decision_quirurgica_explicados": true,
+    "detalle_criterios": "fragilidad global como peso en contra; osteoporosis con fractura como criterio a favor",
+    "funcionamiento_cinacalcet_explicado": true,
+    "posibilidad_persistencia_enfermedad": null,
+    "plan_sesion_mdt_explicado": true,
+    "controles_seguimiento_explicados": true,
+    "detalle_seguimiento": "analítica periódica para vigilar el calcio"
+  },
+
+  "item_13_riesgos_quirurgicos_explicados": {
+    "explicados": false,
+    "detalle": "no se detallan; la consulta no llega a ese punto al estar la decisión pendiente",
+    "hipocalcemia_transitoria": null,
+    "lesion_nervio_recurrente": null,
+    "disfonia_permanente": null,
+    "hipoparatiroidismo_persistente": null,
+    "persistencia_enfermedad": null,
+    "hematoma_cervical": null,
+    "necesidad_reintervencion": null,
+    "riesgos_anestesicos": true,
+    "detalle_riesgo_anestesico": "mencionado de forma genérica como parte de la fragilidad global"
+  },
+
+  "item_14_consentimiento_informado": {
+    "entregado": null,
+    "explicado_verbalmente": null,
+    "dudas_resueltas": null,
+    "estado": null,
+    "detalle": "no aplica todavía; decisión pendiente de sesión MDT"
+  },
+
+  "item_15_sintomas_alarma_postquirurgicos": {
+    "explicados": null,
+    "detalle": "no procede; no hay cirugía programada todavía",
+    "fiebre_escalofrios": null,
+    "supuracion_enrojecimiento_herida": null,
+    "abombamiento_cervical": null,
+    "disnea": null,
+    "disfagia": null,
+    "disfonia": null,
+    "hormigueos_peribucales_manos": null,
+    "calambres_espasmos": null
+  },
+
+  "item_16_plan_seguimiento": {
+    "revision_herida": null,
+    "analitica_postoperatoria": null,
+    "anatomia_patologica": null,
+    "control_densitometria": null,
+    "seguimiento_renal": null,
+    "seguimiento_analitico_calcio": true,
+    "detalle_seguimiento_analitico": "mencionado de forma genérica",
+    "control_endocrinologico": null,
+    "seguimiento_geriatrico": true,
+    "suplementos_calcio_vitamina_d": true,
+    "detalle_suplementos": "mantener vitamina D; ajustar o reducir calcio",
+    "alta_quirurgica_prevista": null
+  },
+
+  "item_17_impacto_laboral_familiar": {
+    "mencionado": null,
+    "tipo_trabajo": null,
+    "baja_laboral": null,
+    "duracion_baja": null,
+    "coordinacion_familiares_cuidadores": null
+  },
+
+  "item_18_dudas_miedos_expectativas": {
+    "miedo_cancer": null,
+    "miedo_cirugia": null,
+    "miedo_procedimientos_invasivos": true,
+    "detalle_miedo": "«¿me van a pinchar mucho?» — tranquilizada por el médico",
+    "expectativa_curacion": null,
+    "dudas_resueltas": true,
+    "detalle_resolucion": "«muy claro y muy humano todo» (cuidadora)"
+  }
+}

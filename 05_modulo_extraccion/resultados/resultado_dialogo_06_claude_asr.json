@@ -1,0 +1,322 @@
+{
+  "item_1_motivo_consulta": {
+    "motivo_principal": "PTH elevada con calcio normal, estudio de hiperparatiroidismo primario normocalcémico",
+    "motivo_secundario": "fractura de muñeca por traumatismo de baja energía esquiando con osteoporosis en densitometría para la edad",
+    "servicio_derivador": null
+  },
+
+  "item_2_antecedentes_personales": {
+    "hta": null,
+    "diabetes": null,
+    "erc": null,
+    "litiasis_renal_previa": null,
+    "osteoporosis_osteopenia": true,
+    "fracturas": true,
+    "pancreatitis": null,
+    "enfermedad_tiroidea": null,
+    "cirugia_cervical_previa": null,
+    "radioterapia_cervical": null,
+    "neoplasias": null,
+    "anticoagulacion": null,
+    "situacion_funcional_basal": null,
+    "alergias": false,
+    "problemas_digestivos_malabsorcion": false,
+    "ingesta_calcio_dieta": "baja, la paciente refiere que los lácteos no le sientan bien y los ha evitado"
+  },
+
+  "item_3_antecedentes_familiares": {
+    "hipercalcemia_familiar": false,
+    "hiperparatiroidismo_familiar": false,
+    "litiasis_familiar": false,
+    "tumores_endocrinos_familiares": false,
+    "men1": false,
+    "men2a": false,
+    "cirugia_paratiroidea_familiar": false,
+    "tumores_hipofisarios_familiares": false,
+    "estudio_genetico": {
+      "indicado": null,
+      "criterio": null
+    }
+  },
+
+  "item_4_tratamiento_habitual": {
+    "litio": false,
+    "tiazidas": false,
+    "suplementos_calcio": false,
+    "vitamina_d": true,
+    "bifosfonatos": null,
+    "denosumab": null,
+    "cinacalcet": null,
+    "anticoagulantes": null,
+    "antiagregantes": null,
+    "corticoides": null,
+    "hormonal": true,
+    "otros": null,
+    "detalle": "anticonceptivo oral (sin especificar nombre ni dosis) y vitamina D pautada previamente (sin especificar dosis)"
+  },
+
+  "item_5_datos_analiticos": {
+    "calcio_total_mg_dL": null,
+    "calcio_total_cualitativo": "normal, en el límite alto (sin valor numérico exacto)",
+    "albumina_g_dL": null,
+    "calcio_corregido_mg_dL": null,
+    "calcio_corregido_cualitativo": "normal (sin valor numérico exacto)",
+    "calcio_ionico_mmol_L": null,
+    "pth_intacta_pg_mL": 98,
+    "pth_cualitativo": "claramente elevada",
+    "fosforo_mg_dL": null,
+    "magnesio_mg_dL": null,
+    "creatinina_mg_dL": null,
+    "filtrado_glomerular_mL_min": null,
+    "vitamina_d_25OH_ng_mL_inicial": 14,
+    "vitamina_d_25OH_cualitativo_actual": "normalizada tras corrección",
+    "fosfatasa_alcalina_U_L": null,
+    "calciuria_24h_mg_24h": null,
+    "cociente_calcio_creatinina_urinario": null
+  },
+
+  "item_6_confirmacion_diagnostica": {
+    "impresion_diagnostica": "hiperparatiroidismo primario normocalcémico (sospecha, pendiente de confirmación bioquímica seriada)",
+    "diagnostico_firme": false,
+    "diagnostico_diferencial_razonado": true,
+    "causas_secundarias_descartadas_en_consulta": [
+      "déficit de vitamina D (corregido previamente)",
+      "problemas de malabsorción intestinal o cirugía intestinal (negados)",
+      "ingesta baja de calcio (identificada como factor contribuyente posible)",
+      "litio y tiazidas (negados)"
+    ],
+    "causas_secundarias_pendientes_de_descartar": [
+      "función renal",
+      "calciuria baja (hipercalcemia hipocalciúrica familiar)",
+      "otros fármacos"
+    ],
+    "diagnosticos_descartados_explicitamente": [
+      "déficit de vitamina D como causa única (ya corregida y PTH persiste elevada)"
+    ],
+    "hptp_clasico": false,
+    "hptp_normocalcemico": "sospecha",
+    "hiperparatiroidismo_secundario": "en diagnóstico diferencial, no descartado completamente",
+    "hipercalcemia_hipocalciurica_familiar": "pendiente de descartar con calciuria 24h",
+    "pendiente_de_estudio": true
+  },
+
+  "item_7_sintomas_repercusion_clinica": {
+    "afectacion_renal": {
+      "litiasis_renal": null,
+      "colico_nefritico": null,
+      "nefrocalcinosis": null,
+      "hematuria": null,
+      "infecciones_urinarias": null,
+      "insuficiencia_renal": null,
+      "poliuria_polidipsia": null
+    },
+    "afectacion_osea": {
+      "fracturas_fragilidad": true,
+      "detalle_fractura": "fractura de muñeca por traumatismo de baja energía (caída esquiando)",
+      "dolor_oseo": null,
+      "osteoporosis": true,
+      "osteopenia": null,
+      "perdida_talla": null,
+      "debilidad_muscular": null
+    },
+    "afectacion_digestiva": {
+      "dolor_abdominal": null,
+      "estrenimiento": null,
+      "nauseas": null,
+      "dispepsia": null,
+      "pancreatitis": null
+    },
+    "afectacion_neuropsiquiatrica": {
+      "cansancio_astenia": null,
+      "bajo_animo": null,
+      "irritabilidad": null,
+      "dificultad_concentracion": null,
+      "somnolencia": null,
+      "perdida_calidad_de_vida": null
+    },
+    "afectacion_cardiovascular": {
+      "hta": null,
+      "arritmias": null,
+      "palpitaciones": null,
+      "alteracion_qt": null
+    }
+  },
+
+  "item_8_exploracion_fisica": {
+    "peso": null,
+    "talla": null,
+    "imc": null,
+    "tension_arterial": null,
+    "estado_general": null,
+    "valoracion_funcional": null,
+    "exploracion_cervical": {
+      "realizada": true,
+      "bocio": false,
+      "nodulos_tiroideos": false,
+      "cicatrices_previas": false,
+      "adenopatias": false,
+      "resultado": "normal, sin bultos"
+    }
+  },
+
+  "item_9_pruebas_imagen_complementarias": {
+    "localizacion_paratiroidea": {
+      "ecografia_cervical": {
+        "solicitada": false,
+        "resultado": null,
+        "motivo_no_solicitud": "diagnóstico bioquímico aún no confirmado; el médico explica que se pedirá solo si se consolida el diagnóstico y se plantea cirugía"
+      },
+      "mibi": {
+        "solicitada": false,
+        "resultado": null,
+        "motivo_no_solicitud": "igual que ecografía; hacerlas pronto puede confundir"
+      },
+      "spect_tc": {
+        "solicitada": null,
+        "resultado": null
+      },
+      "tc_4d": {
+        "solicitada": null,
+        "resultado": null
+      },
+      "pet_tc_fluorocolina": {
+        "solicitada": null,
+        "resultado": null
+      },
+      "adenoma_localizado": null,
+      "lado": null,
+      "localizacion_glandular": null,
+      "concordancia_pruebas": null
+    },
+    "estudio_renal": {
+      "ecografia_renal": null,
+      "litiasis_presente": null,
+      "nefrocalcinosis": null
+    },
+    "estudio_oseo": {
+      "densitometria_realizada": true,
+      "t_score_lumbar": null,
+      "t_score_cadera": null,
+      "t_score_radio_distal": null,
+      "diagnostico_dmo": "osteoporosis/osteopatía importante para la edad (sin T-scores numéricos)",
+      "vfa_rx_columna_fracturas_silentes": null
+    },
+    "fibroscopia_laringea": {
+      "solicitada": null,
+      "motivo": null
+    }
+  },
+
+  "item_10_criterios_indicacion_quirurgica": {
+    "indicacion_quirurgica_actual": false,
+    "motivo": "diagnóstico no confirmado; el médico explicita que no se operará con solo una PTH alta aislada sin diagnóstico sólido",
+    "criterios_evaluados": {
+      "paciente_sintomatica": null,
+      "calcio_mas_1_mgdL_sobre_lsn": false,
+      "t_score_igual_o_menor_menos_25": null,
+      "fractura_vertebral_confirmada_imagen": null,
+      "fractura_periferia_fragilidad": true,
+      "filtrado_menor_60": null,
+      "hipercalciuria": null,
+      "litiasis_o_nefrocalcinosis": null,
+      "edad_menor_50": true,
+      "preferencia_paciente": null,
+      "contraindicacion_quirurgica": null
+    },
+    "nota": "el médico menciona que si se confirma el diagnóstico y el hueso lo justifica, se podría plantear cirugía en el futuro"
+  },
+
+  "item_11_plan_terapeutico": {
+    "cirugia_indicada": false,
+    "tipo_cirugia": null,
+    "lista_de_espera": false,
+    "pruebas_pendientes": [
+      "analítica seriada: calcio total, calcio corregido, calcio iónico (si posible), PTH, fósforo, magnesio, función renal, vitamina D",
+      "calciuria 24 horas",
+      "densitometría de seguimiento como referencia basal"
+    ],
+    "valoracion_anestesia": false,
+    "manejo_conservador": true,
+    "optimizacion_previa": {
+      "vitamina_d": true,
+      "hidratacion": true,
+      "ajuste_medicacion": null,
+      "manejo_osteoporosis": null,
+      "control_endocrinologico": true,
+      "calcio_dieta": true,
+      "detalle": "mantener vitamina D, asegurar aporte de calcio en dieta con alternativas toleradas, hidratación adecuada; revisión tras resultados analíticos seriados"
+    }
+  },
+
+  "item_12_informacion_dada_paciente": {
+    "diagnostico_explicado": true,
+    "naturaleza_benigna": null,
+    "riesgo_renal": null,
+    "riesgo_oseo": null,
+    "finalidad_pruebas_explicada": true,
+    "beneficio_cirugia": null,
+    "posibilidad_persistencia": null,
+    "controles_explicados": true,
+    "detalle": "el médico explica el concepto de HPTP normocalcémico, la necesidad de confirmar diagnóstico antes de actuar, el razonamiento del diagnóstico diferencial, el plan de pruebas y que el seguimiento puede derivar en cirugía futura o simplemente en vigilancia"
+  },
+
+  "item_13_riesgos_quirurgicos_explicados": {
+    "riesgos_explicados": false,
+    "hipocalcemia_transitoria": null,
+    "lesion_nervio_recurrente": null,
+    "disfonia_permanente": null,
+    "hipoparatiroidismo_persistente": null,
+    "persistencia_enfermedad": null,
+    "hematoma_cervical": null,
+    "necesidad_reintervencion": null,
+    "riesgos_anestesicos": null
+  },
+
+  "item_14_consentimiento_informado": {
+    "entregado": null,
+    "explicado_verbalmente": null,
+    "dudas_resueltas": null,
+    "estado": "no aplica (no hay indicación quirúrgica en esta visita)"
+  },
+
+  "item_15_sintomas_alarma_postquirurgicos": {
+    "explicados": false,
+    "fiebre_escalofrios": null,
+    "supuracion_enrojecimiento_herida": null,
+    "abombamiento_cervical": null,
+    "disnea": null,
+    "disfagia": null,
+    "disfonia": null,
+    "hormigueos_peribucales_manos": null,
+    "calambres_espasmos": null
+  },
+
+  "item_16_plan_seguimiento": {
+    "revision_herida": null,
+    "analitica_postoperatoria": null,
+    "anatomia_patologica": null,
+    "control_densitometria": true,
+    "seguimiento_renal": null,
+    "control_endocrinologico": true,
+    "suplementos_calcio_vitamina_d": true,
+    "alta_quirurgica_prevista": null,
+    "detalle": "nueva consulta tras obtener analíticas seriadas y calciuria; densitometría como referencia de seguimiento óseo"
+  },
+
+  "item_17_impacto_laboral_familiar": {
+    "mencionado": false,
+    "tipo_trabajo": null,
+    "preocupacion_baja_laboral": null,
+    "duracion_estimada_baja": null,
+    "coordinacion_familiares_cuidadores": null
+  },
+
+  "item_18_dudas_miedos_expectativas": {
+    "miedo_cancer": null,
+    "miedo_cirugia": null,
+    "expectativa_curacion": null,
+    "duda_diagnostico_primario_vs_secundario": true,
+    "detalle": "la paciente expresa explícitamente su preocupación sobre si el problema es realmente de paratiroides o algo secundario; el médico la aborda directamente; la paciente refiere quedarse más tranquila con la explicación de que no se operará sin diagnóstico confirmado",
+    "dudas_resueltas": true
+  }
+}

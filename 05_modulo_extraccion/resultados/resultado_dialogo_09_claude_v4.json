@@ -1,0 +1,278 @@
+{
+  "item_01_motivo_consulta": {
+    "motivo": "control postoperatorio al mes de paratiroidectomía",
+    "servicio_derivador": null
+  },
+
+  "item_02_antecedentes_personales": {
+    "hta": null,
+    "diabetes": null,
+    "erc": null,
+    "litiasis_renal_previa": false,
+    "osteoporosis_osteopenia": true,
+    "detalle_osteoporosis_osteopenia": "osteopenia (referida por el médico como antecedente conocido)",
+    "fracturas": null,
+    "pancreatitis": null,
+    "enfermedad_tiroidea": null,
+    "cirugia_cervical_previa": true,
+    "detalle_cirugia_cervical": "paratiroidectomía realizada hace un mes (motivo de la consulta actual)",
+    "radioterapia_cervical": null,
+    "neoplasias": null,
+    "anticoagulacion": null,
+    "situacion_funcional_basal": null,
+    "alergias": null
+  },
+
+  "item_03_antecedentes_familiares": {
+    "hipercalcemia_familiar": null,
+    "hiperparatiroidismo_familiar": null,
+    "litiasis_familiar": null,
+    "tumores_endocrinos_familiares": null,
+    "men1": null,
+    "men2a": null,
+    "cirugia_paratiroidea_familiar": null,
+    "tumores_hipofisarios_familiares": null,
+    "estudio_genetico": {
+      "indicado": null,
+      "criterio": null
+    }
+  },
+
+  "item_04_tratamiento_habitual": {
+    "litio": null,
+    "tiazidas": null,
+    "suplementos_calcio": true,
+    "detalle_calcio": "suplemento de calcio pautado en urgencias tras hipocalcemia postquirúrgica; pauta de reducción progresiva indicada en esta visita",
+    "vitamina_d": true,
+    "detalle_vitamina_d": "vitamina D pautada en urgencias; se mantiene en esta visita",
+    "bifosfonatos": null,
+    "denosumab": null,
+    "cinacalcet": null,
+    "anticoagulantes": null,
+    "antiagregantes": null,
+    "corticoides": null,
+    "hormonal": null,
+    "otros": null
+  },
+
+  "item_05_datos_analiticos": {
+    "calcio_total_mgdl": 8.9,
+    "albumina_gdl": null,
+    "calcio_corregido_mgdl": null,
+    "calcio_ionico_mmoll": null,
+    "pth_intacta_pgml": 35,
+    "fosforo_mgdl": null,
+    "magnesio_mgdl": null,
+    "creatinina_mgdl": null,
+    "filtrado_glomerular_mlmin": null,
+    "vitamina_d_25oh_ngml": null,
+    "fosfatasa_alcalina_ul": null,
+    "calciuria_24h_mg24h": null,
+    "cociente_calcio_creatinina_urinario": null,
+    "contexto_analitica": "analítica de control de la semana actual, postoperatoria"
+  },
+
+  "item_06_confirmacion_diagnostica": {
+    "impresion_diagnostica": "HPTP resuelto; curación bioquímica inicial confirmada pendiente de consolidación a 6 meses",
+    "diagnostico_diferencial_razonado": null,
+    "diagnosticos_descartados": null,
+    "anatomia_patologica": {
+      "resultado": "adenoma paratiroideo",
+      "tamanyo_cm": "algo más de 1 cm",
+      "benignidad_confirmada": true,
+      "signos_malignidad": false
+    }
+  },
+
+  "item_07_sintomas_repercusion_clinica": {
+    "afectacion_renal": {
+      "litiasis_renal": false,
+      "colico_nefritico": null,
+      "nefrocalcinosis": null,
+      "hematuria": null,
+      "infecciones_urinarias": null,
+      "insuficiencia_renal": null,
+      "poliuria_polidipsia": null
+    },
+    "afectacion_osea": {
+      "dolor_oseo": null,
+      "osteoporosis": null,
+      "osteopenia": true,
+      "fracturas_fragilidad": null,
+      "perdida_talla": null,
+      "debilidad_muscular": null
+    },
+    "afectacion_digestiva": {
+      "dolor_abdominal": null,
+      "estrenimiento": null,
+      "nauseas": null,
+      "dispepsia": null,
+      "pancreatitis": null
+    },
+    "neuropsiquiatrico": {
+      "cansancio_astenia": true,
+      "detalle_cansancio": "cansancio mencionado por la paciente como motivo previo a la cirugía",
+      "bajo_animo": true,
+      "detalle_animo": "refiere mejoría de ánimo tras la cirugía ('bastante mejor de ánimo')",
+      "irritabilidad": null,
+      "dificultad_concentracion": null,
+      "somnolencia": null,
+      "perdida_calidad_vida": null
+    },
+    "cardiovascular": {
+      "hta": null,
+      "arritmias": null,
+      "palpitaciones": null,
+      "alteracion_qt": null
+    },
+    "complicaciones_postquirurgicas": {
+      "hipocalcemia_transitoria": true,
+      "hormigueos_peribucales_y_manos": true,
+      "calambres": true,
+      "estado_actual_hipocalcemia": "resuelta; calcio en rango bajo-normal (8,9 mg/dL)",
+      "disfonia_transitoria": true,
+      "estado_actual_disfonia": "prácticamente resuelta; ronquera los primeros días, voz casi normal en la visita"
+    }
+  },
+
+  "item_08_exploracion_fisica": {
+    "peso": null,
+    "talla": null,
+    "imc": null,
+    "tension_arterial": null,
+    "estado_general": null,
+    "valoracion_funcional": null,
+    "exploracion_cervical": {
+      "herida_quirurgica": true,
+      "detalle_herida": "cicatriz cerrada, sin signos de infección, sin abombamiento; dureza interna residual normal",
+      "bocio": null,
+      "nodulos_tiroideos": null,
+      "adenopatias": null
+    }
+  },
+
+  "item_09_pruebas_imagen_complementarias": {
+    "localizacion_paratiroidea": {
+      "ecografia_cervical": null,
+      "mibi": null,
+      "spect_tc": null,
+      "tc_4d": null,
+      "pet_tc_fluorocolina": null,
+      "resultado_localizacion": null
+    },
+    "estudio_renal": {
+      "ecografia_renal": null,
+      "litiasis_presente": null,
+      "nefrocalcinosis": null,
+      "seguimiento_renal_indicado": false,
+      "motivo_no_seguimiento_renal": "ausencia de litiasis renal previa"
+    },
+    "estudio_oseo": {
+      "densitometria_previa": true,
+      "diagnostico_dmo_previo": "osteopenia",
+      "tscore_lumbar": null,
+      "tscore_cadera": null,
+      "tscore_radio_distal": null,
+      "densitometria_seguimiento_indicada": true,
+      "plazo_densitometria_seguimiento": "hacia los dos años de la operación",
+      "servicio_responsable_seguimiento_oseo": "Endocrinología",
+      "vfa_rx_columna": null
+    },
+    "fibroscopia_laringea": null
+  },
+
+  "item_10_criterios_indicacion_quirurgica": {
+    "aplica": false,
+    "nota": "cirugía ya realizada; no se discuten criterios de indicación en esta visita"
+  },
+
+  "item_11_plan_terapeutico": {
+    "cirugia_indicada": null,
+    "tipo_cirugia": "paratiroidectomía (ya realizada)",
+    "lista_espera": null,
+    "pruebas_pendientes": {
+      "analitica_control_6_meses": true,
+      "densitometria_2_anyos": true
+    },
+    "optimizacion_previa_cirugia": null,
+    "manejo_conservador": {
+      "reduccion_progresiva_calcio": true,
+      "mantenimiento_vitamina_d": true,
+      "dieta_rica_en_calcio": true,
+      "control_endocrinologico": true,
+      "servicio_seguimiento_oseo": "Endocrinología"
+    }
+  },
+
+  "item_12_informacion_dada_al_paciente": {
+    "diagnostico_explicado": true,
+    "naturaleza_benigna_confirmada": true,
+    "explicacion_hipocalcemia_transitoria": true,
+    "explicacion_disfonia_transitoria": true,
+    "explicacion_normalidad_dureza_cicatriz": true,
+    "explicacion_curacion_bioquimica": true,
+    "detalle_curacion": "normalización inicial; curación confirmada a partir de los 6 meses con cifras estables sin suplemento",
+    "plan_seguimiento_explicado": true,
+    "alarma_al_bajar_calcio_explicada": true,
+    "detalle_alarma": "avisar si reaparecen hormigueos intensos al reducir el suplemento de calcio"
+  },
+
+  "item_13_riesgos_quirurgicos_explicados": {
+    "aplica": false,
+    "nota": "cirugía ya realizada; no se explican riesgos quirúrgicos en esta visita de revisión"
+  },
+
+  "item_14_consentimiento_informado": {
+    "entregado": null,
+    "explicado_verbalmente": null,
+    "dudas_resueltas": null,
+    "estado": "no aplica (visita postoperatoria)"
+  },
+
+  "item_15_sintomas_alarma_postquirurgicos": {
+    "explicados": true,
+    "fiebre": true,
+    "escalofrios": null,
+    "supuracion_enrojecimiento_herida": true,
+    "abombamiento_cervical": true,
+    "disnea": null,
+    "disfagia": null,
+    "disfonia": null,
+    "hormigueos_peribucales_manos": true,
+    "calambres_espasmos": null,
+    "nota": "síntomas verificados en la exploración de la herida al inicio de la consulta; hormigueos como señal de alarma al reducir calcio mencionados al final"
+  },
+
+  "item_16_plan_seguimiento": {
+    "revision_herida": true,
+    "detalle_herida": "revisada en esta visita; sin incidencias",
+    "analitica_postoperatoria_control": true,
+    "proxima_analitica": "a los 6 meses",
+    "confirmacion_curacion": "al año (cifras normales mantenidas sin suplemento)",
+    "anatomia_patologica_revisada": true,
+    "control_densitometria": true,
+    "plazo_densitometria": "hacia los 2 años",
+    "seguimiento_renal": false,
+    "seguimiento_endocrinologico": true,
+    "suplemento_calcio": true,
+    "pauta_calcio": "reducción progresiva; no suspender de golpe",
+    "suplemento_vitamina_d": true,
+    "alta_quirurgica_prevista": null
+  },
+
+  "item_17_impacto_laboral_familiar": {
+    "tipo_trabajo": null,
+    "preocupacion_baja_laboral": null,
+    "duracion_estimada_baja": null,
+    "coordinacion_familiar": null
+  },
+
+  "item_18_dudas_miedos_expectativas": {
+    "miedo_cancer": true,
+    "detalle_miedo_cancer": "paciente expresa alivio al confirmar benignidad: 'me preocupaba que fuera algo malo'",
+    "miedo_cirugia": null,
+    "expectativa_curacion": null,
+    "dudas_resueltas": true,
+    "detalle_resolucion": "paciente confirma explícitamente: 'todo clarísimo'"
+  }
+}

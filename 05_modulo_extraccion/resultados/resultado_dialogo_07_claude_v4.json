@@ -1,0 +1,298 @@
+{
+  "item1_motivo_consulta": {
+    "motivo": "hipercalcemia y PTH levemente elevada halladas en analítica de revisión",
+    "servicio_derivador": null,
+    "viene_con_expectativa_quirurgica": true
+  },
+  "item2_antecedentes_personales": {
+    "hta": null,
+    "diabetes": null,
+    "erc": null,
+    "litiasis_renal_previa": false,
+    "osteoporosis_osteopenia": null,
+    "fracturas_previas": null,
+    "pancreatitis": null,
+    "enfermedad_tiroidea": null,
+    "cirugia_cervical_previa": null,
+    "radioterapia_cervical": null,
+    "neoplasias": null,
+    "anticoagulacion": null,
+    "situacion_funcional_basal": null,
+    "alergias": false,
+    "medicacion_para_tension_arterial": true,
+    "tipo_farmaco_tension_identificado": null,
+    "sospecha_tiazida": true
+  },
+  "item3_antecedentes_familiares": {
+    "hipercalcemia_familiar": true,
+    "detalle_familiar": "madre con calcio alto estable sin complicaciones; hermano también con calcio alto",
+    "hiperparatiroidismo_familiar": null,
+    "litiasis_familiar": null,
+    "tumores_endocrinos": null,
+    "MEN1": null,
+    "MEN2A": null,
+    "cirugia_paratiroidea_familiar": null,
+    "tumores_hipofisarios_familiares": null,
+    "estudio_genetico": {
+      "indicado": true,
+      "criterio": "antecedentes familiares de hipercalcemia y sospecha de FHH; si persisten dudas diagnósticas"
+    }
+  },
+  "item4_tratamiento_habitual": {
+    "litio": null,
+    "tiazidas": null,
+    "suplementos_calcio": null,
+    "vitamina_D": null,
+    "bifosfonatos": null,
+    "denosumab": null,
+    "cinacalcet": null,
+    "anticoagulantes": null,
+    "antiagregantes": null,
+    "corticoides": null,
+    "hormonal": null,
+    "otros": {
+      "farmacos": [
+        {
+          "nombre": null,
+          "grupo_farmacologico": "antihipertensivo (grupo no identificado)",
+          "dosis": null,
+          "nota": "el médico sospecha que podría ser una tiazida, pendiente de verificar"
+        }
+      ]
+    }
+  },
+  "item5_datos_analiticos": {
+    "calcio_total_mg_dL": 10.9,
+    "albumina_g_dL": null,
+    "calcio_corregido_mg_dL": null,
+    "calcio_ionico_mmol_L": null,
+    "PTH_intacta_pg_mL": 62,
+    "fosforo_mg_dL": null,
+    "magnesio_mg_dL": null,
+    "creatinina_mg_dL": null,
+    "filtrado_glomerular_mL_min": null,
+    "vitamina_D_25OH_ng_mL": null,
+    "fosfatasa_alcalina_U_L": null,
+    "calciuria_24h_mg_24h": null,
+    "cociente_calcio_creatinina_urinario": null,
+    "nota_temporal": "el médico refiere calcio alto también en analítica previa de años atrás, sin valor numérico"
+  },
+  "item6_confirmacion_diagnostica": {
+    "impresion_diagnostica": "sospecha de hipercalcemia hipocalciúrica familiar (FHH)",
+    "diagnostico_definitivo_confirmado": false,
+    "pendiente_de_pruebas": true,
+    "diagnostico_diferencial_razonado": {
+      "PTH_dependiente": {
+        "HPTP_adenoma_unico": "diagnóstico diferencial principal mencionado explícitamente",
+        "FHH": "sospecha principal del médico",
+        "HPT_terciario": null,
+        "inducido_por_litio": null,
+        "sindrome_MEN": null
+      },
+      "PTH_independiente": {
+        "deficit_vitamina_D": null,
+        "malabsorcion": null,
+        "ERC": null
+      }
+    },
+    "diagnosticos_descartados": null,
+    "argumento_clinico_FHH": "calcio levemente alto y estable durante años, PTH normal o levemente elevada, paciente asintomática, sin daño renal ni óseo, antecedentes familiares de hipercalcemia benigna"
+  },
+  "item7_sintomas_repercusion_clinica": {
+    "renal": {
+      "litiasis_renal": false,
+      "colico_nefritico": false,
+      "nefrocalcinosis": null,
+      "hematuria": null,
+      "infecciones_urinarias": null,
+      "insuficiencia_renal": null,
+      "poliuria_polidipsia": false
+    },
+    "oseo": {
+      "dolor_oseo": false,
+      "osteoporosis": null,
+      "osteopenia": null,
+      "fracturas": false,
+      "perdida_talla": null,
+      "debilidad_muscular": null
+    },
+    "digestivo": {
+      "dolor_abdominal": null,
+      "estrenimiento": false,
+      "nauseas": null,
+      "dispepsia": null,
+      "pancreatitis": null
+    },
+    "neuropsiquiatrico": {
+      "cansancio_astenia": false,
+      "bajo_animo": null,
+      "irritabilidad": null,
+      "dificultad_concentracion": null,
+      "somnolencia": null,
+      "perdida_calidad_de_vida": null
+    },
+    "cardiovascular": {
+      "hta": null,
+      "arritmias": null,
+      "palpitaciones": null,
+      "alteracion_QT": null
+    },
+    "nota": "paciente refiere vida normal y ausencia de síntomas; sed excesiva también negada implícitamente en el bloque de síntomas"
+  },
+  "item8_exploracion_fisica": {
+    "peso": null,
+    "talla": null,
+    "imc": null,
+    "tension_arterial": null,
+    "estado_general": null,
+    "valoracion_funcional": null,
+    "exploracion_cervical": {
+      "realizada": true,
+      "resultado": "normal",
+      "bocio": null,
+      "nodulos_tiroideos": null,
+      "cicatrices_previas": null,
+      "adenopatias": null
+    }
+  },
+  "item9_pruebas_imagen_complementarias": {
+    "localizacion_paratiroidea": {
+      "ecografia_cervical": null,
+      "MIBI": null,
+      "SPECT_TC": null,
+      "TC_4D": null,
+      "PET_TC_fluorocolina": null,
+      "resultado_localizacion": null
+    },
+    "estudio_renal": {
+      "ecografia_renal": null,
+      "litiasis_presente": null,
+      "nefrocalcinosis": null
+    },
+    "estudio_oseo": {
+      "densitometria": null,
+      "T_score_lumbar": null,
+      "T_score_cadera": null,
+      "T_score_radio_distal": null,
+      "diagnostico_DMO": null,
+      "VFA_radiografia_columna": null
+    },
+    "fibroscopia_laringea": null,
+    "pruebas_solicitadas_en_consulta": [
+      "calcio en orina de 24 horas",
+      "cociente de aclaramiento calcio/creatinina urinario",
+      "calcio sérico (repetición)",
+      "PTH (repetición)",
+      "fósforo",
+      "magnesio",
+      "función renal",
+      "revisión de medicación antihipertensiva (descartar tiazida)"
+    ]
+  },
+  "item10_criterios_indicacion_quirurgica": {
+    "indicacion_quirurgica": false,
+    "criterios_evaluados": {
+      "paciente_sintomatico": false,
+      "calcio_mas_1_sobre_LSN": null,
+      "T_score_igual_o_inferior_menos_25": null,
+      "fractura_vertebral_confirmada": null,
+      "fractura_fragilidad": false,
+      "filtrado_glomerular_menor_60": null,
+      "hipercalciuria": null,
+      "litiasis_o_nefrocalcinosis": false,
+      "edad_menor_50": null,
+      "preferencia_paciente": null,
+      "contraindicacion_quirurgica": null
+    },
+    "motivo_no_indicacion": "sospecha de FHH; la cirugía no aportaría beneficio en este diagnóstico"
+  },
+  "item11_plan_terapeutico": {
+    "cirugia_indicada": false,
+    "tipo_cirugia": null,
+    "inclusion_lista_espera": null,
+    "manejo_conservador": true,
+    "seguimiento_sin_cirugia_previsto": true,
+    "pruebas_pendientes": [
+      "calcio en orina de 24h y cociente calcio/creatinina",
+      "analítica completa (calcio, PTH, fósforo, magnesio, función renal)",
+      "revisión de fármaco antihipertensivo",
+      "estudio genético si persisten dudas"
+    ],
+    "optimizacion_previa": {
+      "vitamina_D": null,
+      "hidratacion": null,
+      "ajuste_medicacion": true,
+      "manejo_osteoporosis": null,
+      "control_endocrinologico": null
+    },
+    "proxima_visita": "revisión con resultados analíticos"
+  },
+  "item12_informacion_al_paciente": {
+    "diagnostico_explicado": true,
+    "naturaleza_benigna_FHH_explicada": true,
+    "riesgo_renal_oseo_explicado": null,
+    "finalidad_pruebas_explicada": true,
+    "beneficio_cirugia_explicado": null,
+    "no_beneficio_cirugia_en_FHH_explicado": true,
+    "posibilidad_persistencia": null,
+    "controles_explicados": true,
+    "aviso_a_familiares_recomendado": true
+  },
+  "item13_riesgos_quirurgicos_explicados": {
+    "se_explican_riesgos": false,
+    "hipocalcemia_transitoria": null,
+    "lesion_nervio_recurrente": null,
+    "disfonia_permanente": null,
+    "hipoparatiroidismo_persistente": null,
+    "persistencia_enfermedad": null,
+    "hematoma_cervical": null,
+    "reintervencion": null,
+    "riesgos_anestesicos": null
+  },
+  "item14_consentimiento_informado": {
+    "entregado": null,
+    "explicado_verbalmente": null,
+    "dudas_resueltas": true,
+    "estado": "no_aplica"
+  },
+  "item15_sintomas_alarma_postquirurgicos": {
+    "se_explican": false,
+    "fiebre": null,
+    "escalofrios": null,
+    "supuracion_enrojecimiento_herida": null,
+    "abombamiento_cervical": null,
+    "disnea": null,
+    "disfagia": null,
+    "disfonia": null,
+    "hormigueos_peribucales_manos": null,
+    "calambres": null,
+    "espasmos_musculares": null
+  },
+  "item16_plan_seguimiento": {
+    "revision_herida": null,
+    "analitica_postoperatoria": null,
+    "anatomia_patologica": null,
+    "control_densitometria": null,
+    "seguimiento_renal": null,
+    "control_endocrinologico": null,
+    "suplementos_calcio_vitamina_D": null,
+    "alta_quirurgica_prevista": null,
+    "seguimiento_FHH": "controles ocasionales para confirmar estabilidad del calcio",
+    "aviso_familiares_recomendado": true
+  },
+  "item17_impacto_laboral_familiar": {
+    "mencionado": false,
+    "tipo_trabajo": null,
+    "preocupacion_baja_laboral": null,
+    "duracion_estimada_baja": null,
+    "coordinacion_familiares": null
+  },
+  "item18_dudas_miedos_expectativas": {
+    "miedo_a_cancer": null,
+    "miedo_a_cirugia": null,
+    "expectativa_cirugia_al_llegar": true,
+    "alivio_al_conocer_posible_FHH": true,
+    "dudas_resueltas_al_final": true,
+    "comentario_paciente": "la paciente refiere que venía pensando en quirófano y expresa alivio ante la posibilidad de no necesitar cirugía"
+  }
+}

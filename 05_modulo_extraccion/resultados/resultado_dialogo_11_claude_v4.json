@@ -1,0 +1,292 @@
+{
+  "item_01_motivo_consulta": {
+    "motivo": "persistencia_hiperparatiroidismo_postquirurgico",
+    "descripcion": "Consulta de seguimiento al año de cirugía paratiroidea. Calcio y PTH persisten elevados prácticamente como antes de la intervención",
+    "servicio_derivador": null
+  },
+
+  "item_02_antecedentes_personales": {
+    "hta": true,
+    "diabetes": null,
+    "erc": null,
+    "litiasis_renal_previa": null,
+    "osteoporosis_osteopenia": null,
+    "fracturas_previas": null,
+    "pancreatitis": null,
+    "enfermedad_tiroidea": null,
+    "cirugia_cervical_previa": true,
+    "descripcion_cirugia_previa": "Paratiroidectomía (extirpación de adenoma benigno) hace aproximadamente un año",
+    "radioterapia_cervical": null,
+    "neoplasias": null,
+    "anticoagulacion": null,
+    "situacion_funcional_basal": null,
+    "alergias": null
+  },
+
+  "item_03_antecedentes_familiares": {
+    "hipercalcemia_familiar": null,
+    "hiperparatiroidismo_familiar": null,
+    "litiasis_familiar": null,
+    "tumores_endocrinos": null,
+    "MEN1": null,
+    "MEN2A": null,
+    "cirugia_paratiroidea_familiar": null,
+    "tumores_hipofisarios_familiares": null,
+    "estudio_genetico": {
+      "indicado": null,
+      "criterio": null
+    }
+  },
+
+  "item_04_tratamiento_habitual": {
+    "litio": null,
+    "tiazidas": null,
+    "suplementos_calcio": null,
+    "vitamina_D": true,
+    "vitamina_D_detalle": "Mencionada por el paciente. Nombre, grupo y dosis no especificados",
+    "bifosfonatos": null,
+    "denosumab": null,
+    "cinacalcet": null,
+    "anticoagulantes": null,
+    "antiagregantes": null,
+    "corticoides": null,
+    "hormonal": null,
+    "antihipertensivo": true,
+    "antihipertensivo_detalle": "Referido por el paciente como 'la pastilla de la tensión'. Nombre, grupo y dosis no especificados"
+  },
+
+  "item_05_datos_analiticos": {
+    "calcio_total_mgdL": 10.9,
+    "albumina_gdL": null,
+    "calcio_corregido_mgdL": null,
+    "calcio_ionico_mmolL": null,
+    "PTH_intacta_pgmL": 118,
+    "fosforo_mgdL": null,
+    "magnesio_mgdL": null,
+    "creatinina_mgdL": null,
+    "filtrado_glomerular_mLmin": null,
+    "vitamina_D_25OH_ngmL": null,
+    "fosfatasa_alcalina_UL": null,
+    "calciuria_24h_mg24h": null,
+    "cociente_calcio_creatinina_urinario": null
+  },
+
+  "item_06_confirmacion_diagnostica": {
+    "impresion_diagnostica": "persistencia_hiperparatiroidismo_primario_postquirurgico",
+    "descripcion": "Calcio y PTH no normalizados tras cirugía. Adenoma único extirpado previamente confirmado como benigno en anatomía patológica. El médico plantea que podía haber más de una glándula afectada, glándula ectópica no identificada, o tejido paratiroideo atípico",
+    "diagnostico_diferencial_razonado": {
+      "causas_planteadas_en_voz_alta": [
+        "Enfermedad multiglandular no reconocida en primera intervención",
+        "Glándula en localización ectópica no encontrada",
+        "Tejido paratiroideo en sitio atípico"
+      ]
+    },
+    "diagnosticos_descartados": null
+  },
+
+  "item_07_sintomas_repercusion_clinica": {
+    "afectacion_renal": {
+      "litiasis_renal": null,
+      "colico_nefritico": null,
+      "nefrocalcinosis": null,
+      "hematuria": null,
+      "poliuria_polidipsia": null
+    },
+    "afectacion_osea": {
+      "dolor_oseo": null,
+      "osteoporosis": null,
+      "osteopenia": null,
+      "fracturas": null,
+      "perdida_talla": null,
+      "debilidad_muscular": null
+    },
+    "afectacion_digestiva": {
+      "dolor_abdominal": null,
+      "estrenimiento": null,
+      "nauseas": null,
+      "dispepsia": null,
+      "pancreatitis": null
+    },
+    "neuropsiquiatrico": {
+      "cansancio_astenia": true,
+      "descripcion": "El paciente refiere cansancio persistente tras la cirugía y sensación de que 'algo no acaba de ir bien'",
+      "bajo_animo": null,
+      "irritabilidad": null,
+      "dificultad_concentracion": null,
+      "somnolencia": null,
+      "perdida_calidad_de_vida": true,
+      "descripcion_calidad_vida": "El paciente refiere no haber notado la mejoría esperada después de la cirugía"
+    },
+    "cardiovascular": {
+      "hta": true,
+      "descripcion": "Inferido del tratamiento antihipertensivo referido ('la pastilla de la tensión')",
+      "arritmias": null,
+      "palpitaciones": null,
+      "alteracion_QT": null
+    }
+  },
+
+  "item_08_exploracion_fisica": {
+    "peso": null,
+    "talla": null,
+    "imc": null,
+    "tension_arterial": null,
+    "estado_general": null,
+    "valoracion_funcional": null,
+    "exploracion_cervical": {
+      "cicatriz_previa": true,
+      "descripcion_cicatriz": "El paciente refiere que la cicatriz está perfecta y sin molestias",
+      "bocio": null,
+      "nodulos_tiroideos": null,
+      "adenopatias": null
+    }
+  },
+
+  "item_09_pruebas_imagen_complementarias": {
+    "localizacion_paratiroidea": {
+      "ecografia_cervical": {
+        "solicitada": true,
+        "resultado_disponible": false
+      },
+      "gammagrafia_MIBI": {
+        "solicitada": true,
+        "resultado_disponible": false
+      },
+      "SPECT_TC": null,
+      "TC_4D": {
+        "solicitada": true,
+        "contexto": "Indicada por reintervención y posible discordancia o negatividad de pruebas iniciales",
+        "resultado_disponible": false
+      },
+      "PET_TC_fluorocolina": null,
+      "resultado_localizacion": null
+    },
+    "estudio_renal": {
+      "ecografia_renal": null,
+      "litiasis_presente": null,
+      "nefrocalcinosis": null,
+      "seguimiento_funcion_renal_indicado": true,
+      "descripcion": "El médico indica revisión de función renal por persistencia de hipercalcemia al año"
+    },
+    "estudio_oseo": {
+      "densitometria_solicitada": true,
+      "T_score_lumbar": null,
+      "T_score_cadera": null,
+      "T_score_radio_distal": null,
+      "diagnostico_DMO": null,
+      "VFA_rx_columna": null
+    },
+    "fibroscopia_laringea": null
+  },
+
+  "item_10_criterios_indicacion_quirurgica": {
+    "indicacion_establecida": null,
+    "nota": "La decisión de reintervención queda diferida a la obtención de resultados del estudio de localización ampliado y sesión multidisciplinar. No se establece indicación formal en esta consulta",
+    "paciente_sintomatico": true,
+    "calcio_sup_1mgdL_sobre_LSN": null,
+    "T_score_igual_inf_menos_25": null,
+    "fractura_vertebral_imagen": null,
+    "fractura_periferia_fragilidad": null,
+    "filtrado_inf_60": null,
+    "hipercalciuria": null,
+    "litiasis_o_nefrocalcinosis": null,
+    "edad_inf_50": null,
+    "preferencia_paciente": null,
+    "contraindicacion_quirurgica": null
+  },
+
+  "item_11_plan_terapeutico": {
+    "cirugia_indicada": null,
+    "tipo_cirugia": null,
+    "nota_cirugia": "Reintervención condicionada a localización clara del tejido funcionante y valoración beneficio/riesgo en sesión multidisciplinar",
+    "inclusion_lista_espera": false,
+    "manejo_conservador_alternativo": true,
+    "manejo_conservador_detalle": "Cinacalcet, hidratación y vigilancia de hueso y riñón si no se localiza la fuente o el riesgo de reintervenir no compensa",
+    "pruebas_pendientes": [
+      "Ecografía cervical",
+      "Gammagrafía MIBI",
+      "TC 4D",
+      "Densitometría ósea",
+      "Analítica de función renal"
+    ],
+    "valoracion_anestesia": null,
+    "optimizacion_previa": {
+      "vitamina_D": true,
+      "hidratacion": true,
+      "ajuste_medicacion": null,
+      "manejo_osteoporosis": null,
+      "control_endocrinologico": null
+    },
+    "sesion_multidisciplinar": true,
+    "sesion_multidisciplinar_detalle": "Las reintervenciones se consensúan entre varios especialistas; se llevará a sesión de equipo"
+  },
+
+  "item_12_informacion_dada_al_paciente": {
+    "diagnostico_explicado": true,
+    "descripcion_diagnostico": "Se explica el concepto de persistencia de hiperparatiroidismo: calcio y PTH no normalizados, fuente hormonal todavía activa",
+    "naturaleza_benigna": true,
+    "descripcion_benignidad": "El médico confirma que el adenoma extirpado era benigno y que la situación es manejable",
+    "riesgo_renal_oseo": true,
+    "descripcion_riesgo": "Se indica que con el calcio aún alto al año hay que comprobar que no haya progresado el daño en hueso y riñón",
+    "finalidad_pruebas": true,
+    "beneficio_cirugia": null,
+    "posibilidad_persistencia": true,
+    "posibilidad_manejo_medico": true,
+    "decision_compartida": true,
+    "descripcion_decision": "El médico explica que la decisión se tomará en sesión multidisciplinar y que el paciente tendrá toda la información antes de decidir"
+  },
+
+  "item_13_riesgos_quirurgicos_explicados": {
+    "riesgos_explicados": true,
+    "lesion_nervio_recurrente_disfonia": true,
+    "hipocalcemia_transitoria": null,
+    "hipoparatiroidismo_persistente": true,
+    "descripcion": "El médico menciona mayor riesgo para el nervio de la voz y para las glándulas restantes en reintervención cervical, por cicatrización del tejido",
+    "persistencia_enfermedad": null,
+    "hematoma_cervical": null,
+    "necesidad_reintervencion": null,
+    "riesgos_anestesicos": null
+  },
+
+  "item_14_consentimiento_informado": {
+    "entregado": null,
+    "explicado_verbalmente": null,
+    "dudas_resueltas": true,
+    "estado": "no_aplica_en_esta_consulta",
+    "nota": "El médico menciona que nada se hará sin el consentimiento del paciente, pero no se formaliza en esta visita"
+  },
+
+  "item_15_sintomas_alarma_postquirurgicos": {
+    "explicados": false,
+    "nota": "No se menciona ningún síntoma de alarma. No es pertinente en esta consulta al no haberse indicado cirugía"
+  },
+
+  "item_16_plan_seguimiento": {
+    "revision_herida": null,
+    "analitica_postoperatoria": null,
+    "anatomia_patologica": true,
+    "anatomia_patologica_detalle": "Se menciona el resultado previo (adenoma benigno). No se solicita nueva pieza en esta consulta",
+    "control_densitometria": true,
+    "seguimiento_renal": true,
+    "control_endocrinologico": null,
+    "suplementos_calcio_vitamina_D": null,
+    "proxima_visita": "Cuando estén disponibles los resultados de las pruebas de imagen y analíticas solicitadas",
+    "alta_quirurgica_prevista": null
+  },
+
+  "item_17_impacto_laboral_familiar": {
+    "mencionado": false,
+    "tipo_trabajo": null,
+    "preocupacion_baja_laboral": null,
+    "duracion_estimada_baja": null,
+    "coordinacion_familiares_cuidadores": null
+  },
+
+  "item_18_dudas_miedos_expectativas": {
+    "miedo_cancer": null,
+    "miedo_cirugia": null,
+    "expectativa_curacion": null,
+    "dudas_resueltas": true,
+    "descripcion": "El paciente valora positivamente la franqueza del médico. Al cierre de la consulta no expresa dudas pendientes"
+  }
+}

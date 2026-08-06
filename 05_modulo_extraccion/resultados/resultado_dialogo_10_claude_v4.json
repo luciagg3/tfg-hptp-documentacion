@@ -1,0 +1,262 @@
+{
+  "item_01_motivo_consulta": {
+    "motivo": "seguimiento_postoperatorio_6_meses",
+    "servicio_derivador": null
+  },
+  "item_02_antecedentes_personales": {
+    "hta": null,
+    "diabetes": null,
+    "erc": null,
+    "litiasis_renal_previa": false,
+    "osteoporosis_osteopenia": true,
+    "fracturas": null,
+    "pancreatitis": null,
+    "enfermedad_tiroidea": null,
+    "cirugia_cervical_previa": null,
+    "radioterapia_cervical": null,
+    "neoplasias": null,
+    "anticoagulacion": null,
+    "situacion_funcional_basal": null,
+    "alergias": null
+  },
+  "item_03_antecedentes_familiares": {
+    "hipercalcemia_familiar": null,
+    "hiperparatiroidismo_familiar": null,
+    "litiasis_familiar": null,
+    "tumores_endocrinos": null,
+    "MEN1": null,
+    "MEN2A": null,
+    "cirugia_paratiroidea_familiar": null,
+    "tumores_hipofisarios_familiares": null,
+    "estudio_genetico": {
+      "indicado": null,
+      "criterio": null
+    }
+  },
+  "item_04_tratamiento_habitual": {
+    "litio": null,
+    "tiazidas": null,
+    "suplementos_calcio": false,
+    "vitamina_D": null,
+    "bifosfonatos": null,
+    "denosumab": null,
+    "cinacalcet": null,
+    "anticoagulantes": null,
+    "antiagregantes": null,
+    "corticoides": null,
+    "hormonal": null,
+    "otros": null,
+    "notas": "La paciente refiere haber abandonado los suplementos de calcio posquirúrgicos hace meses, sin medicación específica actual para el hueso"
+  },
+  "item_05_datos_analiticos": {
+    "calcio_total_mgdL": 9.4,
+    "albumina_gdL": null,
+    "calcio_corregido_mgdL": null,
+    "calcio_ionico_mmolL": null,
+    "PTH_intacta_pgmL": 44,
+    "fosforo_mgdL": null,
+    "magnesio_mgdL": null,
+    "creatinina_mgdL": null,
+    "filtrado_glomerular_mLmin": null,
+    "vitamina_D_25OH_ngmL": null,
+    "fosfatasa_alcalina_UL": null,
+    "calciuria_24h_mg24h": null,
+    "cociente_calcio_creatinina_urinario": null
+  },
+  "item_06_confirmacion_diagnostica": {
+    "impresion_diagnostica": "HPTP_curado_criterios_iniciales_cumplidos",
+    "criterio_curacion_mencionado": "calcio normal mantenido más allá de seis meses sin suplementos, a confirmar en control del año",
+    "diagnostico_diferencial": null,
+    "diagnosticos_descartados": null
+  },
+  "item_07_sintomas_repercusion_clinica": {
+    "renal": {
+      "litiasis_renal": false,
+      "colico_nefritico": null,
+      "nefrocalcinosis": null,
+      "hematuria": null,
+      "infecciones_urinarias": null,
+      "insuficiencia_renal": null,
+      "poliuria_polidipsia": null
+    },
+    "oseo": {
+      "dolor_oseo": null,
+      "osteoporosis": true,
+      "osteopenia": null,
+      "fracturas": null,
+      "perdida_talla": null,
+      "debilidad_muscular": null
+    },
+    "digestivo": {
+      "dolor_abdominal": null,
+      "estrenimiento": null,
+      "nauseas": null,
+      "dispepsia": null,
+      "pancreatitis": null
+    },
+    "neuropsiquiatrico": {
+      "cansancio_astenia": true,
+      "bajo_animo": null,
+      "irritabilidad": null,
+      "dificultad_concentracion": null,
+      "somnolencia": null,
+      "perdida_calidad_de_vida": null
+    },
+    "cardiovascular": {
+      "hta": null,
+      "arritmias": null,
+      "palpitaciones": null,
+      "alteracion_QT": null
+    },
+    "notas": "La paciente describe mejoría de energía, sueño y ánimo tras la cirugía, referenciando el cansancio y el malestar previos de forma retrospectiva"
+  },
+  "item_08_exploracion_fisica": {
+    "peso": null,
+    "talla": null,
+    "IMC": null,
+    "tension_arterial": null,
+    "estado_general": null,
+    "valoracion_funcional": null,
+    "exploracion_cervical": {
+      "cicatriz": "completamente curada, prácticamente invisible",
+      "cuello_normal": true,
+      "bocio": null,
+      "nodulos_tiroideos": null,
+      "adenopatias": null
+    }
+  },
+  "item_09_pruebas_imagen_complementarias": {
+    "localizacion_paratiroidea": {
+      "ecografia_cervical": null,
+      "MIBI": null,
+      "SPECT_TC": null,
+      "TC_4D": null,
+      "PET_TC_fluorocolina": null,
+      "resultado": null
+    },
+    "estudio_renal": {
+      "ecografia_renal": null,
+      "litiasis_presente": null,
+      "nefrocalcinosis": null
+    },
+    "estudio_oseo": {
+      "densitometria_previa": true,
+      "T_score_lumbar": null,
+      "T_score_cadera": null,
+      "T_score_radio_distal": null,
+      "diagnostico_DMO": "osteoporosis",
+      "localizacion_osteoporosis_mencionada": ["columna", "cadera"],
+      "densitometria_control_planificada": true,
+      "plazo_densitometria_control": "dos años postoperatorio",
+      "VFA_radiografia_columna": null
+    },
+    "fibroscopia_laringea": null
+  },
+  "item_10_criterios_indicacion_quirurgica": {
+    "indicacion_quirurgica_presente": null,
+    "criterios_aplicados": {
+      "paciente_sintomatico": null,
+      "calcio_mayor_1mgdL_sobre_LSN": null,
+      "T_score_igual_o_inferior_menos_2_5": null,
+      "fractura_vertebral_confirmada": null,
+      "fractura_periferica_fragilidad": null,
+      "filtrado_inferior_60": null,
+      "hipercalciuria": null,
+      "litiasis_o_nefrocalcinosis": null,
+      "edad_inferior_50": null,
+      "preferencia_paciente": null,
+      "contraindicacion_quirurgica": null
+    },
+    "notas": "Este ítem no es aplicable en esta visita de seguimiento postoperatorio"
+  },
+  "item_11_plan_terapeutico": {
+    "cirugia_indicada": null,
+    "tipo_cirugia": null,
+    "inclusion_lista_espera": null,
+    "pruebas_pendientes": ["densitometría de control a los dos años", "control analítico anual de calcio"],
+    "valoracion_anestesia": null,
+    "manejo_conservador": null,
+    "optimizacion_previa": {
+      "vitamina_D": true,
+      "hidratacion": null,
+      "ajuste_medicacion": null,
+      "manejo_osteoporosis": "posible medicación específica a decidir según resultado densitometría a dos años",
+      "control_endocrinologico": true
+    },
+    "alta_quirurgica_prevista": "cuando densitometría a dos años y calcio anual sean satisfactorios",
+    "seguimiento_coordinado_con": "Endocrinología"
+  },
+  "item_12_informacion_dada_paciente": {
+    "diagnostico_explicado": true,
+    "naturaleza_benigna": null,
+    "riesgo_renal": false,
+    "riesgo_oseo": true,
+    "finalidad_pruebas_explicada": true,
+    "beneficio_cirugia": null,
+    "posibilidad_persistencia": null,
+    "plan_controles_explicado": true,
+    "criterios_curacion_explicados": true
+  },
+  "item_13_riesgos_quirurgicos_explicados": {
+    "se_explican": null,
+    "hipocalcemia_transitoria": null,
+    "lesion_nervio_recurrente": null,
+    "disfonia_permanente": null,
+    "hipoparatiroidismo_persistente": null,
+    "persistencia_enfermedad": null,
+    "hematoma_cervical": null,
+    "necesidad_reintervencion": null,
+    "riesgos_anestesicos": null
+  },
+  "item_14_consentimiento_informado": {
+    "entregado": null,
+    "explicado_verbalmente": null,
+    "dudas_resueltas": null,
+    "estado": null
+  },
+  "item_15_sintomas_alarma_postquirurgicos": {
+    "se_explican": null,
+    "fiebre": null,
+    "escalofrios": null,
+    "supuracion_enrojecimiento_herida": null,
+    "abombamiento_cervical": null,
+    "disnea": null,
+    "disfagia": null,
+    "disfonia": null,
+    "hormigueos_peribucales_o_manos": null,
+    "calambres": null,
+    "espasmos_musculares": null
+  },
+  "item_16_plan_seguimiento": {
+    "revision_herida": null,
+    "analitica_postoperatoria": {
+      "calcio_anual": true,
+      "PTH": null
+    },
+    "anatomia_patologica": null,
+    "control_densitometria": true,
+    "plazo_densitometria": "dos años postoperatorio",
+    "seguimiento_renal": false,
+    "control_endocrinologico": true,
+    "suplementos_calcio_vitamina_D": {
+      "indicados": true,
+      "via": "dieta y vitamina D, sin suplementos farmacológicos de calcio de momento"
+    },
+    "alta_quirurgica_prevista": true,
+    "condicion_alta": "calcio normal mantenido y respuesta ósea satisfactoria en densitometría a dos años",
+    "proxima_visita_cirugia": "en torno a los dos años, coincidiendo con densitometría de control"
+  },
+  "item_17_impacto_laboral_familiar": {
+    "tipo_trabajo": null,
+    "preocupacion_baja_laboral": null,
+    "duracion_estimada_baja": null,
+    "coordinacion_familiares_cuidadores": null
+  },
+  "item_18_dudas_miedos_expectativas": {
+    "miedo_cancer": null,
+    "miedo_cirugia": null,
+    "expectativa_curacion": null,
+    "dudas_resueltas": true,
+    "notas": "La paciente expresa satisfacción explícita con el resultado y confirma no tener ninguna duda al final de la consulta"
+  }
+}

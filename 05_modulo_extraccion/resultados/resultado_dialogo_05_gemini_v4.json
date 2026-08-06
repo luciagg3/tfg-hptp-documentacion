@@ -1,0 +1,273 @@
+{
+  "item_1_motivo_consulta": {
+    "hipercalcemia": true,
+    "pth_elevada": true,
+    "sospecha_hptp": true,
+    "litiasis_renal": null,
+    "osteoporosis_fractura": null,
+    "estudio_prequirurgico": null,
+    "otro": null,
+    "servicio_deriva": "Nefrología"
+  },
+  "item_2_antecedentes_personales": {
+    "hta": true,
+    "diabetes": true,
+    "erc": true,
+    "litiasis_renal_previa": null,
+    "osteoporosis_osteopenia": null,
+    "fracturas": false,
+    "pancreatitis": null,
+    "enfermedad_tiroidea": null,
+    "cirugia_cervical_previa": null,
+    "radioterapia_cervical": null,
+    "neoplasias": null,
+    "anticoagulacion": true,
+    "situacion_funcional_basal": null,
+    "alergias": false
+  },
+  "item_3_antecedentes_familiares": {
+    "hipercalcemia_familiar": null,
+    "hiperparatiroidismo_familiar": null,
+    "litiasis_familiar": null,
+    "tumores_endocrinos": null,
+    "men1": null,
+    "men2a": null,
+    "cirugia_paratiroidea_familiar": null,
+    "tumores_hipofisarios_familiares": null,
+    "estudio_genetico_indicado": null,
+    "criterio_estudio_genetico": null
+  },
+  "item_4_tratamiento_habitual": {
+    "litio": null,
+    "tiazidas": null,
+    "suplementos_calcio": false,
+    "vitamina_d": true,
+    "bifosfonatos": null,
+    "denosumab": null,
+    "cinacalcet": false,
+    "anticoagulantes": true,
+    "antiagregantes": null,
+    "corticoides": null,
+    "hormonal": null,
+    "detalles_farmacos": [
+      {
+        "nombre": "Apixabán",
+        "grupo_farmacologico": "Anticoagulante",
+        "dosis": "dos veces al día"
+      },
+      {
+        "nombre": "Metformina",
+        "grupo_farmacologico": null,
+        "dosis": "una pastilla"
+      },
+      {
+        "nombre": "Pastilla de la tensión",
+        "grupo_farmacologico": "Antihipertensivo",
+        "dosis": "una pastilla"
+      },
+      {
+        "nombre": "Insulina lenta",
+        "grupo_farmacologico": "Insulina",
+        "dosis": "por la noche"
+      }
+    ]
+  },
+  "item_5_datos_analiticos": {
+    "calcio_total_mg_dl": 11.3,
+    "albumina_g_dl": null,
+    "calcio_corregido_mg_dl": null,
+    "calcio_ionico_mmol_l": null,
+    "pth_intacta_pg_ml": 240.0,
+    "fosforo_mg_dl": null,
+    "magnesio_mg_dl": null,
+    "creatinina_mg_dl": null,
+    "filtrado_glomerular_ml_min": 35.0,
+    "vitamina_d_25_oh_ng_ml": null,
+    "fosfatasa_alcalina_u_l": null,
+    "calciuria_24h_mg_24h": null,
+    "cociente_calcio_creatinina_urinario": null
+  },
+  "item_6_confirmacion_diagnostica": {
+    "hptp_clasico": null,
+    "hptp_normocalcemico": null,
+    "hiperparatiroidismo_secundario": null,
+    "hiperparatiroidismo_terciario": null,
+    "hipercalcemia_hipocalciurica_familiar": null,
+    "otra_hipercalcemia": null,
+    "pendiente_de_estudio": true,
+    "diagnostico_diferencial_pth_dependiente": [
+      "Hiperparatiroidismo primario",
+      "Hiperparatiroidismo terciario"
+    ],
+    "diagnostico_diferencial_pth_independiente": null,
+    "diagnosticos_descartados": null
+  },
+  "item_7_sintomas_y_repercussion_clinica": {
+    "renal": {
+      "litiasis": null,
+      "colico": null,
+      "nefrocalcinosis": null,
+      "hematuria": null,
+      "infecciones": null,
+      "insuficiencia_renal": true,
+      "poliuria_polidipsia": null
+    },
+    "oseo": {
+      "dolor_oseo": null,
+      "osteoporosis": null,
+      "osteopenia": null,
+      "fracturas": false,
+      "perdida_talla": null,
+      "debilidad_muscular": true
+    },
+    "digestivo": {
+      "dolor_abdominal": null,
+      "estrenimiento": null,
+      "nauseas": null,
+      "dispepsia": null,
+      "pancreatitis": null
+    },
+    "neuropsiquiatrico": {
+      "cansancio_astenia": true,
+      "bajo_animo": null,
+      "irritabilidad": null,
+      "dificultad_concentracion": null,
+      "somnolencia": null,
+      "perdida_calidad_vida": null
+    },
+    "cardiovascular": {
+      "hta": true,
+      "arritmias": true,
+      "palpitaciones": null,
+      "alteracion_qt": null
+    }
+  },
+  "item_8_exploracion_fisica": {
+    "peso": null,
+    "talla": null,
+    "imc": null,
+    "tension_arterial": null,
+    "estado_general": null,
+    "valoracion_funcional": null,
+    "exploracion_cervical": {
+      "bocio": false,
+      "nodulos_tiroideos": false,
+      "cicatrices_previas": null,
+      "adenopatias": false
+    }
+  },
+  "item_9_pruebas_de_imagen_y_estudios_complementarios": {
+    "localizacion_paratiroidea_solicitada": {
+      "ecografia_cervical": true,
+      "gammagrafia": true,
+      "spect_tc": null,
+      "tc_4d": null,
+      "pet_tc_fluorocolina": null
+    },
+    "resultado_localizacion": null,
+    "estudio_renal": {
+      "ecografia_renal": null,
+      "litiasis_presente": null,
+      "nefrocalcinosis": null
+    },
+    "estudio_oseo": {
+      "densitometria": true,
+      "t_score_lumbar": null,
+      "t_score_cadera": null,
+      "t_score_radio_distal": null,
+      "diagnostico_dmo": null,
+      "vfa_o_rx_columna": null
+    },
+    "fibroscopia_laringea": null
+  },
+  "item_10_criterios_de_indicacion_quirurgica": {
+    "paciente_sintomatico": true,
+    "calcio_mas_1_mg_dl_sobre_limite": null,
+    "t_score_inferior_2_5": null,
+    "fractura_vertebral_confirmada": null,
+    "fractura_periferica_fragilidad": null,
+    "filtrado_glomerular_inferior_60": true,
+    "hipercalciuria": null,
+    "litiasis_renal_o_nefrocalcinosis": null,
+    "edad_inferior_50": null,
+    "preferencia_del_paciente": null,
+    "contraindicacion_quirurgica": null
+  },
+  "item_11_plan_terapeutico": {
+    "cirugia_indicada": null,
+    "tipo_paratiroidectomia": null,
+    "inclusion_lista_espera": null,
+    "pruebas_pendientes": true,
+    "valoracion_anestesia": true,
+    "valoracion_nefrologia": true,
+    "valoracion_cardiologia": true,
+    "manejo_conservador": true,
+    "optimizacion_previa": {
+      "vitamina_d": true,
+      "hidratacion": true,
+      "ajuste_medicacion": true,
+      "manejo_osteoporosis": null,
+      "control_endocrinologico": null
+    }
+  },
+  "item_12_informacion_dada_al_paciente": {
+    "diagnostico": true,
+    "naturaleza_benigna": null,
+    "riesgo_renal_oseo": true,
+    "finalidad_pruebas": true,
+    "beneficio_cirugia": true,
+    "posibilidad_persistencia": null,
+    "controles": true
+  },
+  "item_13_riesgos_quirurgicos_explicados": {
+    "hipocalcemia_transitoria": null,
+    "lesion_nervio_recurrente": null,
+    "disfonia_permanente": null,
+    "hipoparatiroidismo_persistente": null,
+    "persistencia_enfermedad": null,
+    "hematoma_cervical": null,
+    "necesidad_reintervencion": null,
+    "riesgos_anestesicos": true,
+    "riesgo_global_aumentado_comorbilidades": true
+  },
+  "item_14_consentimiento_informado": {
+    "entregado": null,
+    "explicado_verbalmente": true,
+    "resuelven_dudas": true,
+    "estado": "pendiente_de_firma"
+  },
+  "item_15_sintomas_de_alarma_postquirurgicos": {
+    "fiebre": null,
+    "escalofrios": null,
+    "supuracion_enrojecimiento_herida": null,
+    "abombamiento_cervical": null,
+    "disnea": null,
+    "disfagia": null,
+    "disfonia": null,
+    "hormigueos": null,
+    "calambres": null,
+    "espasmos_musculares": null
+  },
+  "item_16_plan_de_seguimiento": {
+    "revision_herida": null,
+    "analitica_postoperatoria": null,
+    "anatomia_patologica": null,
+    "control_densitometria": null,
+    "seguimiento_renal": true,
+    "control_endocrinologico": null,
+    "suplementos_calcio_vitamina_d": true,
+    "alta_quirurgica_prevista": null
+  },
+  "item_17_impacto_laboral_y_familiar": {
+    "tipo_trabajo": null,
+    "preocupacion_baja_laboral": null,
+    "duracion_estimada_baja": null,
+    "coordinacion_familiares_o_cuidadores": true
+  },
+  "item_18_dudas_miedos_y_expectativas": {
+    "miedo_a_que_sea_cancer": null,
+    "miedo_a_la_cirugia": null,
+    "expectativa_curacion": null,
+    "dudas_quedaron_resueltas": true
+  }
+}

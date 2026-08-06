@@ -1,0 +1,298 @@
+{
+  "item_1_motivo_consulta": {
+    "motivo": "hipercalcemia_y_PTH_elevada_con_litiasis_renal",
+    "servicio_derivador": "urología"
+  },
+  "item_2_antecedentes_personales": {
+    "hta": null,
+    "diabetes": null,
+    "erc": null,
+    "litiasis_renal_previa": true,
+    "osteoporosis_osteopenia": null,
+    "fracturas": null,
+    "pancreatitis": null,
+    "enfermedad_tiroidea": null,
+    "cirugia_cervical_previa": false,
+    "radioterapia_cervical": null,
+    "neoplasias": null,
+    "anticoagulacion": null,
+    "situacion_funcional_basal": null,
+    "alergias": false
+  },
+  "item_3_antecedentes_familiares": {
+    "hipercalcemia_familiar": false,
+    "hiperparatiroidismo_familiar": false,
+    "litiasis_familiar": false,
+    "tumores_endocrinos": false,
+    "MEN1": null,
+    "MEN2A": null,
+    "cirugia_paratiroidea_familiar": null,
+    "tumores_hipofisarios_familiares": null,
+    "estudio_genetico": {
+      "indicado": null,
+      "criterio": null
+    }
+  },
+  "item_4_tratamiento_habitual": {
+    "litio": false,
+    "tiazidas": false,
+    "suplementos_calcio": false,
+    "vitamina_D": true,
+    "bifosfonatos": null,
+    "denosumab": null,
+    "cinacalcet": null,
+    "anticoagulantes": null,
+    "antiagregantes": null,
+    "corticoides": null,
+    "hormonal": null,
+    "otros": null,
+    "detalle_farmaco": "vitamina D, suplemento pautado, sin dosis especificada"
+  },
+  "item_5_datos_analiticos": {
+    "calcio_total_mg_dL": 11.3,
+    "albumina_g_dL": null,
+    "calcio_corregido_mg_dL": null,
+    "calcio_ionico_mmol_L": null,
+    "PTH_intacta_pg_mL": 140,
+    "fosforo_mg_dL": null,
+    "magnesio_mg_dL": null,
+    "creatinina_mg_dL": null,
+    "filtrado_glomerular_mL_min": null,
+    "vitamina_D_25OH_ng_mL": 19,
+    "fosfatasa_alcalina_U_L": null,
+    "calciuria_24h_mg_24h": null,
+    "cociente_calcio_creatinina_urinario": null
+  },
+  "item_6_confirmacion_diagnostica": {
+    "impresion_diagnostica": "datos_sugestivos_HPTP_pendiente_confirmacion",
+    "diagnostico_confirmado": false,
+    "razon_pendiente": "vitamina D baja en 19 puede elevar PTH; se indica reposición y reevaluación analítica antes de confirmar",
+    "diagnostico_diferencial": {
+      "PTH_dependiente": {
+        "HPTP_adenoma_unico": null,
+        "FHH": true,
+        "HPT_terciario": null,
+        "inducido_litio": null,
+        "sindrome_MEN": null
+      },
+      "PTH_independiente": {
+        "deficit_vitamina_D": true,
+        "malabsorcion": null,
+        "ERC": null
+      }
+    },
+    "diagnosticos_descartados": ["FHH descartada clínicamente por presencia de litiasis, aunque se solicita calciuria para confirmación"]
+  },
+  "item_7_sintomas_repercusion_clinica": {
+    "renal": {
+      "litiasis_renal": true,
+      "colico_nefritico": true,
+      "nefrocalcinosis": null,
+      "hematuria": null,
+      "infecciones_urinarias": null,
+      "insuficiencia_renal": null,
+      "poliuria_polidipsia": null
+    },
+    "oseo": {
+      "dolor_oseo": null,
+      "osteoporosis": null,
+      "osteopenia": null,
+      "fracturas": null,
+      "perdida_talla": null,
+      "debilidad_muscular": null
+    },
+    "digestivo": {
+      "dolor_abdominal": null,
+      "estrenimiento": null,
+      "nauseas": null,
+      "dispepsia": null,
+      "pancreatitis": null
+    },
+    "neuropsiquiatrico": {
+      "cansancio_astenia": true,
+      "bajo_animo": null,
+      "irritabilidad": null,
+      "dificultad_concentracion": null,
+      "somnolencia": null,
+      "perdida_calidad_vida": null
+    },
+    "cardiovascular": {
+      "hta": null,
+      "arritmias": null,
+      "palpitaciones": null,
+      "alteracion_QT": null
+    }
+  },
+  "item_8_exploracion_fisica": {
+    "peso": null,
+    "talla": null,
+    "IMC": null,
+    "tension_arterial": null,
+    "estado_general": null,
+    "valoracion_funcional": null,
+    "exploracion_cervical": {
+      "bocio": false,
+      "nodulos_tiroideos": false,
+      "cicatrices_previas": false,
+      "adenopatias": false,
+      "resultado_global": "normal"
+    }
+  },
+  "item_9_pruebas_imagen_complementarias": {
+    "localizacion_paratiroidea": {
+      "ecografia_cervical": {
+        "solicitada": true,
+        "resultado": null
+      },
+      "MIBI": {
+        "solicitado": true,
+        "resultado": null
+      },
+      "SPECT_TC": {
+        "solicitado": null,
+        "resultado": null
+      },
+      "TC_4D": {
+        "solicitado": null,
+        "resultado": null
+      },
+      "PET_TC_fluorocolina": {
+        "solicitado": null,
+        "resultado": null
+      },
+      "adenoma_localizado": null,
+      "lado": null,
+      "localizacion": null,
+      "concordancia_entre_pruebas": null
+    },
+    "estudio_renal": {
+      "ecografia_renal": null,
+      "litiasis_presente": null,
+      "nefrocalcinosis": null
+    },
+    "estudio_oseo": {
+      "densitometria": {
+        "solicitada": true,
+        "T_score_lumbar": null,
+        "T_score_cadera": null,
+        "T_score_radio_distal": null,
+        "diagnostico_DMO": null
+      },
+      "VFA_o_Rx_columna": null
+    },
+    "fibroscopia_laringea": {
+      "solicitada": true,
+      "motivo": "valoración de cuerdas vocales preoperatoria, solicitada a otorrinolaringología"
+    },
+    "calciuria_24h_solicitada": true
+  },
+  "item_10_criterios_indicacion_quirurgica": {
+    "indicacion_quirurgica": true,
+    "criterios_presentes": {
+      "paciente_sintomatico": true,
+      "calcio_mayor_1mgdL_sobre_LSN": true,
+      "T_score_igual_o_inferior_menos_2_5": null,
+      "fractura_vertebral_confirmada_imagen": null,
+      "fractura_periferica_fragilidad": null,
+      "filtrado_glomerular_inferior_60": null,
+      "hipercalciuria": null,
+      "litiasis_renal_o_nefrocalcinosis": true,
+      "edad_inferior_50_años": true,
+      "preferencia_paciente": null,
+      "contraindicacion_quirurgica": false
+    },
+    "comentario": "indicación prácticamente decidida por edad (42 años), nivel de calcio y litiasis renal; pendiente confirmación diagnóstica tras reposición de vitamina D"
+  },
+  "item_11_plan_terapeutico": {
+    "cirugia_indicada": true,
+    "tipo_cirugia": {
+      "paratiroidectomia_selectiva": null,
+      "exploracion_bilateral": null,
+      "paratiroidectomia_subtotal": null,
+      "combinada_hemitiroidectomia": null,
+      "comentario": "tipo condicionado a concordancia entre ecografía cervical y MIBI: cirugía dirigida si concordantes, exploración más amplia si discordantes"
+    },
+    "inclusion_lista_espera": false,
+    "pendiente_para_lista": ["valoración por anestesia", "valoración de cuerdas vocales por ORL", "resultados de ecografía cervical y MIBI", "densitometría", "calciuria 24h", "confirmación diagnóstica tras reposición vitamina D"],
+    "pruebas_pendientes": ["ecografía cervical", "gammagrafía MIBI", "densitometría", "calciuria 24h", "analítica de control tras reposición vitamina D"],
+    "valoracion_anestesia": true,
+    "optimizacion_previa": {
+      "vitamina_D": true,
+      "hidratacion": true,
+      "ajuste_medicacion": false,
+      "evitar_suplementos_calcio": true,
+      "manejo_osteoporosis": null,
+      "control_endocrinologico": null
+    }
+  },
+  "item_12_informacion_dada_paciente": {
+    "diagnostico_explicado": true,
+    "naturaleza_benigna": null,
+    "riesgo_renal_oseo": null,
+    "finalidad_pruebas_imagen_explicada": true,
+    "beneficio_cirugia_explicado": true,
+    "posibilidad_persistencia_mencionada": true,
+    "controles_mencionados": true,
+    "distincion_diagnostico_bioquimico_vs_imagen": true
+  },
+  "item_13_riesgos_quirurgicos_explicados": {
+    "se_explican": true,
+    "hipocalcemia_transitoria": true,
+    "hormigueos_transitorios": true,
+    "lesion_nervio_recurrente": true,
+    "disfonía_permanente": true,
+    "ronquera_pasajera": true,
+    "hipoparatiroidismo_persistente": true,
+    "persistencia_enfermedad": true,
+    "recidiva": true,
+    "hematoma_cervical": null,
+    "necesidad_reintervencion": null,
+    "riesgos_anestesicos": null,
+    "modalidad": "mención por encima; detalles diferidos al consentimiento en próxima visita"
+  },
+  "item_14_consentimiento_informado": {
+    "entregado": false,
+    "explicado_verbalmente": false,
+    "dudas_resueltas": null,
+    "estado": "pendiente_de_firma",
+    "comentario": "diferido explícitamente a la próxima visita, cuando estén las pruebas disponibles"
+  },
+  "item_15_sintomas_alarma_postquirurgicos": {
+    "se_explican": null,
+    "fiebre": null,
+    "escalofrios": null,
+    "supuracion_o_enrojecimiento_herida": null,
+    "abombamiento_cervical": null,
+    "disnea": null,
+    "disfagia": null,
+    "disfonía": null,
+    "hormigueos_peribucales_o_manos": null,
+    "calambres": null,
+    "espasmos_musculares": null
+  },
+  "item_16_plan_seguimiento": {
+    "revision_herida": null,
+    "analitica_postoperatoria": null,
+    "anatomia_patologica": null,
+    "control_densitometria": null,
+    "seguimiento_renal": null,
+    "control_endocrinologico": true,
+    "suplementos_calcio_vitamina_D": null,
+    "alta_quirurgica_prevista": null,
+    "proxima_visita": true,
+    "motivo_proxima_visita": "revisión con resultados de pruebas de imagen y analítica para cerrar tipo de cirugía y firmar consentimiento"
+  },
+  "item_17_impacto_laboral_familiar": {
+    "tipo_trabajo": null,
+    "preocupacion_baja_laboral": null,
+    "duracion_estimada_baja": null,
+    "coordinacion_familiares_cuidadores": null
+  },
+  "item_18_dudas_miedos_expectativas": {
+    "miedo_cancer": null,
+    "miedo_cirugia": null,
+    "expectativa_curacion": null,
+    "dudas_resueltas": true,
+    "comentario": "el paciente refiere no tener dudas; la consulta fue descrita como eficiente por ambas partes"
+  }
+}

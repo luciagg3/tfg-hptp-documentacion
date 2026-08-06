@@ -1,0 +1,293 @@
+{
+  "item_1_motivo_consulta": {
+    "motivo": "hiperparatiroidismo primario confirmado, decisión quirúrgica",
+    "servicio_derivador": "endocrinología"
+  },
+
+  "item_2_antecedentes_personales": {
+    "hta": true,
+    "diabetes": null,
+    "erc": null,
+    "litiasis_renal_previa": null,
+    "osteoporosis_osteopenia": null,
+    "fracturas": null,
+    "pancreatitis": null,
+    "enfermedad_tiroidea": null,
+    "cirugia_cervical_previa": false,
+    "radioterapia_cervical": null,
+    "neoplasias": null,
+    "anticoagulacion": false,
+    "antiagregantes": false,
+    "situacion_funcional_basal": null,
+    "alergias": false,
+    "otras_cirugias": "apendicectomía en la juventud"
+  },
+
+  "item_3_antecedentes_familiares": {
+    "hipercalcemia_familiar": null,
+    "hiperparatiroidismo_familiar": null,
+    "litiasis_familiar": null,
+    "tumores_endocrinos": null,
+    "MEN1": null,
+    "MEN2A": null,
+    "cirugia_paratiroidea_familiar": null,
+    "tumores_hipofisarios_familiares": null,
+    "estudio_genetico": {
+      "indicado": null,
+      "criterio": null
+    }
+  },
+
+  "item_4_tratamiento_habitual": {
+    "litio": null,
+    "tiazidas": null,
+    "suplementos_calcio": null,
+    "vitamina_D": null,
+    "bifosfonatos": null,
+    "denosumab": null,
+    "cinacalcet": null,
+    "anticoagulantes": false,
+    "antiagregantes": false,
+    "corticoides": null,
+    "hormonal": null,
+    "otros": [
+      {
+        "descripcion": "antihipertensivo no especificado",
+        "nombre": null,
+        "grupo": null,
+        "dosis": null
+      }
+    ]
+  },
+
+  "item_5_datos_analiticos": {
+    "calcio_total_mg_dL": null,
+    "albumina_g_dL": null,
+    "calcio_corregido_mg_dL": 11.6,
+    "calcio_ionico_mmol_L": null,
+    "PTH_intacta_pg_mL": 156,
+    "fosforo_mg_dL": "bajo (valor exacto no referido)",
+    "magnesio_mg_dL": null,
+    "creatinina_mg_dL": null,
+    "filtrado_glomerular_mL_min": "normal (valor exacto no referido)",
+    "vitamina_D_25OH_ng_mL": 32,
+    "fosfatasa_alcalina_U_L": null,
+    "calciuria_24h_mg_24h": "no sugestiva de hipercalcemia hipocalciúrica familiar (valor exacto no referido)",
+    "cociente_calcio_creatinina_urinario": null
+  },
+
+  "item_6_confirmacion_diagnostica": {
+    "impresion_diagnostica": "hiperparatiroidismo primario clásico",
+    "diagnostico_diferencial_razonado": {
+      "PTH_dependiente": {
+        "HPTP_adenoma_unico": true,
+        "FHH": false,
+        "HPT_terciario": null,
+        "inducido_por_litio": null,
+        "sindrome_MEN": null
+      },
+      "PTH_independiente": null
+    },
+    "diagnosticos_descartados": ["hipercalcemia hipocalciúrica familiar"]
+  },
+
+  "item_7_sintomas_repercusion_clinica": {
+    "afectacion_renal": {
+      "litiasis_renal": true,
+      "colico_nefritico": null,
+      "nefrocalcinosis": null,
+      "hematuria": null,
+      "infecciones_urinarias": null,
+      "insuficiencia_renal": null,
+      "poliuria_polidipsia": null
+    },
+    "afectacion_osea": {
+      "dolor_oseo": null,
+      "osteoporosis": true,
+      "osteopenia": null,
+      "fracturas": null,
+      "perdida_talla": null,
+      "debilidad_muscular": null
+    },
+    "digestivo": {
+      "dolor_abdominal": null,
+      "estrenimiento": null,
+      "nauseas": null,
+      "dispepsia": null,
+      "pancreatitis": null
+    },
+    "neuropsiquiatrico": {
+      "cansancio_astenia": null,
+      "bajo_animo": null,
+      "irritabilidad": null,
+      "dificultad_concentracion": null,
+      "somnolencia": null,
+      "perdida_calidad_de_vida": null
+    },
+    "cardiovascular": {
+      "hta": null,
+      "arritmias": null,
+      "palpitaciones": null,
+      "alteracion_QT": null
+    }
+  },
+
+  "item_8_exploracion_fisica": {
+    "peso": null,
+    "talla": null,
+    "IMC": null,
+    "tension_arterial": null,
+    "estado_general": null,
+    "valoracion_funcional": null,
+    "exploracion_cervical": {
+      "bocio": null,
+      "nodulos_tiroideos": null,
+      "cicatrices_previas": null,
+      "adenopatias": null
+    }
+  },
+
+  "item_9_pruebas_imagen": {
+    "localizacion_paratiroidea": {
+      "ecografia_cervical": {
+        "realizada": true,
+        "resultado": "adenoma inferior izquierdo, mayor de 1,5 cm"
+      },
+      "MIBI": {
+        "realizado": true,
+        "resultado": "concordante con ecografía, glándula inferior izquierda"
+      },
+      "SPECT_TC": null,
+      "TC_4D": null,
+      "PET_TC_fluorocolina": null,
+      "concordancia_pruebas": true,
+      "adenoma_localizado": true,
+      "lado": "izquierdo",
+      "localizacion": "inferior"
+    },
+    "estudio_renal": {
+      "ecografia_renal": {
+        "realizada": true,
+        "resultado": "litiasis en riñón derecho"
+      },
+      "litiasis_presente": true,
+      "nefrocalcinosis": null
+    },
+    "estudio_oseo": {
+      "densitometria": {
+        "realizada": true,
+        "T_score_lumbar": null,
+        "T_score_cadera": "osteoporosis (valor exacto no referido)",
+        "T_score_radio_distal": null,
+        "diagnostico_DMO": "osteoporosis en cadera"
+      },
+      "VFA_o_rx_columna": null
+    },
+    "fibroscopia_laringea": {
+      "solicitada": true,
+      "motivo": "valoración de cuerdas vocales preoperatoria por ORL"
+    }
+  },
+
+  "item_10_criterios_indicacion_quirurgica": {
+    "indicacion_quirurgica": true,
+    "criterios_aplicados": {
+      "paciente_sintomatico": null,
+      "calcio_mayor_1mg_sobre_LSN": true,
+      "T_score_igual_o_inferior_menos_2_5": true,
+      "fractura_vertebral_en_imagen": null,
+      "fractura_periferica_fragilidad": null,
+      "filtrado_inferior_60": null,
+      "hipercalciuria": null,
+      "litiasis_o_nefrocalcinosis": true,
+      "edad_inferior_50": null,
+      "preferencia_paciente": null,
+      "contraindicacion_quirurgica": false
+    }
+  },
+
+  "item_11_plan_terapeutico": {
+    "cirugia_indicada": true,
+    "tipo_cirugia": "paratiroidectomía selectiva (lado izquierdo) con posibilidad de exploración cervical bilateral",
+    "inclusion_lista_espera": false,
+    "lista_espera_condicion": "pendiente de valoración por ORL y Anestesia",
+    "pruebas_pendientes": [
+      "valoración de cuerdas vocales por Otorrinolaringología",
+      "valoración preoperatoria por Anestesia"
+    ],
+    "manejo_conservador": null,
+    "optimizacion_previa": {
+      "vitamina_D": true,
+      "hidratacion": null,
+      "ajuste_medicacion": null,
+      "manejo_osteoporosis": null,
+      "control_endocrinologico": null
+    },
+    "PTH_intraoperatoria": true
+  },
+
+  "item_12_informacion_dada_al_paciente": {
+    "diagnostico_explicado": true,
+    "naturaleza_benigna": null,
+    "riesgo_renal": true,
+    "riesgo_oseo": true,
+    "finalidad_pruebas": true,
+    "beneficio_cirugia": true,
+    "posibilidad_persistencia": true,
+    "controles_futuros": null
+  },
+
+  "item_13_riesgos_quirurgicos_explicados": {
+    "explicados": true,
+    "hipocalcemia_transitoria": true,
+    "lesion_nervio_recurrente": true,
+    "disfonia_permanente": true,
+    "hipoparatiroidismo_persistente": true,
+    "persistencia_enfermedad": true,
+    "hematoma_cervical": true,
+    "necesidad_reintervencion": true,
+    "riesgos_anestesicos": true,
+    "dolor_cervical": true,
+    "hematoma_seroma_leve": true,
+    "infeccion_herida": true,
+    "roncera_pasajera": true
+  },
+
+  "item_14_consentimiento_informado": {
+    "entregado": true,
+    "explicado_verbalmente": true,
+    "dudas_resueltas": true,
+    "estado": "firmado"
+  },
+
+  "item_15_sintomas_alarma_postquirurgicos": {
+    "explicados": false
+  },
+
+  "item_16_plan_seguimiento": {
+    "revision_herida": null,
+    "analitica_postoperatoria": null,
+    "anatomia_patologica": true,
+    "control_densitometria": null,
+    "seguimiento_renal": null,
+    "control_endocrinologico": null,
+    "suplementos_calcio_vitamina_D": null,
+    "alta_quirurgica_prevista": null
+  },
+
+  "item_17_impacto_laboral_familiar": {
+    "mencionado": true,
+    "tipo_trabajo": "autónomo",
+    "preocupacion_baja_laboral": true,
+    "duracion_estimada_baja": null,
+    "coordinacion_familiares": null
+  },
+
+  "item_18_dudas_miedos_expectativas": {
+    "miedo_cancer": null,
+    "miedo_cirugia": null,
+    "expectativa_curacion": null,
+    "dudas_resueltas": true,
+    "preocupacion_principal_expresada": "tiempo de espera para la cirugía"
+  }
+}

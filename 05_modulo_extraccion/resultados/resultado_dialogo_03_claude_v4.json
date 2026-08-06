@@ -1,0 +1,346 @@
+{
+  "item_01_motivo_consulta": {
+    "motivo_principal": "hipercalcemia con PTH elevada y sospecha de HPTP en contexto de antecedentes familiares sugestivos de MEN1",
+    "servicio_derivador": "Endocrinología",
+    "otros_motivos": null
+  },
+
+  "item_02_antecedentes_personales": {
+    "hta": null,
+    "diabetes": null,
+    "erc": null,
+    "litiasis_renal_previa": false,
+    "osteoporosis_osteopenia": null,
+    "fracturas_previas": null,
+    "pancreatitis": null,
+    "ulcera_peptica": true,
+    "reflujo_gastroesofagico": true,
+    "enfermedad_tiroidea": null,
+    "cirugia_cervical_previa": null,
+    "radioterapia_cervical": null,
+    "neoplasias": null,
+    "anticoagulacion": null,
+    "situacion_funcional_basal": null,
+    "alergias": false
+  },
+
+  "item_03_antecedentes_familiares": {
+    "hipercalcemia_familiar": null,
+    "hiperparatiroidismo_familiar": true,
+    "litiasis_familiar": null,
+    "tumores_endocrinos_familiares": true,
+    "tumor_pancreas_familiar": true,
+    "tumor_hipofisis_familiar": true,
+    "men1_sospecha_o_confirmado": true,
+    "men2a": null,
+    "cirugia_paratiroidea_familiar": null,
+    "familiar_afectado": "padre y tío paterno (paratiroides); padre además tumor pancreático y tumor hipofisario; padre fallecido",
+    "estudio_genetico_indicado": {
+      "indicado": true,
+      "criterios": [
+        "antecedentes familiares de MEN1",
+        "edad inferior a 50 años (paciente de 38 años)",
+        "combinación de tumores en paratiroides, páncreas e hipófisis en la familia",
+        "sospecha de síndrome endocrino hereditario"
+      ]
+    }
+  },
+
+  "item_04_tratamiento_habitual": {
+    "litio": false,
+    "tiazidas": false,
+    "suplementos_calcio": false,
+    "vitamina_d": false,
+    "bifosfonatos": null,
+    "denosumab": null,
+    "cinacalcet": null,
+    "anticoagulantes": null,
+    "antiagregantes": null,
+    "corticoides": null,
+    "hormonal": null,
+    "otros": [
+      {
+        "nombre": "omeprazol",
+        "grupo": "inhibidor de bomba de protones",
+        "dosis": "uso ocasional (\"de vez en cuando\")",
+        "indicacion_referida": "úlcera de estómago previa / reflujo"
+      }
+    ]
+  },
+
+  "item_05_datos_analiticos": {
+    "calcio_total_mg_dL": 11,
+    "calcio_total_descripcion": "el paciente refiere \"11 y pico\"",
+    "albumina_g_dL": null,
+    "calcio_corregido_mg_dL": null,
+    "calcio_ionico_mmol_L": null,
+    "pth_intacta_pg_mL": 130,
+    "pth_descripcion": "referida como \"sobre los 130\"",
+    "fosforo_mg_dL": null,
+    "magnesio_mg_dL": null,
+    "creatinina_mg_dL": null,
+    "filtrado_glomerular_mL_min": null,
+    "vitamina_d_25oh_ng_mL": null,
+    "fosfatasa_alcalina_U_L": null,
+    "calciuria_24h_mg_24h": null,
+    "cociente_calcio_creatinina_urinario": null
+  },
+
+  "item_06_confirmacion_diagnostica": {
+    "impresion_diagnostica": "hiperparatiroidismo primario en contexto de probable MEN1",
+    "tipo_hptp": "HPTP clásico con sospecha de síndrome hereditario MEN1",
+    "diagnostico_diferencial_razonado": {
+      "men1": true,
+      "adenoma_unico": null,
+      "fhh": null,
+      "hpt_terciario": null,
+      "inducido_por_litio": null,
+      "deficit_vitamina_d": null,
+      "malabsorcion": null,
+      "erc": null
+    },
+    "diagnosticos_descartados_explicitamente": null,
+    "pendiente_de_estudio": true,
+    "motivo_pendiente": "resultado de estudio genético MEN1 y pruebas de localización pendientes"
+  },
+
+  "item_07_sintomas_repercusion_clinica": {
+    "afectacion_renal": {
+      "litiasis_renal": false,
+      "colico_nefritico": null,
+      "nefrocalcinosis": null,
+      "hematuria": null,
+      "infecciones_urinarias": null,
+      "insuficiencia_renal": null,
+      "poliuria_polidipsia": true
+    },
+    "afectacion_osea": {
+      "dolor_oseo": null,
+      "osteoporosis": null,
+      "osteopenia": null,
+      "fracturas": null,
+      "perdida_talla": null,
+      "debilidad_muscular": null
+    },
+    "afectacion_digestiva": {
+      "dolor_abdominal": null,
+      "estreñimiento": null,
+      "nauseas": null,
+      "dispepsia": null,
+      "ulcera_peptica_sintomatica": true,
+      "reflujo_intenso": true,
+      "pancreatitis": null
+    },
+    "afectacion_neuropsiquiatrica": {
+      "cansancio_astenia": true,
+      "bajo_animo": null,
+      "irritabilidad": null,
+      "dificultad_concentracion": null,
+      "somnolencia": null,
+      "perdida_calidad_de_vida": null
+    },
+    "afectacion_cardiovascular": {
+      "hta": null,
+      "arritmias": null,
+      "palpitaciones": null,
+      "alteracion_qt": null
+    }
+  },
+
+  "item_08_exploracion_fisica": {
+    "peso": null,
+    "talla": null,
+    "imc": null,
+    "tension_arterial": null,
+    "estado_general": null,
+    "valoracion_funcional": null,
+    "exploracion_cervical": {
+      "bocio": null,
+      "nodulos_tiroideos": false,
+      "cicatrices_previas": null,
+      "adenopatias": null,
+      "resultado_global": "exploración cervical normal; no se palpan nódulos ni bultos"
+    }
+  },
+
+  "item_09_pruebas_imagen_complementarias": {
+    "localizacion_paratiroidea": {
+      "ecografia_cervical": {
+        "solicitada": true,
+        "resultado_disponible": null
+      },
+      "mibi": {
+        "solicitada": true,
+        "resultado_disponible": null
+      },
+      "spect_tc": {
+        "solicitada": null,
+        "resultado_disponible": null
+      },
+      "tc_4d": {
+        "solicitada": null,
+        "resultado_disponible": null
+      },
+      "pet_tc_fluorocolina": {
+        "solicitada": null,
+        "resultado_disponible": null
+      },
+      "adenoma_localizado": null,
+      "lado": null,
+      "localizacion": null,
+      "concordancia_entre_pruebas": null
+    },
+    "estudio_renal": {
+      "ecografia_renal": {
+        "solicitada": true,
+        "resultado_disponible": null
+      },
+      "litiasis_en_imagen": null,
+      "nefrocalcinosis_en_imagen": null
+    },
+    "estudio_oseo": {
+      "densitometria": {
+        "solicitada": true,
+        "resultado_disponible": null
+      },
+      "t_score_lumbar": null,
+      "t_score_cadera": null,
+      "t_score_radio_distal": null,
+      "diagnostico_dmo": null,
+      "vfa_o_rx_columna": null
+    },
+    "fibroscopia_laringea": {
+      "solicitada": null
+    },
+    "calciuria_24h_solicitada": true,
+    "estudio_genetico_men1_solicitado": true
+  },
+
+  "item_10_criterios_indicacion_quirurgica": {
+    "indicacion_quirurgica_establecida": null,
+    "motivo_indicacion": null,
+    "criterios_evaluados": {
+      "paciente_sintomatico": null,
+      "calcio_mayor_1_sobre_lsn": null,
+      "t_score_menor_igual_menos_2_5": null,
+      "fractura_vertebral_confirmada": null,
+      "fractura_periferia_fragilidad": null,
+      "filtrado_menor_60": null,
+      "hipercalciuria": null,
+      "litiasis_o_nefrocalcinosis": null,
+      "edad_menor_50": null,
+      "preferencia_paciente": null,
+      "contraindicacion_quirurgica": null
+    },
+    "nota": "La indicación quirúrgica se pospone hasta disponer de resultado genético y pruebas de localización; el tipo de cirugía dependerá de la confirmación o no de MEN1"
+  },
+
+  "item_11_plan_terapeutico": {
+    "cirugia_indicada": null,
+    "cirugia_pendiente_de_decision": true,
+    "tipo_cirugia_previsto_si_men1_confirmado": "paratiroidectomía subtotal",
+    "tipo_cirugia_previsto_si_no_men1": "paratiroidectomía selectiva (glándula afectada)",
+    "inclusion_lista_espera": false,
+    "motivo_no_lista_espera_aun": "pendiente de pruebas de localización, resultado genético y nueva consulta",
+    "pruebas_pendientes": [
+      "analítica con calciuria de 24 horas",
+      "ecografía cervical",
+      "gammagrafía MIBI",
+      "densitometría",
+      "ecografía renal",
+      "estudio genético MEN1"
+    ],
+    "valoracion_anestesia": null,
+    "manejo_conservador": {
+      "hidratacion": true,
+      "no_iniciar_suplementos_calcio": true,
+      "vitamina_d": null,
+      "ajuste_medicacion": null,
+      "manejo_osteoporosis": null
+    },
+    "seguimiento_conjunto_endocrinologia": true
+  },
+
+  "item_12_informacion_dada_al_paciente": {
+    "diagnostico_explicado": true,
+    "naturaleza_benigna_men1": true,
+    "explicacion_men1": true,
+    "implicacion_multiglandular_men1": true,
+    "riesgo_renal": null,
+    "riesgo_oseo": null,
+    "finalidad_pruebas_explicada": true,
+    "beneficio_cirugia": null,
+    "posibilidad_recidiva_men1": true,
+    "implicaciones_familiares_genetica": true,
+    "consejo_genetico_hijos": true,
+    "controles_periodicos_hipofisis_pancreas": true,
+    "plan_general_explicado": true
+  },
+
+  "item_13_riesgos_quirurgicos_explicados": {
+    "se_explican_riesgos": false,
+    "hipocalcemia_transitoria": null,
+    "lesion_nervio_recurrente": null,
+    "disfonia_permanente": null,
+    "hipoparatiroidismo_persistente": null,
+    "persistencia_enfermedad": null,
+    "hematoma_cervical": null,
+    "necesidad_reintervencion": null,
+    "riesgos_anestesicos": null,
+    "nota": "No se explican riesgos quirúrgicos en esta consulta; la decisión quirúrgica queda diferida"
+  },
+
+  "item_14_consentimiento_informado": {
+    "entregado": false,
+    "explicado_verbalmente": false,
+    "dudas_resueltas": null,
+    "estado": "no aplica en esta consulta",
+    "nota_consentimiento_genetico": "el médico menciona que el consentimiento específico del estudio genético se explicará y firmará en otro momento"
+  },
+
+  "item_15_sintomas_alarma_postquirurgicos": {
+    "se_explican": false,
+    "fiebre": null,
+    "escalofrios": null,
+    "supuracion_enrojecimiento_herida": null,
+    "abombamiento_cervical": null,
+    "disnea": null,
+    "disfagia": null,
+    "disfonia": null,
+    "hormigueos_peribucales_manos": null,
+    "calambres": null,
+    "espasmos_musculares": null
+  },
+
+  "item_16_plan_seguimiento": {
+    "revision_herida": null,
+    "analitica_postoperatoria": null,
+    "anatomia_patologica": null,
+    "control_densitometria": null,
+    "seguimiento_renal": null,
+    "control_endocrinologico": true,
+    "vigilancia_hipofisis_pancreas_si_men1": true,
+    "suplementos_calcio_vitamina_d": null,
+    "alta_quirurgica_prevista": null,
+    "proxima_visita": "tras resultado de pruebas y estudio genético"
+  },
+
+  "item_17_impacto_laboral_familiar": {
+    "tipo_trabajo": null,
+    "preocupacion_baja_laboral": null,
+    "duracion_estimada_baja": null,
+    "coordinacion_familiares_cuidadores": null,
+    "implicacion_hijos_mencionada": true,
+    "nota": "La paciente menciona tener dos hijos pequeños en relación con las implicaciones del estudio genético familiar, no en contexto laboral o de cuidados"
+  },
+
+  "item_18_dudas_miedos_expectativas": {
+    "miedo_cancer": null,
+    "miedo_cirugia": null,
+    "ansiedad_inicial": true,
+    "descripcion_ansiedad": "la paciente refiere venir \"un poco asustada\" por la información incompleta recibida en Endocrinología",
+    "expectativa_curacion": null,
+    "dudas_resueltas": true,
+    "descripcion_resolucion": "la paciente expresa al final que \"se va más tranquila sabiendo que hay un plan\""
+  }
+}
