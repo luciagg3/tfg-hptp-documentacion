@@ -1,0 +1,14 @@
+{
+  "d01_gemini": {"total":161, "TP":18, "FP":9, "FN":11, "TN":123, "accuracy":87.6},
+  "d02_gemini": {"total":171, "TP":20, "FP":19, "FN":9, "TN":123, "accuracy":83.6},
+  "d03_gemini": {"total":171, "TP":25, "FP":13, "FN":5, "TN":128, "accuracy":89.5},
+  "d04_gemini": {"total":161, "TP":35, "FP":9, "FN":13, "TN":104, "accuracy":86.3},
+  "d05_gemini": {"total":164, "TP":27, "FP":7, "FN":13, "TN":117, "accuracy":87.8},
+  "d06_gemini": {"total":171, "TP":16, "FP":16, "FN":13, "TN":126, "accuracy":83.0},
+  "d07_gemini": {"total":164, "TP":10, "FP":11, "FN":20, "TN":123, "accuracy":81.1},
+  "d08_gemini": {"total":164, "TP":18, "FP":10, "FN":8, "TN":128, "accuracy":89.0},
+  "d09_gemini": {"total":171, "TP":18, "FP":19, "FN":5, "TN":129, "accuracy":86.0},
+  "d10_gemini": {"total":166, "TP":13, "FP":13, "FN":5, "TN":135, "accuracy":89.2},
+  "d11_gemini": {"total":161, "TP":25, "FP":11, "FN":12, "TN":113, "accuracy":85.7},
+  "d12_gemini": {"total":162, "TP":16, "FP":19, "FN":18, "TN":109, "accuracy":77.2}
+}

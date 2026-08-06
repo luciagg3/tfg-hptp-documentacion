@@ -1,0 +1,14 @@
+{
+  "d01_claude": {"total":163, "TP":19, "FP":12, "FN":11, "TN":121, "accuracy":85.9},
+  "d02_claude": {"total":168, "TP":18, "FP":15, "FN":4, "TN":131, "accuracy":88.7},
+  "d03_claude": {"total":175, "TP":17, "FP":8, "FN":12, "TN":138, "accuracy":88.6},
+  "d04_claude": {"total":167, "TP":36, "FP":4, "FN":14, "TN":113, "accuracy":89.2},
+  "d05_claude": {"total":164, "TP":22, "FP":6, "FN":17, "TN":119, "accuracy":86.0},
+  "d06_claude": {"total":167, "TP":13, "FP":18, "FN":8, "TN":128, "accuracy":84.4},
+  "d07_claude": {"total":165, "TP":9, "FP":5, "FN":25, "TN":126, "accuracy":81.8},
+  "d08_claude": {"total":170, "TP":14, "FP":16, "FN":12, "TN":128, "accuracy":83.5},
+  "d09_claude": {"total":175, "TP":17, "FP":13, "FN":7, "TN":138, "accuracy":88.6},
+  "d10_claude": {"total":173, "TP":12, "FP":7, "FN":7, "TN":147, "accuracy":91.9},
+  "d11_claude": {"total":157, "TP":26, "FP":3, "FN":11, "TN":117, "accuracy":91.1},
+  "d12_claude": {"total":161, "TP":15, "FP":25, "FN":16, "TN":105, "accuracy":74.5}
+}

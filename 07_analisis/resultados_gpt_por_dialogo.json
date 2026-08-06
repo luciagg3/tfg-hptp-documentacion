@@ -1,0 +1,14 @@
+{
+  "d01_gpt": {"total":165, "TP":20, "FP":18, "FN":7, "TN":120, "accuracy":84.8},
+  "d02_gpt": {"total":156, "TP":15, "FP":11, "FN":8, "TN":122, "accuracy":87.8},
+  "d03_gpt": {"total":168, "TP":21, "FP":11, "FN":9, "TN":127, "accuracy":88.1},
+  "d04_gpt": {"total":163, "TP":34, "FP":5, "FN":15, "TN":109, "accuracy":87.7},
+  "d05_gpt": {"total":163, "TP":22, "FP":5, "FN":19, "TN":117, "accuracy":85.3},
+  "d06_gpt": {"total":166, "TP":12, "FP":6, "FN":9, "TN":139, "accuracy":91.0},
+  "d07_gpt": {"total":159, "TP":11, "FP":5, "FN":21, "TN":122, "accuracy":83.6},
+  "d08_gpt": {"total":162, "TP":15, "FP":9, "FN":12, "TN":126, "accuracy":87.0},
+  "d09_gpt": {"total":161, "TP":15, "FP":10, "FN":8, "TN":128, "accuracy":88.8},
+  "d10_gpt": {"total":161, "TP":16, "FP":14, "FN":3, "TN":128, "accuracy":89.4},
+  "d11_gpt": {"total":155, "TP":29, "FP":5, "FN":8, "TN":113, "accuracy":91.6},
+  "d12_gpt": {"total":157, "TP":17, "FP":22, "FN":15, "TN":103, "accuracy":76.4}
+}
