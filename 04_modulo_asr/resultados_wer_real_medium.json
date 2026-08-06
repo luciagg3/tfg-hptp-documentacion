@@ -1,0 +1,30 @@
+{
+  "dialogo_04": {
+    "audio": "audio_dialogo_04_real.mp4",
+    "tipo": "real",
+    "transcripcion_inicio": "Buenas doctor. Buenos días don Antonio, soy el doctor Hernández, siéntese, veo que viene ya con todas las pruebas hechas, eso nos va a permitir avanza...",
+    "metricas": {
+      "wer_pct": 4.83,
+      "cer_pct": 1.56,
+      "palabras_ref": 829,
+      "palabras_whisper": 831
+    }
+  },
+  "dialogo_12": {
+    "audio": "audio_dialogo_12_real.mp4",
+    "tipo": "real",
+    "transcripcion_inicio": "Buenos días doctor, vengo bastante puesto en el tema así que cuando quiera vamos al grano. Perfecto, me encanta, soy el doctor Hernández, sientese, cu...",
+    "metricas": {
+      "wer_pct": 4.53,
+      "cer_pct": 1.73,
+      "palabras_ref": 707,
+      "palabras_whisper": 705
+    }
+  },
+  "_resumen": {
+    "wer_medio_pct": 4.68,
+    "wer_minimo_pct": 4.53,
+    "wer_maximo_pct": 4.83,
+    "dialogos_evaluados": 2
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "dialogo_01": {
+    "audio": "audio_dialogo_01_tts.mp3",
+    "tipo": "tts",
+    "transcripcion_inicio": "Buenos días, Doña Encarna. Soy el doctor Fernández, de cirugía endocrina. Pase, siéntese. ¿Viene sola o la acompaña alguien? Buenos días. Vengo sola, ...",
+    "metricas": {
+      "wer_pct": 23.19,
+      "cer_pct": 23.07,
+      "palabras_ref": 1104,
+      "palabras_whisper": 854
+    }
+  },
+  "dialogo_02": {
+    "audio": "audio_dialogo_02_tts.mp3",
+    "tipo": "tts",
+    "transcripcion_inicio": "Buenos días, don Rafael. Pase, siéntese. ¿Qué tal le va todo? Buenos días, doctor. Pues bastante bien, la verdad. Me encuentro bastante mejor que ante...",
+    "metricas": {
+      "wer_pct": 2.07,
+      "cer_pct": 0.52,
+      "palabras_ref": 820,
+      "palabras_whisper": 823
+    }
+  },
+  "dialogo_03": {
+    "audio": "audio_dialogo_03_tts.mp3",
+    "tipo": "tts",
+    "transcripcion_inicio": "Buenos días, Marta. Soy el doctor Hernández, de cirugía endocrina. Siéntese, por favor. Veo en el volante que la deriva endocrinología. Buenos días. S...",
+    "metricas": {
+      "wer_pct": 0.89,
+      "cer_pct": 0.38,
+      "palabras_ref": 677,
+      "palabras_whisper": 678
+    }
+  },
+  "dialogo_04": {
+    "audio": "audio_dialogo_04_tts.mp3",
+    "tipo": "tts",
+    "transcripcion_inicio": "Buenas, doctor. Buenos días, Don Antonio. Soy el doctor Hernández. Siéntese. Veo que viene ya con todas las pruebas hechas. Eso nos va a permitir avan...",
+    "metricas": {
+      "wer_pct": 1.81,
+      "cer_pct": 0.3,
+      "palabras_ref": 829,
+      "palabras_whisper": 832
+    }
+  },
+  "dialogo_05": {
+    "audio": "audio_dialogo_05_tts.mp3",
+    "tipo": "tts",
+    "transcripcion_inicio": "Buenos días, doctor. Soy la hija de Paco. Le acompaño porque oye un poco regular y para enterarme yo también. Buenos días a los dos. Soy el doctor Her...",
+    "metricas": {
+      "wer_pct": 1.1,
+      "cer_pct": 0.27,
+      "palabras_ref": 729,
+      "palabras_whisper": 728
+    }
+  },
+  "dialogo_06": {
+    "audio": "audio_dialogo_06_tts.mp3",
+    "tipo": "tts",
+    "transcripcion_inicio": "Hola, buenos días. Buenos días, Lucía. Soy el doctor Hernández. Siéntese. Veo que trabaja en el propio hospital, en planta. Sí, soy enfermera en traum...",
+    "metricas": {
+      "wer_pct": 1.17,
+      "cer_pct": 0.18,
+      "palabras_ref": 682,
+      "palabras_whisper": 684
+    }
+  },
+  "dialogo_07": {
+    "audio": "audio_dialogo_07_tts.mp3",
+    "tipo": "tts",
+    "transcripcion_inicio": "Buenos días, doctor. Buenos días, Rosa. Soy el doctor Hernández. Siéntese, por favor. Veo que la mandan por calcio alto, pero hay aquí algunos detalle...",
+    "metricas": {
+      "wer_pct": 0.39,
+      "cer_pct": 0.07,
+      "palabras_ref": 769,
+      "palabras_whisper": 769
+    }
+  },
+  "dialogo_08": {
+    "audio": "audio_dialogo_08_tts.mp3",
+    "tipo": "tts",
+    "transcripcion_inicio": "Buenos días, doctor. Soy la cuidadora de Doña Amparo. Vengo de la residencia con ella. Buenos días. Doña Amparo, soy el doctor Hernández. Siéntese aqu...",
+    "metricas": {
+      "wer_pct": 8.96,
+      "cer_pct": 7.94,
+      "palabras_ref": 748,
+      "palabras_whisper": 686
+    }
+  },
+  "dialogo_09": {
+    "audio": "audio_dialogo_09_tts.mp3",
+    "tipo": "tts",
+    "transcripcion_inicio": "Buenos días, doctor. Buenos días, Carmen. Pase, siéntese. ¿Qué tal está? Hace justo un mes de la operación. Pues bastante mejor de ánimo, aunque al pr...",
+    "metricas": {
+      "wer_pct": 1.74,
+      "cer_pct": 0.28,
+      "palabras_ref": 633,
+      "palabras_whisper": 634
+    }
+  },
+  "dialogo_10": {
+    "audio": "audio_dialogo_10_tts.mp3",
+    "tipo": "tts",
+    "transcripcion_inicio": "Buenos días, doctor. Buenos días, Pilar. Pase, siéntese. Ya han pasado seis meses de la operación. ¿Cómo vuela el tiempo? ¿Qué tal se encuentra? Pues ...",
+    "metricas": {
+      "wer_pct": 0.17,
+      "cer_pct": 0.03,
+      "palabras_ref": 580,
+      "palabras_whisper": 580
+    }
+  },
+  "dialogo_11": {
+    "audio": "audio_dialogo_11_tts.mp3",
+    "tipo": "tts",
+    "transcripcion_inicio": "Buenos días, doctor. Buenos días, don Javier. Siéntese. Ha pasado un año de la cirugía. Quiero comentar con usted los controles con detenimiento. ¿Por...",
+    "metricas": {
+      "wer_pct": 1.97,
+      "cer_pct": 0.3,
+      "palabras_ref": 711,
+      "palabras_whisper": 711
+    }
+  },
+  "dialogo_12": {
+    "audio": "audio_dialogo_12_tts.mp3",
+    "tipo": "tts",
+    "transcripcion_inicio": "Buenos días, doctor. Vengo bastante puesto en el tema, así que cuando quiera, vamos al grano. Perfecto. Me encanta. Soy el doctor Hernández. Siéntese....",
+    "metricas": {
+      "wer_pct": 1.7,
+      "cer_pct": 0.29,
+      "palabras_ref": 707,
+      "palabras_whisper": 709
+    }
+  },
+  "_resumen": {
+    "wer_medio_pct": 3.76,
+    "wer_minimo_pct": 0.17,
+    "wer_maximo_pct": 23.19,
+    "dialogos_evaluados": 12
+  }
+}

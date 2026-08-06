@@ -1,0 +1,41 @@
+{
+  "dialogo_04": {
+    "audio": "audio_dialogo_04_real.mp4",
+    "tipo": "real",
+    "transcripcion_inicio": "Buenas, doctor. Buenos días, don Antonio. Soy el doctor Hernández. Siéntese. Veo que viene ya con todas las pruebas hechas. Eso nos va a permitir avan...",
+    "metricas": {
+      "wer_pct": 13.51,
+      "cer_pct": 11.86,
+      "palabras_ref": 829,
+      "palabras_whisper": 825
+    }
+  },
+  "dialogo_06": {
+    "audio": "audio_dialogo_06_real.mp4",
+    "tipo": "real",
+    "transcripcion_inicio": "Hola, buenos días. Buenos días, Lucía. Soy el doctor Hernández. Siéntate, veo que trabajas en el propio hospital, en planta. Sí, soy enfermera en trau...",
+    "metricas": {
+      "wer_pct": 7.62,
+      "cer_pct": 4.38,
+      "palabras_ref": 682,
+      "palabras_whisper": 701
+    }
+  },
+  "dialogo_12": {
+    "audio": "audio_dialogo_12_real.mp4",
+    "tipo": "real",
+    "transcripcion_inicio": "Buenos días, doctor. Vengo bastante puesto en el tema, así que cuando quiera vamos al grano. Perfecto, me encanta. Soy el doctor Hernández. Siéntese. ...",
+    "metricas": {
+      "wer_pct": 5.94,
+      "cer_pct": 2.82,
+      "palabras_ref": 707,
+      "palabras_whisper": 718
+    }
+  },
+  "_resumen": {
+    "wer_medio_pct": 9.03,
+    "wer_minimo_pct": 5.94,
+    "wer_maximo_pct": 13.51,
+    "dialogos_evaluados": 3
+  }
+}
